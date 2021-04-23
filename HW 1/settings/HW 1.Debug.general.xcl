@@ -1,0 +1,17 @@
+"D:\Program Files\arm\bin\armPROC.dll" 
+
+"D:\Program Files\arm\bin\armJLINK.dll" 
+
+"D:\Embedded Systems Labs\HW 1\Debug\Exe\HW 1.out" 
+
+--plugin="D:\Program Files\arm\bin\armbat.dll" 
+
+--device_macro="D:\Program Files\arm\config\debugger\Microchip\SAM3XA.dmac" 
+
+--macro="D:\Embedded Systems Labs\HW 1\arduino_due_x_sram.mac" 
+
+--flash_loader="D:\Program Files\arm\config\flashloader\Microchip\sam3x8\sam3x8-flash.board" 
+
+
+
+

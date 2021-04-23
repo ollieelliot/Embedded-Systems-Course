@@ -1,0 +1,14 @@
+D:\Embedded\ Systems\ Labs\HW\ 2\Debug\BrowseInfo\startup_sam3x.pbi: \
+  D:\Embedded\ Systems\ Labs\HW\ 2\core_cmFunc.h \
+  D:\Program\ Files\arm\inc\c\aarch32\iccarm_builtin.h \
+  D:\Program\ Files\arm\inc\c\aarch32\cmsis_iar.h \
+  D:\Embedded\ Systems\ Labs\HW\ 2\core_cmInstr.h \
+  D:\Program\ Files\arm\inc\c\DLib_Product.h \
+  D:\Program\ Files\arm\inc\c\DLib_Config_Normal.h \
+  D:\Program\ Files\arm\inc\c\DLib_Defaults.h \
+  D:\Program\ Files\arm\inc\c\yvals.h D:\Program\ Files\arm\inc\c\ycheck.h \
+  D:\Program\ Files\arm\inc\c\stdint.h \
+  D:\Embedded\ Systems\ Labs\HW\ 2\core_cm3.h \
+  D:\Embedded\ Systems\ Labs\HW\ 2\exceptions.h \
+  D:\Embedded\ Systems\ Labs\HW\ 2\at91sam3x8.h \
+  D:\Embedded\ Systems\ Labs\HW\ 2\startup_sam3x.c

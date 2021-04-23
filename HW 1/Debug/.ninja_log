@@ -1,0 +1,37 @@
+# ninja log v5
+1	183	6388263268722169	D:/Embedded Systems Labs/HW 1/Debug/Obj/main.o	15c60c9f17d6edc5
+8	139	6387461744094271	D:/Embedded Systems Labs/HW 1/Debug/Obj/system_sam3x.o	fa6002b2894383f4
+0	65	6387461743416085	D:/Embedded Systems Labs/HW 1/Debug/Obj/exceptions.o	d8acb3455358c227
+5	127	6387461744014759	D:/Embedded Systems Labs/HW 1/Debug/Obj/startup_sam3x.o	e20c85ab27c6bde4
+185	249	6388263269490102	D:/Embedded Systems Labs/HW 1/Debug/Exe/HW 1.out	f15c9ce0873e745
+1	115	6388263617743785	D:/Embedded Systems Labs/HW 1/Debug/Obj/main.o	15c60c9f17d6edc5
+117	182	6388263618431675	D:/Embedded Systems Labs/HW 1/Debug/Exe/HW 1.out	f15c9ce0873e745
+0	107	6388263894781961	D:/Embedded Systems Labs/HW 1/Debug/Obj/main.o	15c60c9f17d6edc5
+806	870	6388263902436547	D:/Embedded Systems Labs/HW 1/Debug/Exe/HW 1.out	f15c9ce0873e745
+1	108	6388264302532581	D:/Embedded Systems Labs/HW 1/Debug/Obj/main.o	15c60c9f17d6edc5
+111	175	6388264303220747	D:/Embedded Systems Labs/HW 1/Debug/Exe/HW 1.out	f15c9ce0873e745
+0	175	6388265244947276	D:/Embedded Systems Labs/HW 1/Debug/Obj/main.o	15c60c9f17d6edc5
+177	240	6388265245695272	D:/Embedded Systems Labs/HW 1/Debug/Exe/HW 1.out	f15c9ce0873e745
+1	108	6388266104136071	D:/Embedded Systems Labs/HW 1/Debug/Obj/main.o	15c60c9f17d6edc5
+111	173	6388266104813970	D:/Embedded Systems Labs/HW 1/Debug/Exe/HW 1.out	f15c9ce0873e745
+0	108	6388266262300978	D:/Embedded Systems Labs/HW 1/Debug/Obj/main.o	15c60c9f17d6edc5
+111	176	6388266263009366	D:/Embedded Systems Labs/HW 1/Debug/Exe/HW 1.out	f15c9ce0873e745
+0	193	6388266575320911	D:/Embedded Systems Labs/HW 1/Debug/Obj/main.o	15c60c9f17d6edc5
+196	260	6388266576118833	D:/Embedded Systems Labs/HW 1/Debug/Exe/HW 1.out	f15c9ce0873e745
+0	117	6388268137859501	D:/Embedded Systems Labs/HW 1/Debug/Obj/main.o	15c60c9f17d6edc5
+119	186	6388268138587885	D:/Embedded Systems Labs/HW 1/Debug/Exe/HW 1.out	f15c9ce0873e745
+1	175	6388268652977871	D:/Embedded Systems Labs/HW 1/Debug/Obj/main.o	15c60c9f17d6edc5
+0	109	6388268888945941	D:/Embedded Systems Labs/HW 1/Debug/Obj/main.o	15c60c9f17d6edc5
+112	175	6388268889623833	D:/Embedded Systems Labs/HW 1/Debug/Exe/HW 1.out	f15c9ce0873e745
+1	108	6388269540585335	D:/Embedded Systems Labs/HW 1/Debug/Obj/main.o	15c60c9f17d6edc5
+110	177	6388269541288242	D:/Embedded Systems Labs/HW 1/Debug/Exe/HW 1.out	f15c9ce0873e745
+1	196	6388270026194781	D:/Embedded Systems Labs/HW 1/Debug/Obj/main.o	15c60c9f17d6edc5
+198	262	6388270026963346	D:/Embedded Systems Labs/HW 1/Debug/Exe/HW 1.out	f15c9ce0873e745
+0	123	6388270438408944	D:/Embedded Systems Labs/HW 1/Debug/Obj/main.o	15c60c9f17d6edc5
+125	189	6388270439097109	D:/Embedded Systems Labs/HW 1/Debug/Exe/HW 1.out	f15c9ce0873e745
+1	115	6388270620741569	D:/Embedded Systems Labs/HW 1/Debug/Obj/main.o	15c60c9f17d6edc5
+117	180	6388270621419754	D:/Embedded Systems Labs/HW 1/Debug/Exe/HW 1.out	f15c9ce0873e745
+1	121	6388280598020230	D:/Embedded Systems Labs/HW 1/Debug/Obj/main.o	15c60c9f17d6edc5
+0	65	6388280610345180	D:/Embedded Systems Labs/HW 1/Debug/Exe/HW 1.out	f15c9ce0873e745
+1	193	6388284773742609	D:/Embedded Systems Labs/HW 1/Debug/Obj/main.o	15c60c9f17d6edc5
+195	261	6388284774550448	D:/Embedded Systems Labs/HW 1/Debug/Exe/HW 1.out	f15c9ce0873e745

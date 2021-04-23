@@ -1,0 +1,26 @@
+Row 1: 2
+
+Row 2: 7
+
+Row 3: 6
+
+Row 4: 4
+
+2,7,6,4
+
+
+arduino pins: 37, 34, 35, 36
+
+write to bit: 5, 2, 3, 4
+
+
+
+
+
+int column_mask[] = {384, 640, 768}
+
+col pin order: 40, 41, 39
+
+in C controller: bit 8, bit 9, bit 7 
+
+clear: {256, 512, 128}

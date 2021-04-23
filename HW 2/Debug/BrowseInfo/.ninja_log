@@ -1,0 +1,65 @@
+# ninja log v5
+3	178	6407101565507813	D:/Embedded Systems Labs/HW 2/Debug/BrowseInfo/system_sam3x.pbi	bc38f2fe655afa8f
+267	1264	6399261670000000	D:/Embedded Systems Labs/HW 2/Debug/BrowseInfo/system_sam3x.xcl	81d54c2352313a83
+1147	1590	6399261677521280	D:/Embedded Systems Labs/HW 2/Debug/BrowseInfo/exceptions.pbi	951ee602f892a43
+1	186	6408785992705364	D:/Embedded Systems Labs/HW 2/Debug/BrowseInfo/main.pbi	486400b33bef4171
+0	1145	6399261670000000	D:/Embedded Systems Labs/HW 2/Debug/BrowseInfo/exceptions.xcl	31e0559a508aa407
+259	1258	6399261670000000	D:/Embedded Systems Labs/HW 2/Debug/BrowseInfo/main.xcl	b076331f5d95153c
+264	1270	6399261670000000	D:/Embedded Systems Labs/HW 2/Debug/BrowseInfo/startup_sam3x.xcl	57e55b9feef921c7
+0	180	6407101565537724	D:/Embedded Systems Labs/HW 2/Debug/BrowseInfo/startup_sam3x.pbi	887fdcf020076571
+187	274	6408785994241263	D:/Embedded Systems Labs/HW 2/Debug/BrowseInfo/HW 2.pbd	ab8908e8e931ba8f
+276	962	6408786000845205	D:/Embedded Systems Labs/HW 2/Debug/BrowseInfo/HW 2.pbw	cd22bc33095b2d3e
+1	183	6408786152961442	D:/Embedded Systems Labs/HW 2/Debug/BrowseInfo/main.pbi	486400b33bef4171
+185	273	6408786154497329	D:/Embedded Systems Labs/HW 2/Debug/BrowseInfo/HW 2.pbd	ab8908e8e931ba8f
+276	959	6408786161100338	D:/Embedded Systems Labs/HW 2/Debug/BrowseInfo/HW 2.pbw	cd22bc33095b2d3e
+0	178	6408787769772801	D:/Embedded Systems Labs/HW 2/Debug/BrowseInfo/main.pbi	486400b33bef4171
+778	879	6408787777419557	D:/Embedded Systems Labs/HW 2/Debug/BrowseInfo/HW 2.pbd	ab8908e8e931ba8f
+882	1569	6408787784062061	D:/Embedded Systems Labs/HW 2/Debug/BrowseInfo/HW 2.pbw	cd22bc33095b2d3e
+1	182	6408787835723569	D:/Embedded Systems Labs/HW 2/Debug/BrowseInfo/main.pbi	486400b33bef4171
+183	272	6408787837267351	D:/Embedded Systems Labs/HW 2/Debug/BrowseInfo/HW 2.pbd	ab8908e8e931ba8f
+274	955	6408787843817789	D:/Embedded Systems Labs/HW 2/Debug/BrowseInfo/HW 2.pbw	cd22bc33095b2d3e
+0	183	6408787895491619	D:/Embedded Systems Labs/HW 2/Debug/BrowseInfo/main.pbi	486400b33bef4171
+184	271	6408787897027236	D:/Embedded Systems Labs/HW 2/Debug/BrowseInfo/HW 2.pbd	ab8908e8e931ba8f
+274	965	6408787903685771	D:/Embedded Systems Labs/HW 2/Debug/BrowseInfo/HW 2.pbw	cd22bc33095b2d3e
+0	179	6408790315409041	D:/Embedded Systems Labs/HW 2/Debug/BrowseInfo/main.pbi	486400b33bef4171
+181	267	6408790316924984	D:/Embedded Systems Labs/HW 2/Debug/BrowseInfo/HW 2.pbd	ab8908e8e931ba8f
+1	677	6408790375638360	D:/Embedded Systems Labs/HW 2/Debug/BrowseInfo/HW 2.pbw	cd22bc33095b2d3e
+1	183	6408791331256807	D:/Embedded Systems Labs/HW 2/Debug/BrowseInfo/main.pbi	486400b33bef4171
+185	274	6408791332802673	D:/Embedded Systems Labs/HW 2/Debug/BrowseInfo/HW 2.pbd	ab8908e8e931ba8f
+276	967	6408791339461110	D:/Embedded Systems Labs/HW 2/Debug/BrowseInfo/HW 2.pbw	cd22bc33095b2d3e
+1	186	6408791441394733	D:/Embedded Systems Labs/HW 2/Debug/BrowseInfo/main.pbi	486400b33bef4171
+187	274	6408791442920660	D:/Embedded Systems Labs/HW 2/Debug/BrowseInfo/HW 2.pbd	ab8908e8e931ba8f
+277	958	6408791449490616	D:/Embedded Systems Labs/HW 2/Debug/BrowseInfo/HW 2.pbw	cd22bc33095b2d3e
+1	179	6408792204104980	D:/Embedded Systems Labs/HW 2/Debug/BrowseInfo/main.pbi	486400b33bef4171
+181	266	6408792205610964	D:/Embedded Systems Labs/HW 2/Debug/BrowseInfo/HW 2.pbd	ab8908e8e931ba8f
+269	957	6408792212234483	D:/Embedded Systems Labs/HW 2/Debug/BrowseInfo/HW 2.pbw	cd22bc33095b2d3e
+0	181	6408792365249750	D:/Embedded Systems Labs/HW 2/Debug/BrowseInfo/main.pbi	486400b33bef4171
+182	270	6408792366785644	D:/Embedded Systems Labs/HW 2/Debug/BrowseInfo/HW 2.pbd	ab8908e8e931ba8f
+272	947	6408792373304979	D:/Embedded Systems Labs/HW 2/Debug/BrowseInfo/HW 2.pbw	cd22bc33095b2d3e
+0	180	6408792576854958	D:/Embedded Systems Labs/HW 2/Debug/BrowseInfo/main.pbi	486400b33bef4171
+181	266	6408792578370908	D:/Embedded Systems Labs/HW 2/Debug/BrowseInfo/HW 2.pbd	ab8908e8e931ba8f
+268	939	6408792584843580	D:/Embedded Systems Labs/HW 2/Debug/BrowseInfo/HW 2.pbw	cd22bc33095b2d3e
+1	179	6408793540375116	D:/Embedded Systems Labs/HW 2/Debug/BrowseInfo/main.pbi	486400b33bef4171
+181	267	6408793541901035	D:/Embedded Systems Labs/HW 2/Debug/BrowseInfo/HW 2.pbd	ab8908e8e931ba8f
+269	964	6408793548614644	D:/Embedded Systems Labs/HW 2/Debug/BrowseInfo/HW 2.pbw	cd22bc33095b2d3e
+1	180	6408793600254356	D:/Embedded Systems Labs/HW 2/Debug/BrowseInfo/main.pbi	486400b33bef4171
+182	269	6408793601785311	D:/Embedded Systems Labs/HW 2/Debug/BrowseInfo/HW 2.pbd	ab8908e8e931ba8f
+272	949	6408793608315277	D:/Embedded Systems Labs/HW 2/Debug/BrowseInfo/HW 2.pbw	cd22bc33095b2d3e
+1	178	6408793710141282	D:/Embedded Systems Labs/HW 2/Debug/BrowseInfo/main.pbi	486400b33bef4171
+179	266	6408793711667198	D:/Embedded Systems Labs/HW 2/Debug/BrowseInfo/HW 2.pbd	ab8908e8e931ba8f
+268	943	6408793718170117	D:/Embedded Systems Labs/HW 2/Debug/BrowseInfo/HW 2.pbw	cd22bc33095b2d3e
+0	180	6408793769811950	D:/Embedded Systems Labs/HW 2/Debug/BrowseInfo/main.pbi	486400b33bef4171
+181	266	6408793771323023	D:/Embedded Systems Labs/HW 2/Debug/BrowseInfo/HW 2.pbd	ab8908e8e931ba8f
+268	947	6408793777851145	D:/Embedded Systems Labs/HW 2/Debug/BrowseInfo/HW 2.pbw	cd22bc33095b2d3e
+1	180	6408793829504338	D:/Embedded Systems Labs/HW 2/Debug/BrowseInfo/main.pbi	486400b33bef4171
+1	87	6408793881819342	D:/Embedded Systems Labs/HW 2/Debug/BrowseInfo/HW 2.pbd	ab8908e8e931ba8f
+89	771	6408793888336972	D:/Embedded Systems Labs/HW 2/Debug/BrowseInfo/HW 2.pbw	cd22bc33095b2d3e
+1	190	6408794040537827	D:/Embedded Systems Labs/HW 2/Debug/BrowseInfo/main.pbi	486400b33bef4171
+191	283	6408794042123582	D:/Embedded Systems Labs/HW 2/Debug/BrowseInfo/HW 2.pbd	ab8908e8e931ba8f
+285	1036	6408794049356266	D:/Embedded Systems Labs/HW 2/Debug/BrowseInfo/HW 2.pbw	cd22bc33095b2d3e
+0	180	6408794201449386	D:/Embedded Systems Labs/HW 2/Debug/BrowseInfo/main.pbi	486400b33bef4171
+181	268	6408794202975270	D:/Embedded Systems Labs/HW 2/Debug/BrowseInfo/HW 2.pbd	ab8908e8e931ba8f
+270	948	6408794209536013	D:/Embedded Systems Labs/HW 2/Debug/BrowseInfo/HW 2.pbw	cd22bc33095b2d3e
+0	180	6408794311371879	D:/Embedded Systems Labs/HW 2/Debug/BrowseInfo/main.pbi	486400b33bef4171
+181	266	6408794312865563	D:/Embedded Systems Labs/HW 2/Debug/BrowseInfo/HW 2.pbd	ab8908e8e931ba8f
+268	953	6408794319497815	D:/Embedded Systems Labs/HW 2/Debug/BrowseInfo/HW 2.pbw	cd22bc33095b2d3e

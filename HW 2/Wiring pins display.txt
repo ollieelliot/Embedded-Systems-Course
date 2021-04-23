@@ -1,0 +1,50 @@
+Form: U1 - U2
+
+Mellan U2 och U1:
+
+34: 15 - 11	PC2	
+35: 16 - 12	PC3
+36: 17 - 13	PC4
+37: 18 - 14	PC5
+39: 7 - 16	PC7
+40: 8 - 17	PC8
+41: 9 - 18	PC9
+
+38: 		PC6
+
+
+
+
+-------------------------------
+
+
+Mellan U2 och Display pins:
+
+9 - 11
+8 - 12
+7 - 13
+6 - 14
+5 - 15
+4 - 16
+3 - 17
+2 - 18
+
+
+--------
+
+C/D - Pin 49	PC14
+CE - Pin 48	PC15
+RD - Pin 47	PC16
+WR - Pin 46	PC17
+FS - Pin 45	PC18
+RV - Pin 44	PC19
+
+Reset - Pin 25	PD0
+
+
+
+
+-------------
+
+Output Enable (OE) - Pin 51	PC12
+Dir - Pin 50			PC13
