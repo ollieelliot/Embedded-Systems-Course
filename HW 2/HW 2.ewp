@@ -579,7 +579,7 @@
                 </option>
                 <option>
                     <name>AOutputFile</name>
-                    <state></state>
+                    <state>$FILE_BNAME$.o</state>
                 </option>
                 <option>
                     <name>ALimitErrorsCheck</name>
@@ -2089,6 +2089,12 @@
         <name>$PROJ_DIR$\at91sam3x8.h</name>
     </file>
     <file>
+        <name>$PROJ_DIR$\button.c</name>
+    </file>
+    <file>
+        <name>$PROJ_DIR$\button.h</name>
+    </file>
+    <file>
         <name>$PROJ_DIR$\core_cm3.h</name>
     </file>
     <file>
@@ -2098,13 +2104,64 @@
         <name>$PROJ_DIR$\core_cmInstr.h</name>
     </file>
     <file>
+        <name>$PROJ_DIR$\cstartup.s</name>
+    </file>
+    <file>
+        <name>$PROJ_DIR$\delay.c</name>
+    </file>
+    <file>
+        <name>$PROJ_DIR$\delay.h</name>
+    </file>
+    <file>
+        <name>$PROJ_DIR$\display.c</name>
+    </file>
+    <file>
+        <name>$PROJ_DIR$\display.h</name>
+    </file>
+    <file>
         <name>$PROJ_DIR$\exceptions.c</name>
     </file>
     <file>
         <name>$PROJ_DIR$\exceptions.h</name>
     </file>
     <file>
+        <name>$PROJ_DIR$\initpins.c</name>
+    </file>
+    <file>
+        <name>$PROJ_DIR$\initpins.h</name>
+    </file>
+    <file>
+        <name>$PROJ_DIR$\keypad.c</name>
+    </file>
+    <file>
+        <name>$PROJ_DIR$\keypad.h</name>
+    </file>
+    <file>
+        <name>$PROJ_DIR$\led.c</name>
+    </file>
+    <file>
+        <name>$PROJ_DIR$\led.h</name>
+    </file>
+    <file>
         <name>$PROJ_DIR$\main.c</name>
+    </file>
+    <file>
+        <name>$PROJ_DIR$\my_library.c</name>
+    </file>
+    <file>
+        <name>$PROJ_DIR$\my_library.h</name>
+    </file>
+    <file>
+        <name>$PROJ_DIR$\photosensor.c</name>
+    </file>
+    <file>
+        <name>$PROJ_DIR$\photosensor.h</name>
+    </file>
+    <file>
+        <name>$PROJ_DIR$\servo.c</name>
+    </file>
+    <file>
+        <name>$PROJ_DIR$\servo.h</name>
     </file>
     <file>
         <name>$PROJ_DIR$\startup_sam3x.c</name>
@@ -2114,5 +2171,23 @@
     </file>
     <file>
         <name>$PROJ_DIR$\system_sam3x.h</name>
+    </file>
+    <file>
+        <name>$PROJ_DIR$\systick_setup.c</name>
+    </file>
+    <file>
+        <name>$PROJ_DIR$\systick_setup.h</name>
+    </file>
+    <file>
+        <name>$PROJ_DIR$\temperature.c</name>
+    </file>
+    <file>
+        <name>$PROJ_DIR$\temperature.h</name>
+    </file>
+    <file>
+        <name>$PROJ_DIR$\time.c</name>
+    </file>
+    <file>
+        <name>$PROJ_DIR$\time.h</name>
     </file>
 </project>

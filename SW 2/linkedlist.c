@@ -40,7 +40,7 @@ int main(){
     printf("------------More insertion(s)--------------------------------\n");
     insertFirst(&first, node2);
     insertFirst(&first, node3);
-    insertFirst(&first, node4);//Creates a infinite loop (closed loop) if i insert the same node twice.
+    insertFirst(&first, node4);
     
     printf("------------isMember test--------------------------------\n");
     printf("Is node %lf a member? %d \n",node_test1->sensorData, isMember(&first, node_test1));
@@ -129,8 +129,6 @@ DLinkedList *allocNode(double data){
     {
         //printf("Reached if in allocNode\n");
         temp->sensorData = data; //Temp points to sensordata and sets the sensordata to data.
-        
-        
         //printf("The data in allocNode: %lf\n", temp->sensorData);
     }
     //printf("Reached end of allocNode\n");
@@ -139,6 +137,8 @@ DLinkedList *allocNode(double data){
 }
 
 void insertFirst(DLinkedList **first, DLinkedList *nodeIn){
+    //Check for null
+    
     //printf("Reached start of insertFirst\n");
     DLinkedList *temp;
     temp = *first;
@@ -267,6 +267,7 @@ DLinkedList *removeNode(DLinkedList **first, DLinkedList *nodeIn){
 
 DLinkedList *readSensor(){
 
+    //!= null
     double rand_Data = (double)rand()/(double)(RAND_MAX);
     
     insertFirst(&first, allocNode(rand_Data));
@@ -290,6 +291,7 @@ void sortAscending(DLinkedList **first){
             while (index != NULL){
                 //printf("Inside while in sortAscending\n");
 
+                //Swap nodes, not data
                 if(current->sensorData > index->sensorData){ //If the current data is bigger than the next data, switch places
                     //printf("Current max sensordata: %lf and next sensordata: %lf\n", current->sensorData, current->next->sensorData);
                     temp = current->sensorData; //Store the current data in temp

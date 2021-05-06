@@ -1,15 +1,15 @@
-"D:\Embedded Systems Labs\HW 2\exceptions.c"
+"D:\Embedded Systems Labs\Embedded-Systems-Course\HW 2\exceptions.c"
 -std=c11
 -ferror-limit=0
 -fbracket-depth=512
 -funsigned-char
 -MD
 -MF
-D:\Embedded Systems Labs\HW 2\Debug\BrowseInfo\exceptions.pbi.dep
+D:\Embedded Systems Labs\Embedded-Systems-Course\HW 2\Debug\BrowseInfo\exceptions.pbi.dep
 -o
-D:\Embedded Systems Labs\HW 2\Debug\BrowseInfo\exceptions.pbi
+D:\Embedded Systems Labs\Embedded-Systems-Course\HW 2\Debug\BrowseInfo\exceptions.pbi
 -I
-D:\Embedded Systems Labs\HW 2
+D:\Embedded Systems Labs\Embedded-Systems-Course\HW 2
 -I
 D:\Program Files\arm\inc\c\aarch32
 -I

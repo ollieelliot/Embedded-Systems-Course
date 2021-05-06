@@ -1,0 +1,54 @@
+#include "my_library.c"
+
+uint64_t time = 1000*60*60*11;
+
+char char_array[10000];
+char char_array2[10000];
+short fastMode = 0;
+
+char months[3][12] = {"January", "February", "March", "April", "May", "June", "July", "August', "September", "October", "November", "December"};
+
+/* Days per month */
+int mday[12] = {31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};
+
+
+struct date time_to_date(uint64_t t){
+  struct date date;
+  
+  
+  date.second = (t/1000)%60;
+  date.minute = (t/(1000*60))%60;
+  date.hour = (t/(1000*60*60))%24;
+  date.day = t/(1000*60*60*24);
+  
+  return date;
+}
+
+
+/* Convert unsigned int to char in order to print*/
+char *uint_to_char(uint64_t num){
+    sprintf(char_array, "%llu", num);
+    return char_array;
+}
+
+char *int_to_char(int num){
+    sprintf(char_array2, "%d", num);
+    return char_array2;
+}
+
+int char_to_int(char num[]){
+    int temp = atoi(num);
+    return temp;
+}
+
+void get_time(char input){
+    
+  
+}
+
+
+
+
+
+
+  

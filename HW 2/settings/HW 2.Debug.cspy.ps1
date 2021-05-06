@@ -23,9 +23,9 @@
 
 if ($debugfile -eq "")
 {
-& "D:\Program Files\common\bin\cspybat" -f "D:\Embedded Systems Labs\HW 2\settings\HW 2.Debug.general.xcl" --backend -f "D:\Embedded Systems Labs\HW 2\settings\HW 2.Debug.driver.xcl" 
+& "D:\Program Files\common\bin\cspybat" -f "D:\Embedded Systems Labs\Embedded-Systems-Course\HW 2\settings\HW 2.Debug.general.xcl" --backend -f "D:\Embedded Systems Labs\Embedded-Systems-Course\HW 2\settings\HW 2.Debug.driver.xcl" 
 }
 else
 {
-& "D:\Program Files\common\bin\cspybat" -f "D:\Embedded Systems Labs\HW 2\settings\HW 2.Debug.general.xcl" --debug_file=$debugfile --backend -f "D:\Embedded Systems Labs\HW 2\settings\HW 2.Debug.driver.xcl" 
+& "D:\Program Files\common\bin\cspybat" -f "D:\Embedded Systems Labs\Embedded-Systems-Course\HW 2\settings\HW 2.Debug.general.xcl" --debug_file=$debugfile --backend -f "D:\Embedded Systems Labs\Embedded-Systems-Course\HW 2\settings\HW 2.Debug.driver.xcl" 
 }

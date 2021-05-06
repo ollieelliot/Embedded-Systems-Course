@@ -1,0 +1,108 @@
+#include "my_library.c"
+
+char return_menu(char key);
+char in_menu = 1;
+char key = 0;
+
+void main(void){
+  printf("Initializing...\n");
+  
+  SystemInit();
+  SysTick_Setup();
+  init_Pins();
+  init_Keypad();
+  init_Display();
+  clear_Display();
+  toggleBlinkLed_setup();
+  init_Temp();
+  start_Temp();
+  init_Photosenor();
+  init_Servo();
+  print_Menu(-2);
+  
+  
+  fastMode = 0;
+ 
+  
+  
+  char date[8] = "";
+  
+
+ 
+  printf("Initializing completed!\n");
+  printf("Running...\n");
+  
+  
+ while(1){
+   
+   /* Standard setup */
+   
+   print_Time(65); 
+   key = read_Keypad(); 
+   
+   /* Temperature */
+   
+   if(key == '1' && in_menu != 0){
+     in_menu = 0;
+     clear_Display();
+     get_Temperature(128);
+     writeDisplayPos("Press '*' to return",72,1);
+   }
+   
+   /*  Toggle fastMode */
+     
+   if(key == '5' && in_menu != 0){
+     if(fastMode == 0)
+       fastMode = 1;
+     else
+       fastMode = 0;
+   }
+   
+   /*  Setup date */
+     
+   if(key == '6' && in_menu != 0){
+     in_menu = 0;
+     clear_Display();
+     writeDisplayPos("DATE SETUP",96,0);
+     writeDisplayPos("Press '*' to return",72,1);
+     writeDisplayPos("1. Change date ", 248,0);
+     
+     
+     /* Overwrite previous date */
+     while(return_menu(key) != 1)
+       key = read_Keypad();
+     if(key == '1'){
+       //strcpy(date, ""); //Reset char array
+       writeDisplayPos("Enter new date: ", 248,0);
+       int i = 0;
+       while(i < 8){
+          key = read_Keypad();
+          if(key != 0 && key != '*' && key != '#'){
+            strncat(date, &key, 1);
+            
+            writeDisplayPos(date, 249,0);
+            i++;
+          }
+       }
+     }
+     
+     
+     
+   }
+   
+   /* Return back to main-menu */
+   
+   return_menu(key);
+   
+ }
+}
+
+char return_menu(char key){
+    if(key == '*' && in_menu != 1){
+       in_menu = 1;
+       clear_Display();
+       print_Menu(-2);
+       return 1;
+     }
+    return 0;
+}

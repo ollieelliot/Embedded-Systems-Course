@@ -5,47 +5,47 @@
     <configuration>
         <name>Debug</name>
         <outputs>
-            <file>$PROJ_DIR$\core_cmFunc.h</file>
-            <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
-            <file>$PROJ_DIR$\Debug\List\HW 1.map</file>
-            <file>$TOOLKIT_DIR$\lib\dl7M_tln.a</file>
-            <file>$PROJ_DIR$\core_cmInstr.h</file>
-            <file>$PROJ_DIR$\startup_sam3x.c</file>
-            <file>$PROJ_DIR$\at91sam3x8.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\main.o</file>
-            <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
-            <file>$PROJ_DIR$\system_sam3x.c</file>
-            <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
-            <file>$TOOLKIT_DIR$\inc\c\aarch32\iccarm_builtin.h</file>
-            <file>$TOOLKIT_DIR$\lib\rt7M_tl.a</file>
-            <file>$PROJ_DIR$\main.c</file>
             <file>$PROJ_DIR$\Debug\Obj\system_sam3x.o</file>
-            <file>$PROJ_DIR$\Debug\Obj\exceptions.o</file>
-            <file>$PROJ_DIR$\core_cm3.h</file>
             <file>$PROJ_DIR$\exceptions.c</file>
+            <file>$PROJ_DIR$\at91sam3x8.h</file>
             <file>$PROJ_DIR$\exceptions.h</file>
+            <file>$PROJ_DIR$\main.c</file>
+            <file>$PROJ_DIR$\startup_sam3x.c</file>
             <file>$PROJ_DIR$\system_sam3x.h</file>
-            <file>$TOOLKIT_DIR$\inc\c\aarch32\cmsis_iar.h</file>
-            <file>$TOOLKIT_DIR$\lib\m7M_tl.a</file>
-            <file>$PROJ_DIR$\Debug\Exe\HW 1.out</file>
-            <file>$TOOLKIT_DIR$\config\linker\Microchip\sam3x8\sram.icf</file>
+            <file>$PROJ_DIR$\system_sam3x.c</file>
+            <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
             <file>$PROJ_DIR$\Debug\Obj\startup_sam3x.o</file>
+            <file>$TOOLKIT_DIR$\config\linker\Microchip\sam3x8\sram.icf</file>
+            <file>$TOOLKIT_DIR$\lib\rt7M_tl.a</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+            <file>$PROJ_DIR$\core_cmFunc.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+            <file>$TOOLKIT_DIR$\lib\m7M_tl.a</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+            <file>$PROJ_DIR$\Debug\List\HW 1.map</file>
+            <file>$TOOLKIT_DIR$\inc\c\aarch32\iccarm_builtin.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.o</file>
             <file>$TOOLKIT_DIR$\lib\shb_l.a</file>
             <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
-            <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
-            <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+            <file>$TOOLKIT_DIR$\lib\dl7M_tln.a</file>
+            <file>$TOOLKIT_DIR$\inc\c\aarch32\cmsis_iar.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\exceptions.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+            <file>$PROJ_DIR$\core_cmInstr.h</file>
+            <file>$PROJ_DIR$\core_cm3.h</file>
+            <file>$PROJ_DIR$\Debug\Exe\HW 1.out</file>
         </outputs>
         <file>
             <name>[ROOT_NODE]</name>
             <outputs>
                 <tool>
                     <name>ILINK</name>
-                    <file> 2 22</file>
+                    <file> 17 28</file>
                 </tool>
             </outputs>
         </file>
         <file>
-            <name>$PROJ_DIR$\startup_sam3x.c</name>
+            <name>$PROJ_DIR$\exceptions.c</name>
             <outputs>
                 <tool>
                     <name>ICCARM</name>
@@ -55,22 +55,7 @@
             <inputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 6 16 0 4 18 26 27 10 20 11 28 8 1</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\system_sam3x.c</name>
-            <outputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 14</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 6 16 0 4 19 26 27 10 20 11 28 8 1</file>
+                    <file> 3</file>
                 </tool>
             </inputs>
         </file>
@@ -79,28 +64,43 @@
             <outputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 7</file>
+                    <file> 19</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 6 16 0 4 19 26 27 10 20 11 28 8 1</file>
+                    <file> 2 27 13 26 6 21 14 12 23 18 16 8 25</file>
                 </tool>
             </inputs>
         </file>
         <file>
-            <name>$PROJ_DIR$\exceptions.c</name>
+            <name>$PROJ_DIR$\startup_sam3x.c</name>
             <outputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 15</file>
+                    <file> 9</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 18</file>
+                    <file> 2 27 13 26 3 21 14 12 23 18 16 8 25</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\system_sam3x.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 0</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 2 27 13 26 6 21 14 12 23 18 16 8 25</file>
                 </tool>
             </inputs>
         </file>
@@ -109,13 +109,13 @@
             <outputs>
                 <tool>
                     <name>ILINK</name>
-                    <file> 2</file>
+                    <file> 17</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>ILINK</name>
-                    <file> 15 7 24 14 23 3 21 12 25</file>
+                    <file> 24 19 9 0 10 22 15 11 20</file>
                 </tool>
             </inputs>
         </file>

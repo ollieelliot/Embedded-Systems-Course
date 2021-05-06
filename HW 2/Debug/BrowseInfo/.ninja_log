@@ -1,65 +1,95 @@
 # ninja log v5
-3	178	6407101565507813	D:/Embedded Systems Labs/HW 2/Debug/BrowseInfo/system_sam3x.pbi	bc38f2fe655afa8f
-267	1264	6399261670000000	D:/Embedded Systems Labs/HW 2/Debug/BrowseInfo/system_sam3x.xcl	81d54c2352313a83
-1147	1590	6399261677521280	D:/Embedded Systems Labs/HW 2/Debug/BrowseInfo/exceptions.pbi	951ee602f892a43
-1	186	6408785992705364	D:/Embedded Systems Labs/HW 2/Debug/BrowseInfo/main.pbi	486400b33bef4171
-0	1145	6399261670000000	D:/Embedded Systems Labs/HW 2/Debug/BrowseInfo/exceptions.xcl	31e0559a508aa407
-259	1258	6399261670000000	D:/Embedded Systems Labs/HW 2/Debug/BrowseInfo/main.xcl	b076331f5d95153c
-264	1270	6399261670000000	D:/Embedded Systems Labs/HW 2/Debug/BrowseInfo/startup_sam3x.xcl	57e55b9feef921c7
-0	180	6407101565537724	D:/Embedded Systems Labs/HW 2/Debug/BrowseInfo/startup_sam3x.pbi	887fdcf020076571
-187	274	6408785994241263	D:/Embedded Systems Labs/HW 2/Debug/BrowseInfo/HW 2.pbd	ab8908e8e931ba8f
-276	962	6408786000845205	D:/Embedded Systems Labs/HW 2/Debug/BrowseInfo/HW 2.pbw	cd22bc33095b2d3e
-1	183	6408786152961442	D:/Embedded Systems Labs/HW 2/Debug/BrowseInfo/main.pbi	486400b33bef4171
-185	273	6408786154497329	D:/Embedded Systems Labs/HW 2/Debug/BrowseInfo/HW 2.pbd	ab8908e8e931ba8f
-276	959	6408786161100338	D:/Embedded Systems Labs/HW 2/Debug/BrowseInfo/HW 2.pbw	cd22bc33095b2d3e
-0	178	6408787769772801	D:/Embedded Systems Labs/HW 2/Debug/BrowseInfo/main.pbi	486400b33bef4171
-778	879	6408787777419557	D:/Embedded Systems Labs/HW 2/Debug/BrowseInfo/HW 2.pbd	ab8908e8e931ba8f
-882	1569	6408787784062061	D:/Embedded Systems Labs/HW 2/Debug/BrowseInfo/HW 2.pbw	cd22bc33095b2d3e
-1	182	6408787835723569	D:/Embedded Systems Labs/HW 2/Debug/BrowseInfo/main.pbi	486400b33bef4171
-183	272	6408787837267351	D:/Embedded Systems Labs/HW 2/Debug/BrowseInfo/HW 2.pbd	ab8908e8e931ba8f
-274	955	6408787843817789	D:/Embedded Systems Labs/HW 2/Debug/BrowseInfo/HW 2.pbw	cd22bc33095b2d3e
-0	183	6408787895491619	D:/Embedded Systems Labs/HW 2/Debug/BrowseInfo/main.pbi	486400b33bef4171
-184	271	6408787897027236	D:/Embedded Systems Labs/HW 2/Debug/BrowseInfo/HW 2.pbd	ab8908e8e931ba8f
-274	965	6408787903685771	D:/Embedded Systems Labs/HW 2/Debug/BrowseInfo/HW 2.pbw	cd22bc33095b2d3e
-0	179	6408790315409041	D:/Embedded Systems Labs/HW 2/Debug/BrowseInfo/main.pbi	486400b33bef4171
-181	267	6408790316924984	D:/Embedded Systems Labs/HW 2/Debug/BrowseInfo/HW 2.pbd	ab8908e8e931ba8f
-1	677	6408790375638360	D:/Embedded Systems Labs/HW 2/Debug/BrowseInfo/HW 2.pbw	cd22bc33095b2d3e
-1	183	6408791331256807	D:/Embedded Systems Labs/HW 2/Debug/BrowseInfo/main.pbi	486400b33bef4171
-185	274	6408791332802673	D:/Embedded Systems Labs/HW 2/Debug/BrowseInfo/HW 2.pbd	ab8908e8e931ba8f
-276	967	6408791339461110	D:/Embedded Systems Labs/HW 2/Debug/BrowseInfo/HW 2.pbw	cd22bc33095b2d3e
-1	186	6408791441394733	D:/Embedded Systems Labs/HW 2/Debug/BrowseInfo/main.pbi	486400b33bef4171
-187	274	6408791442920660	D:/Embedded Systems Labs/HW 2/Debug/BrowseInfo/HW 2.pbd	ab8908e8e931ba8f
-277	958	6408791449490616	D:/Embedded Systems Labs/HW 2/Debug/BrowseInfo/HW 2.pbw	cd22bc33095b2d3e
-1	179	6408792204104980	D:/Embedded Systems Labs/HW 2/Debug/BrowseInfo/main.pbi	486400b33bef4171
-181	266	6408792205610964	D:/Embedded Systems Labs/HW 2/Debug/BrowseInfo/HW 2.pbd	ab8908e8e931ba8f
-269	957	6408792212234483	D:/Embedded Systems Labs/HW 2/Debug/BrowseInfo/HW 2.pbw	cd22bc33095b2d3e
-0	181	6408792365249750	D:/Embedded Systems Labs/HW 2/Debug/BrowseInfo/main.pbi	486400b33bef4171
-182	270	6408792366785644	D:/Embedded Systems Labs/HW 2/Debug/BrowseInfo/HW 2.pbd	ab8908e8e931ba8f
-272	947	6408792373304979	D:/Embedded Systems Labs/HW 2/Debug/BrowseInfo/HW 2.pbw	cd22bc33095b2d3e
-0	180	6408792576854958	D:/Embedded Systems Labs/HW 2/Debug/BrowseInfo/main.pbi	486400b33bef4171
-181	266	6408792578370908	D:/Embedded Systems Labs/HW 2/Debug/BrowseInfo/HW 2.pbd	ab8908e8e931ba8f
-268	939	6408792584843580	D:/Embedded Systems Labs/HW 2/Debug/BrowseInfo/HW 2.pbw	cd22bc33095b2d3e
-1	179	6408793540375116	D:/Embedded Systems Labs/HW 2/Debug/BrowseInfo/main.pbi	486400b33bef4171
-181	267	6408793541901035	D:/Embedded Systems Labs/HW 2/Debug/BrowseInfo/HW 2.pbd	ab8908e8e931ba8f
-269	964	6408793548614644	D:/Embedded Systems Labs/HW 2/Debug/BrowseInfo/HW 2.pbw	cd22bc33095b2d3e
-1	180	6408793600254356	D:/Embedded Systems Labs/HW 2/Debug/BrowseInfo/main.pbi	486400b33bef4171
-182	269	6408793601785311	D:/Embedded Systems Labs/HW 2/Debug/BrowseInfo/HW 2.pbd	ab8908e8e931ba8f
-272	949	6408793608315277	D:/Embedded Systems Labs/HW 2/Debug/BrowseInfo/HW 2.pbw	cd22bc33095b2d3e
-1	178	6408793710141282	D:/Embedded Systems Labs/HW 2/Debug/BrowseInfo/main.pbi	486400b33bef4171
-179	266	6408793711667198	D:/Embedded Systems Labs/HW 2/Debug/BrowseInfo/HW 2.pbd	ab8908e8e931ba8f
-268	943	6408793718170117	D:/Embedded Systems Labs/HW 2/Debug/BrowseInfo/HW 2.pbw	cd22bc33095b2d3e
-0	180	6408793769811950	D:/Embedded Systems Labs/HW 2/Debug/BrowseInfo/main.pbi	486400b33bef4171
-181	266	6408793771323023	D:/Embedded Systems Labs/HW 2/Debug/BrowseInfo/HW 2.pbd	ab8908e8e931ba8f
-268	947	6408793777851145	D:/Embedded Systems Labs/HW 2/Debug/BrowseInfo/HW 2.pbw	cd22bc33095b2d3e
-1	180	6408793829504338	D:/Embedded Systems Labs/HW 2/Debug/BrowseInfo/main.pbi	486400b33bef4171
-1	87	6408793881819342	D:/Embedded Systems Labs/HW 2/Debug/BrowseInfo/HW 2.pbd	ab8908e8e931ba8f
-89	771	6408793888336972	D:/Embedded Systems Labs/HW 2/Debug/BrowseInfo/HW 2.pbw	cd22bc33095b2d3e
-1	190	6408794040537827	D:/Embedded Systems Labs/HW 2/Debug/BrowseInfo/main.pbi	486400b33bef4171
-191	283	6408794042123582	D:/Embedded Systems Labs/HW 2/Debug/BrowseInfo/HW 2.pbd	ab8908e8e931ba8f
-285	1036	6408794049356266	D:/Embedded Systems Labs/HW 2/Debug/BrowseInfo/HW 2.pbw	cd22bc33095b2d3e
-0	180	6408794201449386	D:/Embedded Systems Labs/HW 2/Debug/BrowseInfo/main.pbi	486400b33bef4171
-181	268	6408794202975270	D:/Embedded Systems Labs/HW 2/Debug/BrowseInfo/HW 2.pbd	ab8908e8e931ba8f
-270	948	6408794209536013	D:/Embedded Systems Labs/HW 2/Debug/BrowseInfo/HW 2.pbw	cd22bc33095b2d3e
-0	180	6408794311371879	D:/Embedded Systems Labs/HW 2/Debug/BrowseInfo/main.pbi	486400b33bef4171
-181	266	6408794312865563	D:/Embedded Systems Labs/HW 2/Debug/BrowseInfo/HW 2.pbd	ab8908e8e931ba8f
-268	953	6408794319497815	D:/Embedded Systems Labs/HW 2/Debug/BrowseInfo/HW 2.pbw	cd22bc33095b2d3e
+271	1398	6413199340000000	D:/Embedded Systems Labs/Embedded-Systems-Course/HW 2/Debug/BrowseInfo/exceptions.xcl	7099b0227f46ea46
+23	1169	6413199340000000	D:/Embedded Systems Labs/Embedded-Systems-Course/HW 2/Debug/BrowseInfo/main.xcl	58cbef305556b3e8
+1401	1862	6413199346322402	D:/Embedded Systems Labs/Embedded-Systems-Course/HW 2/Debug/BrowseInfo/exceptions.pbi	48cff5c6c71ed22e
+278	1404	6413199340000000	D:/Embedded Systems Labs/Embedded-Systems-Course/HW 2/Debug/BrowseInfo/system_sam3x.xcl	700640bd90691110
+7	130	6420285220540324	D:/Embedded Systems Labs/Embedded-Systems-Course/HW 2/Debug/BrowseInfo/HW 2_part0.pbi	423abe082b290805
+274	1410	6413199340000000	D:/Embedded Systems Labs/Embedded-Systems-Course/HW 2/Debug/BrowseInfo/startup_sam3x.xcl	af714dc8a051ed88
+1	204	6420284439034941	D:/Embedded Systems Labs/Embedded-Systems-Course/HW 2/Debug/BrowseInfo/startup_sam3x.pbi	b305e960b4cf5a4e
+1	177	6413286907678574	D:/Embedded Systems Labs/Embedded-Systems-Course/HW 2/Debug/BrowseInfo/system_sam3x.pbi	d3ff457cd011cbe3
+2	213	6420289881790514	D:/Embedded Systems Labs/Embedded-Systems-Course/HW 2/Debug/BrowseInfo/main.pbi	7a8383d1d5872887
+1086	1205	6420292205849728	D:/Embedded Systems Labs/Embedded-Systems-Course/HW 2/Debug/BrowseInfo/HW 2.pbd	a0ddf581ec23f629
+1208	2128	6420292214825738	D:/Embedded Systems Labs/Embedded-Systems-Course/HW 2/Debug/BrowseInfo/HW 2.pbw	35cb70f639988aca
+325	1794	6417416950000000	D:/Embedded Systems Labs/Embedded-Systems-Course/HW 2/Debug/BrowseInfo/button.xcl	2ae0d3a59c079de8
+341	1395	6417416950000000	D:/Embedded Systems Labs/Embedded-Systems-Course/HW 2/Debug/BrowseInfo/display.xcl	97411c44c1485145
+28	1415	6417416950000000	D:/Embedded Systems Labs/Embedded-Systems-Course/HW 2/Debug/BrowseInfo/led.xcl	1fba27c40c83974b
+329	1505	6417416950000000	D:/Embedded Systems Labs/Embedded-Systems-Course/HW 2/Debug/BrowseInfo/delay.xcl	ca6d2c0bd0c123c9
+8	394	6420285167037655	D:/Embedded Systems Labs/Embedded-Systems-Course/HW 2/Debug/BrowseInfo/led.pbi	4c622a2a76634d7a
+337	1520	6417416950000000	D:/Embedded Systems Labs/Embedded-Systems-Course/HW 2/Debug/BrowseInfo/initpins.xcl	131048ce915c95e6
+1397	1768	6417416950000000	D:/Embedded Systems Labs/Embedded-Systems-Course/HW 2/Debug/BrowseInfo/servo.xcl	a07405d396c9cec9
+333	1775	6417416950000000	D:/Embedded Systems Labs/Embedded-Systems-Course/HW 2/Debug/BrowseInfo/keypad.xcl	8211bacf3400b73
+1509	1781	6417416950000000	D:/Embedded Systems Labs/Embedded-Systems-Course/HW 2/Debug/BrowseInfo/my_library.xcl	e0109573d7f87e24
+1418	1788	6417416950000000	D:/Embedded Systems Labs/Embedded-Systems-Course/HW 2/Debug/BrowseInfo/photosensor.xcl	6c8ab1fb0b75e870
+1777	1906	6417416960000000	D:/Embedded Systems Labs/Embedded-Systems-Course/HW 2/Debug/BrowseInfo/temperature.xcl	b90db98f94fc171e
+1771	1927	6417416960000000	D:/Embedded Systems Labs/Embedded-Systems-Course/HW 2/Debug/BrowseInfo/systick_setup.xcl	d12c1949a95ea152
+5	386	6420285167007736	D:/Embedded Systems Labs/Embedded-Systems-Course/HW 2/Debug/BrowseInfo/delay.pbi	77a6f7689523f2
+9	382	6420285166997765	D:/Embedded Systems Labs/Embedded-Systems-Course/HW 2/Debug/BrowseInfo/my_library.pbi	8745c1ccacdbc44a
+4	402	6420285167187257	D:/Embedded Systems Labs/Embedded-Systems-Course/HW 2/Debug/BrowseInfo/keypad.pbi	e0fae0697d503e3d
+2	370	6420285166888054	D:/Embedded Systems Labs/Embedded-Systems-Course/HW 2/Debug/BrowseInfo/button.pbi	b128a69c5f36dc6b
+5	10256	6420285321151449	D:/Embedded Systems Labs/Embedded-Systems-Course/HW 2/Debug/BrowseInfo/temperature.pbi	84bac80f5823fb79
+1909	2713	6417416969310041	D:/Embedded Systems Labs/Embedded-Systems-Course/HW 2/Debug/BrowseInfo/initpins.pbi	914e7a72568ec21b
+1	195	6417544601682727	D:/Embedded Systems Labs/Embedded-Systems-Course/HW 2/Debug/BrowseInfo/servo.pbi	31293403d801a0
+6	390	6420285167027682	D:/Embedded Systems Labs/Embedded-Systems-Course/HW 2/Debug/BrowseInfo/display.pbi	ff94149cd78793ea
+1	10180	6420285320194004	D:/Embedded Systems Labs/Embedded-Systems-Course/HW 2/Debug/BrowseInfo/photosensor.pbi	4da8e272dfec33aa
+8	10100	6420285308644914	D:/Embedded Systems Labs/Embedded-Systems-Course/HW 2/Debug/BrowseInfo/systick_setup.pbi	604f9946e8795d5b
+1	212	6420292195268007	D:/Embedded Systems Labs/Embedded-Systems-Course/HW 2/Debug/BrowseInfo/time.pbi	df8568463413bf26
+215	347	6420289883795166	D:/Embedded Systems Labs/Embedded-Systems-Course/HW 2/Debug/BrowseInfo/HW 2_part1.pbi	7e8361a7d76ea885
+214	1083	6420292204632979	D:/Embedded Systems Labs/Embedded-Systems-Course/HW 2/Debug/BrowseInfo/HW 2_part3.pbi	86ea3465210acade
+10239	16901	6420285388252173	D:/Embedded Systems Labs/Embedded-Systems-Course/HW 2/Debug/BrowseInfo/HW 2_part2.pbi	c91ca36a49689efb
+1	85	6417455390000000	D:/Embedded Systems Labs/Embedded-Systems-Course/HW 2/Debug/BrowseInfo/time.xcl	4bb97c5f9f19ad86
+1	211	6420292266796852	D:/Embedded Systems Labs/Embedded-Systems-Course/HW 2/Debug/BrowseInfo/time.pbi	df8568463413bf26
+214	343	6420292268771574	D:/Embedded Systems Labs/Embedded-Systems-Course/HW 2/Debug/BrowseInfo/HW 2_part3.pbi	86ea3465210acade
+346	469	6420292270028218	D:/Embedded Systems Labs/Embedded-Systems-Course/HW 2/Debug/BrowseInfo/HW 2.pbd	a0ddf581ec23f629
+472	1376	6420292278834682	D:/Embedded Systems Labs/Embedded-Systems-Course/HW 2/Debug/BrowseInfo/HW 2.pbw	35cb70f639988aca
+1	212	6420292381011630	D:/Embedded Systems Labs/Embedded-Systems-Course/HW 2/Debug/BrowseInfo/time.pbi	df8568463413bf26
+215	345	6420292382996327	D:/Embedded Systems Labs/Embedded-Systems-Course/HW 2/Debug/BrowseInfo/HW 2_part3.pbi	86ea3465210acade
+348	470	6420292384242995	D:/Embedded Systems Labs/Embedded-Systems-Course/HW 2/Debug/BrowseInfo/HW 2.pbd	a0ddf581ec23f629
+473	1568	6420292394904500	D:/Embedded Systems Labs/Embedded-Systems-Course/HW 2/Debug/BrowseInfo/HW 2.pbw	35cb70f639988aca
+2	211	6420292697994531	D:/Embedded Systems Labs/Embedded-Systems-Course/HW 2/Debug/BrowseInfo/time.pbi	df8568463413bf26
+213	346	6420292699999173	D:/Embedded Systems Labs/Embedded-Systems-Course/HW 2/Debug/BrowseInfo/HW 2_part3.pbi	86ea3465210acade
+350	472	6420292701245841	D:/Embedded Systems Labs/Embedded-Systems-Course/HW 2/Debug/BrowseInfo/HW 2.pbd	a0ddf581ec23f629
+475	1333	6420292709593532	D:/Embedded Systems Labs/Embedded-Systems-Course/HW 2/Debug/BrowseInfo/HW 2.pbw	35cb70f639988aca
+1	206	6420292813954643	D:/Embedded Systems Labs/Embedded-Systems-Course/HW 2/Debug/BrowseInfo/time.pbi	df8568463413bf26
+209	341	6420292815959285	D:/Embedded Systems Labs/Embedded-Systems-Course/HW 2/Debug/BrowseInfo/HW 2_part3.pbi	86ea3465210acade
+344	462	6420292817166059	D:/Embedded Systems Labs/Embedded-Systems-Course/HW 2/Debug/BrowseInfo/HW 2.pbd	a0ddf581ec23f629
+465	1541	6420292827697917	D:/Embedded Systems Labs/Embedded-Systems-Course/HW 2/Debug/BrowseInfo/HW 2.pbw	35cb70f639988aca
+1	208	6420292879629137	D:/Embedded Systems Labs/Embedded-Systems-Course/HW 2/Debug/BrowseInfo/time.pbi	df8568463413bf26
+210	343	6420292881633781	D:/Embedded Systems Labs/Embedded-Systems-Course/HW 2/Debug/BrowseInfo/HW 2_part3.pbi	86ea3465210acade
+346	464	6420292882840554	D:/Embedded Systems Labs/Embedded-Systems-Course/HW 2/Debug/BrowseInfo/HW 2.pbd	a0ddf581ec23f629
+467	1332	6420292891208193	D:/Embedded Systems Labs/Embedded-Systems-Course/HW 2/Debug/BrowseInfo/HW 2.pbw	35cb70f639988aca
+1	209	6420292993405082	D:/Embedded Systems Labs/Embedded-Systems-Course/HW 2/Debug/BrowseInfo/time.pbi	df8568463413bf26
+212	345	6420292995419701	D:/Embedded Systems Labs/Embedded-Systems-Course/HW 2/Debug/BrowseInfo/HW 2_part3.pbi	86ea3465210acade
+348	467	6420292996646420	D:/Embedded Systems Labs/Embedded-Systems-Course/HW 2/Debug/BrowseInfo/HW 2.pbd	a0ddf581ec23f629
+470	1565	6420293007377741	D:/Embedded Systems Labs/Embedded-Systems-Course/HW 2/Debug/BrowseInfo/HW 2.pbw	35cb70f639988aca
+1	207	6420293059285549	D:/Embedded Systems Labs/Embedded-Systems-Course/HW 2/Debug/BrowseInfo/time.pbi	df8568463413bf26
+210	346	6420293061330089	D:/Embedded Systems Labs/Embedded-Systems-Course/HW 2/Debug/BrowseInfo/HW 2_part3.pbi	86ea3465210acade
+349	473	6420293062596697	D:/Embedded Systems Labs/Embedded-Systems-Course/HW 2/Debug/BrowseInfo/HW 2.pbd	a0ddf581ec23f629
+2	1254	6420293128271281	D:/Embedded Systems Labs/Embedded-Systems-Course/HW 2/Debug/BrowseInfo/HW 2.pbw	35cb70f639988aca
+2	211	6420293381015857	D:/Embedded Systems Labs/Embedded-Systems-Course/HW 2/Debug/BrowseInfo/main.pbi	7a8383d1d5872887
+213	343	6420293383000553	D:/Embedded Systems Labs/Embedded-Systems-Course/HW 2/Debug/BrowseInfo/HW 2_part1.pbi	7e8361a7d76ea885
+346	465	6420293384217307	D:/Embedded Systems Labs/Embedded-Systems-Course/HW 2/Debug/BrowseInfo/HW 2.pbd	a0ddf581ec23f629
+469	1319	6420293392505153	D:/Embedded Systems Labs/Embedded-Systems-Course/HW 2/Debug/BrowseInfo/HW 2.pbw	35cb70f639988aca
+2	211	6420293544873383	D:/Embedded Systems Labs/Embedded-Systems-Course/HW 2/Debug/BrowseInfo/main.pbi	7a8383d1d5872887
+214	347	6420293546878030	D:/Embedded Systems Labs/Embedded-Systems-Course/HW 2/Debug/BrowseInfo/HW 2_part1.pbi	7e8361a7d76ea885
+350	468	6420293548094771	D:/Embedded Systems Labs/Embedded-Systems-Course/HW 2/Debug/BrowseInfo/HW 2.pbd	a0ddf581ec23f629
+471	1318	6420293556332754	D:/Embedded Systems Labs/Embedded-Systems-Course/HW 2/Debug/BrowseInfo/HW 2.pbw	35cb70f639988aca
+1	210	6420293758891446	D:/Embedded Systems Labs/Embedded-Systems-Course/HW 2/Debug/BrowseInfo/time.pbi	df8568463413bf26
+212	345	6420293760896089	D:/Embedded Systems Labs/Embedded-Systems-Course/HW 2/Debug/BrowseInfo/HW 2_part3.pbi	86ea3465210acade
+348	467	6420293762122807	D:/Embedded Systems Labs/Embedded-Systems-Course/HW 2/Debug/BrowseInfo/HW 2.pbd	a0ddf581ec23f629
+469	1491	6420293772096154	D:/Embedded Systems Labs/Embedded-Systems-Course/HW 2/Debug/BrowseInfo/HW 2.pbw	35cb70f639988aca
+2	209	6420293974653558	D:/Embedded Systems Labs/Embedded-Systems-Course/HW 2/Debug/BrowseInfo/time.pbi	df8568463413bf26
+212	453	6420293977755276	D:/Embedded Systems Labs/Embedded-Systems-Course/HW 2/Debug/BrowseInfo/HW 2_part3.pbi	86ea3465210acade
+456	576	6420293978981994	D:/Embedded Systems Labs/Embedded-Systems-Course/HW 2/Debug/BrowseInfo/HW 2.pbd	a0ddf581ec23f629
+579	1712	6420293990072349	D:/Embedded Systems Labs/Embedded-Systems-Course/HW 2/Debug/BrowseInfo/HW 2.pbw	35cb70f639988aca
+2	400	6420294094145904	D:/Embedded Systems Labs/Embedded-Systems-Course/HW 2/Debug/BrowseInfo/time.pbi	df8568463413bf26
+403	557	6420294096375024	D:/Embedded Systems Labs/Embedded-Systems-Course/HW 2/Debug/BrowseInfo/HW 2_part3.pbi	86ea3465210acade
+560	683	6420294097631665	D:/Embedded Systems Labs/Embedded-Systems-Course/HW 2/Debug/BrowseInfo/HW 2.pbd	a0ddf581ec23f629
+1	845	6420294157479614	D:/Embedded Systems Labs/Embedded-Systems-Course/HW 2/Debug/BrowseInfo/HW 2.pbw	35cb70f639988aca
+1	209	6420294360038306	D:/Embedded Systems Labs/Embedded-Systems-Course/HW 2/Debug/BrowseInfo/display.pbi	ff94149cd78793ea
+211	324	6420294361843480	D:/Embedded Systems Labs/Embedded-Systems-Course/HW 2/Debug/BrowseInfo/HW 2_part0.pbi	423abe082b290805
+327	459	6420294363189886	D:/Embedded Systems Labs/Embedded-Systems-Course/HW 2/Debug/BrowseInfo/HW 2.pbd	a0ddf581ec23f629
+462	1325	6420294371587444	D:/Embedded Systems Labs/Embedded-Systems-Course/HW 2/Debug/BrowseInfo/HW 2.pbw	35cb70f639988aca
+1	225	6420295026327730	D:/Embedded Systems Labs/Embedded-Systems-Course/HW 2/Debug/BrowseInfo/display.pbi	ff94149cd78793ea
+227	343	6420295028172809	D:/Embedded Systems Labs/Embedded-Systems-Course/HW 2/Debug/BrowseInfo/HW 2_part0.pbi	423abe082b290805
+346	471	6420295029459370	D:/Embedded Systems Labs/Embedded-Systems-Course/HW 2/Debug/BrowseInfo/HW 2.pbd	a0ddf581ec23f629
+474	1359	6420295037976596	D:/Embedded Systems Labs/Embedded-Systems-Course/HW 2/Debug/BrowseInfo/HW 2.pbw	35cb70f639988aca

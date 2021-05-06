@@ -24,48 +24,180 @@ rule PDBLINK
 
 
 #Build steps
-build D$:\Embedded$ Systems$ Labs\HW$ 2\Debug\BrowseInfo\exceptions.xcl : COMPILER_XCL 
-  xclcommand = -source_file "D$:\Embedded$ Systems$ Labs\HW$ 2\exceptions.c" -xcl_file "D$:\Embedded$ Systems$ Labs\HW$ 2\Debug\BrowseInfo\exceptions.xcl" -macro_file "D$:\Embedded$ Systems$ Labs\HW$ 2\Debug\BrowseInfo\exceptions.tmp" -icc_path "D$:\Program$ Files\arm\bin\iccarm.exe"
-  flags = "D$:\Embedded$ Systems$ Labs\HW$ 2\exceptions.c" -o "D$:\Embedded$ Systems$ Labs\HW$ 2\Debug\Obj\\" --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M3 -e --fpu=None --dlib_config "D$:\Program$ Files\arm\inc\c\DLib_Config_Normal.h" -Ol --predef_macros "D$:\Embedded$ Systems$ Labs\HW$ 2\Debug\BrowseInfo\exceptions.tmp"
-  rspfile_name = D$:\Embedded$ Systems$ Labs\HW$ 2\Debug\BrowseInfo\exceptions.xcl.rsp
+build D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\Debug\BrowseInfo\button.xcl : COMPILER_XCL 
+  xclcommand = -source_file "D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\button.c" -xcl_file "D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\Debug\BrowseInfo\button.xcl" -macro_file "D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\Debug\BrowseInfo\button.tmp" -icc_path "D$:\Program$ Files\arm\bin\iccarm.exe"
+  flags = "D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\button.c" -o "D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\Debug\Obj\\" --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M3 -e --fpu=None --dlib_config "D$:\Program$ Files\arm\inc\c\DLib_Config_Normal.h" -Ol --predef_macros "D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\Debug\BrowseInfo\button.tmp"
+  rspfile_name = D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\Debug\BrowseInfo\button.xcl.rsp
 
-build D$:\Embedded$ Systems$ Labs\HW$ 2\Debug\BrowseInfo\main.xcl : COMPILER_XCL 
-  xclcommand = -source_file "D$:\Embedded$ Systems$ Labs\HW$ 2\main.c" -xcl_file "D$:\Embedded$ Systems$ Labs\HW$ 2\Debug\BrowseInfo\main.xcl" -macro_file "D$:\Embedded$ Systems$ Labs\HW$ 2\Debug\BrowseInfo\main.tmp" -icc_path "D$:\Program$ Files\arm\bin\iccarm.exe"
-  flags = "D$:\Embedded$ Systems$ Labs\HW$ 2\main.c" -o "D$:\Embedded$ Systems$ Labs\HW$ 2\Debug\Obj\\" --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M3 -e --fpu=None --dlib_config "D$:\Program$ Files\arm\inc\c\DLib_Config_Normal.h" -Ol --predef_macros "D$:\Embedded$ Systems$ Labs\HW$ 2\Debug\BrowseInfo\main.tmp"
-  rspfile_name = D$:\Embedded$ Systems$ Labs\HW$ 2\Debug\BrowseInfo\main.xcl.rsp
+build D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\Debug\BrowseInfo\delay.xcl : COMPILER_XCL 
+  xclcommand = -source_file "D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\delay.c" -xcl_file "D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\Debug\BrowseInfo\delay.xcl" -macro_file "D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\Debug\BrowseInfo\delay.tmp" -icc_path "D$:\Program$ Files\arm\bin\iccarm.exe"
+  flags = "D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\delay.c" -o "D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\Debug\Obj\\" --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M3 -e --fpu=None --dlib_config "D$:\Program$ Files\arm\inc\c\DLib_Config_Normal.h" -Ol --predef_macros "D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\Debug\BrowseInfo\delay.tmp"
+  rspfile_name = D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\Debug\BrowseInfo\delay.xcl.rsp
 
-build D$:\Embedded$ Systems$ Labs\HW$ 2\Debug\BrowseInfo\startup_sam3x.xcl : COMPILER_XCL 
-  xclcommand = -source_file "D$:\Embedded$ Systems$ Labs\HW$ 2\startup_sam3x.c" -xcl_file "D$:\Embedded$ Systems$ Labs\HW$ 2\Debug\BrowseInfo\startup_sam3x.xcl" -macro_file "D$:\Embedded$ Systems$ Labs\HW$ 2\Debug\BrowseInfo\startup_sam3x.tmp" -icc_path "D$:\Program$ Files\arm\bin\iccarm.exe"
-  flags = "D$:\Embedded$ Systems$ Labs\HW$ 2\startup_sam3x.c" -o "D$:\Embedded$ Systems$ Labs\HW$ 2\Debug\Obj\\" --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M3 -e --fpu=None --dlib_config "D$:\Program$ Files\arm\inc\c\DLib_Config_Normal.h" -Ol --predef_macros "D$:\Embedded$ Systems$ Labs\HW$ 2\Debug\BrowseInfo\startup_sam3x.tmp"
-  rspfile_name = D$:\Embedded$ Systems$ Labs\HW$ 2\Debug\BrowseInfo\startup_sam3x.xcl.rsp
+build D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\Debug\BrowseInfo\display.xcl : COMPILER_XCL 
+  xclcommand = -source_file "D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\display.c" -xcl_file "D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\Debug\BrowseInfo\display.xcl" -macro_file "D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\Debug\BrowseInfo\display.tmp" -icc_path "D$:\Program$ Files\arm\bin\iccarm.exe"
+  flags = "D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\display.c" -o "D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\Debug\Obj\\" --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M3 -e --fpu=None --dlib_config "D$:\Program$ Files\arm\inc\c\DLib_Config_Normal.h" -Ol --predef_macros "D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\Debug\BrowseInfo\display.tmp"
+  rspfile_name = D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\Debug\BrowseInfo\display.xcl.rsp
 
-build D$:\Embedded$ Systems$ Labs\HW$ 2\Debug\BrowseInfo\system_sam3x.xcl : COMPILER_XCL 
-  xclcommand = -source_file "D$:\Embedded$ Systems$ Labs\HW$ 2\system_sam3x.c" -xcl_file "D$:\Embedded$ Systems$ Labs\HW$ 2\Debug\BrowseInfo\system_sam3x.xcl" -macro_file "D$:\Embedded$ Systems$ Labs\HW$ 2\Debug\BrowseInfo\system_sam3x.tmp" -icc_path "D$:\Program$ Files\arm\bin\iccarm.exe"
-  flags = "D$:\Embedded$ Systems$ Labs\HW$ 2\system_sam3x.c" -o "D$:\Embedded$ Systems$ Labs\HW$ 2\Debug\Obj\\" --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M3 -e --fpu=None --dlib_config "D$:\Program$ Files\arm\inc\c\DLib_Config_Normal.h" -Ol --predef_macros "D$:\Embedded$ Systems$ Labs\HW$ 2\Debug\BrowseInfo\system_sam3x.tmp"
-  rspfile_name = D$:\Embedded$ Systems$ Labs\HW$ 2\Debug\BrowseInfo\system_sam3x.xcl.rsp
+build D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\Debug\BrowseInfo\exceptions.xcl : COMPILER_XCL 
+  xclcommand = -source_file "D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\exceptions.c" -xcl_file "D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\Debug\BrowseInfo\exceptions.xcl" -macro_file "D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\Debug\BrowseInfo\exceptions.tmp" -icc_path "D$:\Program$ Files\arm\bin\iccarm.exe"
+  flags = "D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\exceptions.c" -o "D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\Debug\Obj\\" --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M3 -e --fpu=None --dlib_config "D$:\Program$ Files\arm\inc\c\DLib_Config_Normal.h" -Ol --predef_macros "D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\Debug\BrowseInfo\exceptions.tmp"
+  rspfile_name = D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\Debug\BrowseInfo\exceptions.xcl.rsp
 
-build D$:\Embedded$ Systems$ Labs\HW$ 2\Debug\BrowseInfo\exceptions.pbi : INDEXER D$:\Embedded$ Systems$ Labs\HW$ 2\Debug\BrowseInfo\exceptions.xcl |  $
-D$:\Embedded$ Systems$ Labs\HW$ 2\exceptions.c
-  flags = "-out=D$:\Embedded$ Systems$ Labs\HW$ 2\Debug\BrowseInfo\exceptions.pbi" -f "D$:\Embedded$ Systems$ Labs\HW$ 2\Debug\BrowseInfo\exceptions.xcl"
+build D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\Debug\BrowseInfo\initpins.xcl : COMPILER_XCL 
+  xclcommand = -source_file "D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\initpins.c" -xcl_file "D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\Debug\BrowseInfo\initpins.xcl" -macro_file "D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\Debug\BrowseInfo\initpins.tmp" -icc_path "D$:\Program$ Files\arm\bin\iccarm.exe"
+  flags = "D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\initpins.c" -o "D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\Debug\Obj\\" --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M3 -e --fpu=None --dlib_config "D$:\Program$ Files\arm\inc\c\DLib_Config_Normal.h" -Ol --predef_macros "D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\Debug\BrowseInfo\initpins.tmp"
+  rspfile_name = D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\Debug\BrowseInfo\initpins.xcl.rsp
 
-build D$:\Embedded$ Systems$ Labs\HW$ 2\Debug\BrowseInfo\main.pbi : INDEXER D$:\Embedded$ Systems$ Labs\HW$ 2\Debug\BrowseInfo\main.xcl |  $
-D$:\Embedded$ Systems$ Labs\HW$ 2\main.c
-  flags = "-out=D$:\Embedded$ Systems$ Labs\HW$ 2\Debug\BrowseInfo\main.pbi" -f "D$:\Embedded$ Systems$ Labs\HW$ 2\Debug\BrowseInfo\main.xcl"
+build D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\Debug\BrowseInfo\keypad.xcl : COMPILER_XCL 
+  xclcommand = -source_file "D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\keypad.c" -xcl_file "D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\Debug\BrowseInfo\keypad.xcl" -macro_file "D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\Debug\BrowseInfo\keypad.tmp" -icc_path "D$:\Program$ Files\arm\bin\iccarm.exe"
+  flags = "D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\keypad.c" -o "D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\Debug\Obj\\" --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M3 -e --fpu=None --dlib_config "D$:\Program$ Files\arm\inc\c\DLib_Config_Normal.h" -Ol --predef_macros "D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\Debug\BrowseInfo\keypad.tmp"
+  rspfile_name = D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\Debug\BrowseInfo\keypad.xcl.rsp
 
-build D$:\Embedded$ Systems$ Labs\HW$ 2\Debug\BrowseInfo\startup_sam3x.pbi : INDEXER D$:\Embedded$ Systems$ Labs\HW$ 2\Debug\BrowseInfo\startup_sam3x.xcl |  $
-D$:\Embedded$ Systems$ Labs\HW$ 2\startup_sam3x.c
-  flags = "-out=D$:\Embedded$ Systems$ Labs\HW$ 2\Debug\BrowseInfo\startup_sam3x.pbi" -f "D$:\Embedded$ Systems$ Labs\HW$ 2\Debug\BrowseInfo\startup_sam3x.xcl"
+build D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\Debug\BrowseInfo\led.xcl : COMPILER_XCL 
+  xclcommand = -source_file "D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\led.c" -xcl_file "D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\Debug\BrowseInfo\led.xcl" -macro_file "D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\Debug\BrowseInfo\led.tmp" -icc_path "D$:\Program$ Files\arm\bin\iccarm.exe"
+  flags = "D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\led.c" -o "D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\Debug\Obj\\" --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M3 -e --fpu=None --dlib_config "D$:\Program$ Files\arm\inc\c\DLib_Config_Normal.h" -Ol --predef_macros "D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\Debug\BrowseInfo\led.tmp"
+  rspfile_name = D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\Debug\BrowseInfo\led.xcl.rsp
 
-build D$:\Embedded$ Systems$ Labs\HW$ 2\Debug\BrowseInfo\system_sam3x.pbi : INDEXER D$:\Embedded$ Systems$ Labs\HW$ 2\Debug\BrowseInfo\system_sam3x.xcl |  $
-D$:\Embedded$ Systems$ Labs\HW$ 2\system_sam3x.c
-  flags = "-out=D$:\Embedded$ Systems$ Labs\HW$ 2\Debug\BrowseInfo\system_sam3x.pbi" -f "D$:\Embedded$ Systems$ Labs\HW$ 2\Debug\BrowseInfo\system_sam3x.xcl"
+build D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\Debug\BrowseInfo\main.xcl : COMPILER_XCL 
+  xclcommand = -source_file "D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\main.c" -xcl_file "D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\Debug\BrowseInfo\main.xcl" -macro_file "D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\Debug\BrowseInfo\main.tmp" -icc_path "D$:\Program$ Files\arm\bin\iccarm.exe"
+  flags = "D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\main.c" -o "D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\Debug\Obj\\" --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M3 -e --fpu=None --dlib_config "D$:\Program$ Files\arm\inc\c\DLib_Config_Normal.h" -Ol --predef_macros "D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\Debug\BrowseInfo\main.tmp"
+  rspfile_name = D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\Debug\BrowseInfo\main.xcl.rsp
 
-build D$:\Embedded$ Systems$ Labs\HW$ 2\Debug\BrowseInfo\HW$ 2.pbw : MAKEBROWSE D$:\Embedded$ Systems$ Labs\HW$ 2\Debug\BrowseInfo\HW$ 2.pbd
-  flags = "D$:\Embedded$ Systems$ Labs\HW$ 2\Debug\BrowseInfo\HW$ 2.pbd" -output "D$:\Embedded$ Systems$ Labs\HW$ 2\Debug\BrowseInfo\HW$ 2.pbw"
+build D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\Debug\BrowseInfo\my_library.xcl : COMPILER_XCL 
+  xclcommand = -source_file "D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\my_library.c" -xcl_file "D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\Debug\BrowseInfo\my_library.xcl" -macro_file "D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\Debug\BrowseInfo\my_library.tmp" -icc_path "D$:\Program$ Files\arm\bin\iccarm.exe"
+  flags = "D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\my_library.c" -o "D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\Debug\Obj\\" --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M3 -e --fpu=None --dlib_config "D$:\Program$ Files\arm\inc\c\DLib_Config_Normal.h" -Ol --predef_macros "D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\Debug\BrowseInfo\my_library.tmp"
+  rspfile_name = D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\Debug\BrowseInfo\my_library.xcl.rsp
 
-build D$:\Embedded$ Systems$ Labs\HW$ 2\Debug\BrowseInfo\HW$ 2.pbd : PDBLINK D$:\Embedded$ Systems$ Labs\HW$ 2\Debug\BrowseInfo\exceptions.pbi |  $
-D$:\Embedded$ Systems$ Labs\HW$ 2\Debug\BrowseInfo\main.pbi $
-D$:\Embedded$ Systems$ Labs\HW$ 2\Debug\BrowseInfo\startup_sam3x.pbi $
-D$:\Embedded$ Systems$ Labs\HW$ 2\Debug\BrowseInfo\system_sam3x.pbi
-  flags = -M "D$:\Embedded$ Systems$ Labs\HW$ 2\Debug\BrowseInfo\HW$ 2.pbd" "D$:\Embedded$ Systems$ Labs\HW$ 2\Debug\BrowseInfo\exceptions.pbi" "D$:\Embedded$ Systems$ Labs\HW$ 2\Debug\BrowseInfo\main.pbi" "D$:\Embedded$ Systems$ Labs\HW$ 2\Debug\BrowseInfo\startup_sam3x.pbi" "D$:\Embedded$ Systems$ Labs\HW$ 2\Debug\BrowseInfo\system_sam3x.pbi"
+build D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\Debug\BrowseInfo\photosensor.xcl : COMPILER_XCL 
+  xclcommand = -source_file "D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\photosensor.c" -xcl_file "D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\Debug\BrowseInfo\photosensor.xcl" -macro_file "D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\Debug\BrowseInfo\photosensor.tmp" -icc_path "D$:\Program$ Files\arm\bin\iccarm.exe"
+  flags = "D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\photosensor.c" -o "D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\Debug\Obj\\" --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M3 -e --fpu=None --dlib_config "D$:\Program$ Files\arm\inc\c\DLib_Config_Normal.h" -Ol --predef_macros "D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\Debug\BrowseInfo\photosensor.tmp"
+  rspfile_name = D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\Debug\BrowseInfo\photosensor.xcl.rsp
+
+build D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\Debug\BrowseInfo\servo.xcl : COMPILER_XCL 
+  xclcommand = -source_file "D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\servo.c" -xcl_file "D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\Debug\BrowseInfo\servo.xcl" -macro_file "D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\Debug\BrowseInfo\servo.tmp" -icc_path "D$:\Program$ Files\arm\bin\iccarm.exe"
+  flags = "D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\servo.c" -o "D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\Debug\Obj\\" --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M3 -e --fpu=None --dlib_config "D$:\Program$ Files\arm\inc\c\DLib_Config_Normal.h" -Ol --predef_macros "D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\Debug\BrowseInfo\servo.tmp"
+  rspfile_name = D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\Debug\BrowseInfo\servo.xcl.rsp
+
+build D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\Debug\BrowseInfo\startup_sam3x.xcl : COMPILER_XCL 
+  xclcommand = -source_file "D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\startup_sam3x.c" -xcl_file "D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\Debug\BrowseInfo\startup_sam3x.xcl" -macro_file "D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\Debug\BrowseInfo\startup_sam3x.tmp" -icc_path "D$:\Program$ Files\arm\bin\iccarm.exe"
+  flags = "D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\startup_sam3x.c" -o "D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\Debug\Obj\\" --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M3 -e --fpu=None --dlib_config "D$:\Program$ Files\arm\inc\c\DLib_Config_Normal.h" -Ol --predef_macros "D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\Debug\BrowseInfo\startup_sam3x.tmp"
+  rspfile_name = D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\Debug\BrowseInfo\startup_sam3x.xcl.rsp
+
+build D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\Debug\BrowseInfo\system_sam3x.xcl : COMPILER_XCL 
+  xclcommand = -source_file "D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\system_sam3x.c" -xcl_file "D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\Debug\BrowseInfo\system_sam3x.xcl" -macro_file "D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\Debug\BrowseInfo\system_sam3x.tmp" -icc_path "D$:\Program$ Files\arm\bin\iccarm.exe"
+  flags = "D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\system_sam3x.c" -o "D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\Debug\Obj\\" --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M3 -e --fpu=None --dlib_config "D$:\Program$ Files\arm\inc\c\DLib_Config_Normal.h" -Ol --predef_macros "D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\Debug\BrowseInfo\system_sam3x.tmp"
+  rspfile_name = D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\Debug\BrowseInfo\system_sam3x.xcl.rsp
+
+build D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\Debug\BrowseInfo\systick_setup.xcl : COMPILER_XCL 
+  xclcommand = -source_file "D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\systick_setup.c" -xcl_file "D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\Debug\BrowseInfo\systick_setup.xcl" -macro_file "D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\Debug\BrowseInfo\systick_setup.tmp" -icc_path "D$:\Program$ Files\arm\bin\iccarm.exe"
+  flags = "D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\systick_setup.c" -o "D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\Debug\Obj\\" --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M3 -e --fpu=None --dlib_config "D$:\Program$ Files\arm\inc\c\DLib_Config_Normal.h" -Ol --predef_macros "D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\Debug\BrowseInfo\systick_setup.tmp"
+  rspfile_name = D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\Debug\BrowseInfo\systick_setup.xcl.rsp
+
+build D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\Debug\BrowseInfo\temperature.xcl : COMPILER_XCL 
+  xclcommand = -source_file "D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\temperature.c" -xcl_file "D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\Debug\BrowseInfo\temperature.xcl" -macro_file "D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\Debug\BrowseInfo\temperature.tmp" -icc_path "D$:\Program$ Files\arm\bin\iccarm.exe"
+  flags = "D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\temperature.c" -o "D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\Debug\Obj\\" --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M3 -e --fpu=None --dlib_config "D$:\Program$ Files\arm\inc\c\DLib_Config_Normal.h" -Ol --predef_macros "D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\Debug\BrowseInfo\temperature.tmp"
+  rspfile_name = D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\Debug\BrowseInfo\temperature.xcl.rsp
+
+build D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\Debug\BrowseInfo\time.xcl : COMPILER_XCL 
+  xclcommand = -source_file "D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\time.c" -xcl_file "D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\Debug\BrowseInfo\time.xcl" -macro_file "D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\Debug\BrowseInfo\time.tmp" -icc_path "D$:\Program$ Files\arm\bin\iccarm.exe"
+  flags = "D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\time.c" -o "D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\Debug\Obj\\" --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M3 -e --fpu=None --dlib_config "D$:\Program$ Files\arm\inc\c\DLib_Config_Normal.h" -Ol --predef_macros "D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\Debug\BrowseInfo\time.tmp"
+  rspfile_name = D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\Debug\BrowseInfo\time.xcl.rsp
+
+build D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\Debug\BrowseInfo\button.pbi : INDEXER D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\Debug\BrowseInfo\button.xcl |  $
+D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\button.c
+  flags = "-out=D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\Debug\BrowseInfo\button.pbi" -f "D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\Debug\BrowseInfo\button.xcl"
+
+build D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\Debug\BrowseInfo\delay.pbi : INDEXER D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\Debug\BrowseInfo\delay.xcl |  $
+D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\delay.c
+  flags = "-out=D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\Debug\BrowseInfo\delay.pbi" -f "D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\Debug\BrowseInfo\delay.xcl"
+
+build D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\Debug\BrowseInfo\display.pbi : INDEXER D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\Debug\BrowseInfo\display.xcl |  $
+D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\display.c
+  flags = "-out=D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\Debug\BrowseInfo\display.pbi" -f "D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\Debug\BrowseInfo\display.xcl"
+
+build D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\Debug\BrowseInfo\exceptions.pbi : INDEXER D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\Debug\BrowseInfo\exceptions.xcl |  $
+D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\exceptions.c
+  flags = "-out=D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\Debug\BrowseInfo\exceptions.pbi" -f "D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\Debug\BrowseInfo\exceptions.xcl"
+
+build D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\Debug\BrowseInfo\initpins.pbi : INDEXER D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\Debug\BrowseInfo\initpins.xcl |  $
+D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\initpins.c
+  flags = "-out=D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\Debug\BrowseInfo\initpins.pbi" -f "D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\Debug\BrowseInfo\initpins.xcl"
+
+build D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\Debug\BrowseInfo\keypad.pbi : INDEXER D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\Debug\BrowseInfo\keypad.xcl |  $
+D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\keypad.c
+  flags = "-out=D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\Debug\BrowseInfo\keypad.pbi" -f "D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\Debug\BrowseInfo\keypad.xcl"
+
+build D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\Debug\BrowseInfo\led.pbi : INDEXER D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\Debug\BrowseInfo\led.xcl |  $
+D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\led.c
+  flags = "-out=D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\Debug\BrowseInfo\led.pbi" -f "D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\Debug\BrowseInfo\led.xcl"
+
+build D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\Debug\BrowseInfo\main.pbi : INDEXER D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\Debug\BrowseInfo\main.xcl |  $
+D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\main.c
+  flags = "-out=D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\Debug\BrowseInfo\main.pbi" -f "D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\Debug\BrowseInfo\main.xcl"
+
+build D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\Debug\BrowseInfo\my_library.pbi : INDEXER D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\Debug\BrowseInfo\my_library.xcl |  $
+D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\my_library.c
+  flags = "-out=D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\Debug\BrowseInfo\my_library.pbi" -f "D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\Debug\BrowseInfo\my_library.xcl"
+
+build D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\Debug\BrowseInfo\photosensor.pbi : INDEXER D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\Debug\BrowseInfo\photosensor.xcl |  $
+D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\photosensor.c
+  flags = "-out=D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\Debug\BrowseInfo\photosensor.pbi" -f "D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\Debug\BrowseInfo\photosensor.xcl"
+
+build D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\Debug\BrowseInfo\servo.pbi : INDEXER D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\Debug\BrowseInfo\servo.xcl |  $
+D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\servo.c
+  flags = "-out=D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\Debug\BrowseInfo\servo.pbi" -f "D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\Debug\BrowseInfo\servo.xcl"
+
+build D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\Debug\BrowseInfo\startup_sam3x.pbi : INDEXER D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\Debug\BrowseInfo\startup_sam3x.xcl |  $
+D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\startup_sam3x.c
+  flags = "-out=D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\Debug\BrowseInfo\startup_sam3x.pbi" -f "D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\Debug\BrowseInfo\startup_sam3x.xcl"
+
+build D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\Debug\BrowseInfo\system_sam3x.pbi : INDEXER D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\Debug\BrowseInfo\system_sam3x.xcl |  $
+D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\system_sam3x.c
+  flags = "-out=D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\Debug\BrowseInfo\system_sam3x.pbi" -f "D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\Debug\BrowseInfo\system_sam3x.xcl"
+
+build D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\Debug\BrowseInfo\systick_setup.pbi : INDEXER D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\Debug\BrowseInfo\systick_setup.xcl |  $
+D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\systick_setup.c
+  flags = "-out=D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\Debug\BrowseInfo\systick_setup.pbi" -f "D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\Debug\BrowseInfo\systick_setup.xcl"
+
+build D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\Debug\BrowseInfo\temperature.pbi : INDEXER D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\Debug\BrowseInfo\temperature.xcl |  $
+D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\temperature.c
+  flags = "-out=D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\Debug\BrowseInfo\temperature.pbi" -f "D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\Debug\BrowseInfo\temperature.xcl"
+
+build D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\Debug\BrowseInfo\time.pbi : INDEXER D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\Debug\BrowseInfo\time.xcl |  $
+D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\time.c
+  flags = "-out=D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\Debug\BrowseInfo\time.pbi" -f "D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\Debug\BrowseInfo\time.xcl"
+
+build D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\Debug\BrowseInfo\HW$ 2.pbw : MAKEBROWSE D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\Debug\BrowseInfo\HW$ 2.pbd
+  flags = "D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\Debug\BrowseInfo\HW$ 2.pbd" -output "D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\Debug\BrowseInfo\HW$ 2.pbw"
+
+build D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\Debug\BrowseInfo\HW$ 2_part0.pbi : PDBLINK D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\Debug\BrowseInfo\button.pbi |  $
+D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\Debug\BrowseInfo\delay.pbi $
+D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\Debug\BrowseInfo\display.pbi $
+D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\Debug\BrowseInfo\exceptions.pbi
+  flags = -M "D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\Debug\BrowseInfo\HW$ 2_part0.pbi" "D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\Debug\BrowseInfo\button.pbi" "D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\Debug\BrowseInfo\delay.pbi" "D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\Debug\BrowseInfo\display.pbi" "D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\Debug\BrowseInfo\exceptions.pbi"
+
+build D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\Debug\BrowseInfo\HW$ 2_part1.pbi : PDBLINK D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\Debug\BrowseInfo\initpins.pbi |  $
+D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\Debug\BrowseInfo\keypad.pbi $
+D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\Debug\BrowseInfo\led.pbi $
+D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\Debug\BrowseInfo\main.pbi
+  flags = -M "D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\Debug\BrowseInfo\HW$ 2_part1.pbi" "D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\Debug\BrowseInfo\initpins.pbi" "D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\Debug\BrowseInfo\keypad.pbi" "D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\Debug\BrowseInfo\led.pbi" "D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\Debug\BrowseInfo\main.pbi"
+
+build D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\Debug\BrowseInfo\HW$ 2_part2.pbi : PDBLINK D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\Debug\BrowseInfo\my_library.pbi |  $
+D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\Debug\BrowseInfo\photosensor.pbi $
+D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\Debug\BrowseInfo\servo.pbi $
+D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\Debug\BrowseInfo\startup_sam3x.pbi
+  flags = -M "D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\Debug\BrowseInfo\HW$ 2_part2.pbi" "D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\Debug\BrowseInfo\my_library.pbi" "D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\Debug\BrowseInfo\photosensor.pbi" "D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\Debug\BrowseInfo\servo.pbi" "D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\Debug\BrowseInfo\startup_sam3x.pbi"
+
+build D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\Debug\BrowseInfo\HW$ 2_part3.pbi : PDBLINK D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\Debug\BrowseInfo\system_sam3x.pbi |  $
+D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\Debug\BrowseInfo\systick_setup.pbi $
+D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\Debug\BrowseInfo\temperature.pbi $
+D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\Debug\BrowseInfo\time.pbi
+  flags = -M "D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\Debug\BrowseInfo\HW$ 2_part3.pbi" "D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\Debug\BrowseInfo\system_sam3x.pbi" "D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\Debug\BrowseInfo\systick_setup.pbi" "D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\Debug\BrowseInfo\temperature.pbi" "D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\Debug\BrowseInfo\time.pbi"
+
+build D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\Debug\BrowseInfo\HW$ 2.pbd : PDBLINK D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\Debug\BrowseInfo\HW$ 2_part0.pbi |  $
+D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\Debug\BrowseInfo\HW$ 2_part1.pbi $
+D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\Debug\BrowseInfo\HW$ 2_part2.pbi $
+D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\Debug\BrowseInfo\HW$ 2_part3.pbi
+  flags = -M "D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\Debug\BrowseInfo\HW$ 2.pbd" "D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\Debug\BrowseInfo\HW$ 2_part0.pbi" "D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\Debug\BrowseInfo\HW$ 2_part1.pbi" "D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\Debug\BrowseInfo\HW$ 2_part2.pbi" "D$:\Embedded$ Systems$ Labs\Embedded-Systems-Course\HW$ 2\Debug\BrowseInfo\HW$ 2_part3.pbi"
 
