@@ -3,7 +3,7 @@
 
 extern uint64_t time;
 extern char char_seconds[2];
-extern short fastMode;
+extern int fastMode;
 extern struct date time_elapsed;
 extern short RESET_TIME_DISPLAY;
 
@@ -23,6 +23,8 @@ char *int_to_char(int num);
 struct date get_date(char input[]);
 struct date get_time(char input[]);
 int string_to_int(char num[]);
+char validDate(void);
+char validTime(void);
 
 
 #endif

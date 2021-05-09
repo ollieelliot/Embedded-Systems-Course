@@ -3,6 +3,9 @@
 char return_menu(char key);
 short in_menu = 2;
 char key = 0;
+char VALID_TIME = 1;
+char VALID_DATE = 1;
+
 
 void main(void){
   
@@ -22,8 +25,6 @@ void main(void){
   init_Servo();
   print_Menu(-2);
   
-  
-  fastMode = 0;
 
   
   char date[8];
@@ -41,11 +42,7 @@ void main(void){
   time_elapsed.month = 12;
   time_elapsed.year = 2021;
   
-  /*
-  printf("Day: %d \n", time_elapsed.day);
-  printf("Month: %d \n", time_elapsed.month);
-  printf("Year: %d \n", time_elapsed.year);
-  */
+  
   
  while(1){
    
@@ -73,7 +70,7 @@ void main(void){
    }
    
    /*  Toggle fastMode */
-     
+
    if(key == '5' && in_menu != 1){
      if(fastMode == 0)
        fastMode = 1;
@@ -96,18 +93,18 @@ void main(void){
      
      while(key != '*'){
        key = read_Keypad();
-         
-       
        
        /* Overwrite previous date */
        
-       if(key == '4' && in_menu != 0){
+       if((key == '4' && in_menu != 0) || !VALID_DATE){
          in_menu = 0;
          
          clear_Display();
          writeDisplayPos("DATE SETUP",96,0);
-         strcpy(date, ""); //Reset char array
          writeDisplayPos("Enter new date: ", 208,0);
+         writeDisplayPos("Press '*' to cancel ", 112,1);
+         
+         strcpy(date, ""); //Reset char array
          int i = 0;
          writeDisplayPos("DDMMYYYY", 224, 0);
          while(i < 8){
@@ -125,9 +122,13 @@ void main(void){
               i++;
             }
          }
+           
          get_date(date);
          
+         VALID_DATE = validDate();
          
+         if(VALID_DATE){
+           
          /* Restore after use */
          clear_Display();
          writeDisplayPos("DATE SETUP",96,0);
@@ -135,19 +136,21 @@ void main(void){
          writeDisplayPos("Press '*' to return", 112,1);
          writeDisplayPos("4. Change date ", 208,0);
          writeDisplayPos("5. Change time ", 248,0);
-         
-         /*
-         printf("Day: %d \n", get_date(date).day);
-         printf("Month: %d \n", get_date(date).month);
-         printf("Year: %d \n", get_date(date).year);
-         */
+       
          in_menu = 1;
+         }
+         
+         else{
+           clear_Display();
+           writeDisplayPos("Invalid date!", 214,0);
+           delay(10000000);
+         }
+           
        }
-      
        
        /* Overwrite previous time */
        
-       if(key == '5' && in_menu != 0){
+       if(key == '5' && in_menu != 0 || !VALID_TIME){
          strcpy(time_char, "");
          in_menu = 0;
          
@@ -166,8 +169,6 @@ void main(void){
             if(key != 0 && key != '*' && key != '#'){
               strncat(time_char, &key, 1);
               
-              /* Write code to get time here */
-              
               writeDisplayPos(time_char, 8, 1);
               writeDisplayPos(" ", 48+i,1);
               i++;
@@ -175,20 +176,30 @@ void main(void){
          }
          get_time(time_char);
          
+         VALID_TIME = validTime();
          
-          /* Restore after use */
-         clear_Display();
-         writeDisplayPos("DATE SETUP",96,0);
-         writeDisplayPos("--------------------", 130, 0);
-         writeDisplayPos("Press '*' to return", 112,1);
-         writeDisplayPos("4. Change date ", 208,0);
-         writeDisplayPos("5. Change time ", 248,0);
+         if(VALID_TIME){
+             
+           /* Restore after use */
+           clear_Display();
+           writeDisplayPos("DATE SETUP",96,0);
+           writeDisplayPos("--------------------", 130, 0);
+           writeDisplayPos("Press '*' to return", 112,1);
+           writeDisplayPos("4. Change date ", 208,0);
+           writeDisplayPos("5. Change time ", 248,0);
          
-         in_menu = 1;
+           in_menu = 1;
+         }
+         
+         else{
+           clear_Display();
+           writeDisplayPos("Invalid time!", 214,0);
+           delay(10000000);
+         }
        }
      }
      /* Return back to main-menu */
-   
+     
      return_menu(key);
    }
  }

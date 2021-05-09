@@ -4,7 +4,7 @@ uint64_t time = 0;
 
 char char_array[10000];
 char char_array2[10000];
-short fastMode = 0;
+int fastMode = 0;
 short RESET_TIME_DISPLAY = 0;
 
 /* Days per month */
@@ -13,8 +13,42 @@ int mday[12] = {31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};
 struct date currentDate;
 struct date time_elapsed;
 
+char validDate(void){
+  
+  if(currentDate.month > 12)
+    return 0;
+  
+  if(currentDate.day > mday[currentDate.month-1])
+    return 0;
+  
+  else{
+    time_elapsed.day = currentDate.day;
+    time_elapsed.month = currentDate.month;
+    time_elapsed.year = currentDate.year;
+  }
+  
+  return 1;
+}
 
+char validTime(void){
+  
+  if(currentDate.hour > 24)
+    return 0;
+  
+  if(currentDate.minute > 59)
+    return 0;
+  
+  if(currentDate.second > 59)
+    return 0;
+  
+  else{
+    time_elapsed.hour = currentDate.hour;
+    time_elapsed.minute = currentDate.minute;
+    time_elapsed.second = currentDate.second;
+  }
+  return 1;
 
+}
 
 
 struct date time_to_date(void){
@@ -49,7 +83,6 @@ struct date time_to_date(void){
   
   if(time_elapsed.minute > 59){
     time_elapsed.minute = 0;
-    //printf("New hour \n");
     time_elapsed.hour++;
   }
   
@@ -59,13 +92,6 @@ struct date time_to_date(void){
     time_elapsed.hour = 0;
     time_elapsed.day++;
   }
-  /*
-  printf("Day: %d \n", time_elapsed.day);
-  printf("Month: %d \n", time_elapsed.month);
-  printf("Year: %d \n", time_elapsed.year);
-  printf("Days of month: %d \n", mday[time_elapsed.month-1]);  
-  */
-  
     return time_elapsed;
 }
 
@@ -92,11 +118,11 @@ struct date get_date(char input[]){
 
     date = string_to_int(input);
 
-    time_elapsed.day = date/1000000;
-    time_elapsed.month = (date/10000)%100;
-    time_elapsed.year = date%10000;
+    currentDate.day = date/1000000;
+    currentDate.month = (date/10000)%100;
+    currentDate.year = date%10000;
     
-    return time_elapsed;
+    return currentDate;
     
 }
 
@@ -106,12 +132,11 @@ struct date get_time(char input[]){
 
     t = string_to_int(input);
 
-    time_elapsed.second = t%100;
-    time_elapsed.minute = (t/100)%100;
-    time_elapsed.hour = t/10000;
-    
-    
-    return time_elapsed;
+    currentDate.second = t%100;
+    currentDate.minute = (t/100)%100;
+    currentDate.hour = t/10000;
+
+    return currentDate;
     
 }
 

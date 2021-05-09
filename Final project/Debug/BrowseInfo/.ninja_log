@@ -1,95 +1,91 @@
 # ninja log v5
-271	1398	6413199340000000	D:/Embedded Systems Labs/Embedded-Systems-Course/HW 2/Debug/BrowseInfo/exceptions.xcl	7099b0227f46ea46
-23	1169	6413199340000000	D:/Embedded Systems Labs/Embedded-Systems-Course/HW 2/Debug/BrowseInfo/main.xcl	58cbef305556b3e8
-1401	1862	6413199346322402	D:/Embedded Systems Labs/Embedded-Systems-Course/HW 2/Debug/BrowseInfo/exceptions.pbi	48cff5c6c71ed22e
-278	1404	6413199340000000	D:/Embedded Systems Labs/Embedded-Systems-Course/HW 2/Debug/BrowseInfo/system_sam3x.xcl	700640bd90691110
-7	130	6420285220540324	D:/Embedded Systems Labs/Embedded-Systems-Course/HW 2/Debug/BrowseInfo/HW 2_part0.pbi	423abe082b290805
-274	1410	6413199340000000	D:/Embedded Systems Labs/Embedded-Systems-Course/HW 2/Debug/BrowseInfo/startup_sam3x.xcl	af714dc8a051ed88
-1	204	6420284439034941	D:/Embedded Systems Labs/Embedded-Systems-Course/HW 2/Debug/BrowseInfo/startup_sam3x.pbi	b305e960b4cf5a4e
-1	177	6413286907678574	D:/Embedded Systems Labs/Embedded-Systems-Course/HW 2/Debug/BrowseInfo/system_sam3x.pbi	d3ff457cd011cbe3
-2	213	6420289881790514	D:/Embedded Systems Labs/Embedded-Systems-Course/HW 2/Debug/BrowseInfo/main.pbi	7a8383d1d5872887
-1086	1205	6420292205849728	D:/Embedded Systems Labs/Embedded-Systems-Course/HW 2/Debug/BrowseInfo/HW 2.pbd	a0ddf581ec23f629
-1208	2128	6420292214825738	D:/Embedded Systems Labs/Embedded-Systems-Course/HW 2/Debug/BrowseInfo/HW 2.pbw	35cb70f639988aca
-325	1794	6417416950000000	D:/Embedded Systems Labs/Embedded-Systems-Course/HW 2/Debug/BrowseInfo/button.xcl	2ae0d3a59c079de8
-341	1395	6417416950000000	D:/Embedded Systems Labs/Embedded-Systems-Course/HW 2/Debug/BrowseInfo/display.xcl	97411c44c1485145
-28	1415	6417416950000000	D:/Embedded Systems Labs/Embedded-Systems-Course/HW 2/Debug/BrowseInfo/led.xcl	1fba27c40c83974b
-329	1505	6417416950000000	D:/Embedded Systems Labs/Embedded-Systems-Course/HW 2/Debug/BrowseInfo/delay.xcl	ca6d2c0bd0c123c9
-8	394	6420285167037655	D:/Embedded Systems Labs/Embedded-Systems-Course/HW 2/Debug/BrowseInfo/led.pbi	4c622a2a76634d7a
-337	1520	6417416950000000	D:/Embedded Systems Labs/Embedded-Systems-Course/HW 2/Debug/BrowseInfo/initpins.xcl	131048ce915c95e6
-1397	1768	6417416950000000	D:/Embedded Systems Labs/Embedded-Systems-Course/HW 2/Debug/BrowseInfo/servo.xcl	a07405d396c9cec9
-333	1775	6417416950000000	D:/Embedded Systems Labs/Embedded-Systems-Course/HW 2/Debug/BrowseInfo/keypad.xcl	8211bacf3400b73
-1509	1781	6417416950000000	D:/Embedded Systems Labs/Embedded-Systems-Course/HW 2/Debug/BrowseInfo/my_library.xcl	e0109573d7f87e24
-1418	1788	6417416950000000	D:/Embedded Systems Labs/Embedded-Systems-Course/HW 2/Debug/BrowseInfo/photosensor.xcl	6c8ab1fb0b75e870
-1777	1906	6417416960000000	D:/Embedded Systems Labs/Embedded-Systems-Course/HW 2/Debug/BrowseInfo/temperature.xcl	b90db98f94fc171e
-1771	1927	6417416960000000	D:/Embedded Systems Labs/Embedded-Systems-Course/HW 2/Debug/BrowseInfo/systick_setup.xcl	d12c1949a95ea152
-5	386	6420285167007736	D:/Embedded Systems Labs/Embedded-Systems-Course/HW 2/Debug/BrowseInfo/delay.pbi	77a6f7689523f2
-9	382	6420285166997765	D:/Embedded Systems Labs/Embedded-Systems-Course/HW 2/Debug/BrowseInfo/my_library.pbi	8745c1ccacdbc44a
-4	402	6420285167187257	D:/Embedded Systems Labs/Embedded-Systems-Course/HW 2/Debug/BrowseInfo/keypad.pbi	e0fae0697d503e3d
-2	370	6420285166888054	D:/Embedded Systems Labs/Embedded-Systems-Course/HW 2/Debug/BrowseInfo/button.pbi	b128a69c5f36dc6b
-5	10256	6420285321151449	D:/Embedded Systems Labs/Embedded-Systems-Course/HW 2/Debug/BrowseInfo/temperature.pbi	84bac80f5823fb79
-1909	2713	6417416969310041	D:/Embedded Systems Labs/Embedded-Systems-Course/HW 2/Debug/BrowseInfo/initpins.pbi	914e7a72568ec21b
-1	195	6417544601682727	D:/Embedded Systems Labs/Embedded-Systems-Course/HW 2/Debug/BrowseInfo/servo.pbi	31293403d801a0
-6	390	6420285167027682	D:/Embedded Systems Labs/Embedded-Systems-Course/HW 2/Debug/BrowseInfo/display.pbi	ff94149cd78793ea
-1	10180	6420285320194004	D:/Embedded Systems Labs/Embedded-Systems-Course/HW 2/Debug/BrowseInfo/photosensor.pbi	4da8e272dfec33aa
-8	10100	6420285308644914	D:/Embedded Systems Labs/Embedded-Systems-Course/HW 2/Debug/BrowseInfo/systick_setup.pbi	604f9946e8795d5b
-1	212	6420292195268007	D:/Embedded Systems Labs/Embedded-Systems-Course/HW 2/Debug/BrowseInfo/time.pbi	df8568463413bf26
-215	347	6420289883795166	D:/Embedded Systems Labs/Embedded-Systems-Course/HW 2/Debug/BrowseInfo/HW 2_part1.pbi	7e8361a7d76ea885
-214	1083	6420292204632979	D:/Embedded Systems Labs/Embedded-Systems-Course/HW 2/Debug/BrowseInfo/HW 2_part3.pbi	86ea3465210acade
-10239	16901	6420285388252173	D:/Embedded Systems Labs/Embedded-Systems-Course/HW 2/Debug/BrowseInfo/HW 2_part2.pbi	c91ca36a49689efb
-1	85	6417455390000000	D:/Embedded Systems Labs/Embedded-Systems-Course/HW 2/Debug/BrowseInfo/time.xcl	4bb97c5f9f19ad86
-1	211	6420292266796852	D:/Embedded Systems Labs/Embedded-Systems-Course/HW 2/Debug/BrowseInfo/time.pbi	df8568463413bf26
-214	343	6420292268771574	D:/Embedded Systems Labs/Embedded-Systems-Course/HW 2/Debug/BrowseInfo/HW 2_part3.pbi	86ea3465210acade
-346	469	6420292270028218	D:/Embedded Systems Labs/Embedded-Systems-Course/HW 2/Debug/BrowseInfo/HW 2.pbd	a0ddf581ec23f629
-472	1376	6420292278834682	D:/Embedded Systems Labs/Embedded-Systems-Course/HW 2/Debug/BrowseInfo/HW 2.pbw	35cb70f639988aca
-1	212	6420292381011630	D:/Embedded Systems Labs/Embedded-Systems-Course/HW 2/Debug/BrowseInfo/time.pbi	df8568463413bf26
-215	345	6420292382996327	D:/Embedded Systems Labs/Embedded-Systems-Course/HW 2/Debug/BrowseInfo/HW 2_part3.pbi	86ea3465210acade
-348	470	6420292384242995	D:/Embedded Systems Labs/Embedded-Systems-Course/HW 2/Debug/BrowseInfo/HW 2.pbd	a0ddf581ec23f629
-473	1568	6420292394904500	D:/Embedded Systems Labs/Embedded-Systems-Course/HW 2/Debug/BrowseInfo/HW 2.pbw	35cb70f639988aca
-2	211	6420292697994531	D:/Embedded Systems Labs/Embedded-Systems-Course/HW 2/Debug/BrowseInfo/time.pbi	df8568463413bf26
-213	346	6420292699999173	D:/Embedded Systems Labs/Embedded-Systems-Course/HW 2/Debug/BrowseInfo/HW 2_part3.pbi	86ea3465210acade
-350	472	6420292701245841	D:/Embedded Systems Labs/Embedded-Systems-Course/HW 2/Debug/BrowseInfo/HW 2.pbd	a0ddf581ec23f629
-475	1333	6420292709593532	D:/Embedded Systems Labs/Embedded-Systems-Course/HW 2/Debug/BrowseInfo/HW 2.pbw	35cb70f639988aca
-1	206	6420292813954643	D:/Embedded Systems Labs/Embedded-Systems-Course/HW 2/Debug/BrowseInfo/time.pbi	df8568463413bf26
-209	341	6420292815959285	D:/Embedded Systems Labs/Embedded-Systems-Course/HW 2/Debug/BrowseInfo/HW 2_part3.pbi	86ea3465210acade
-344	462	6420292817166059	D:/Embedded Systems Labs/Embedded-Systems-Course/HW 2/Debug/BrowseInfo/HW 2.pbd	a0ddf581ec23f629
-465	1541	6420292827697917	D:/Embedded Systems Labs/Embedded-Systems-Course/HW 2/Debug/BrowseInfo/HW 2.pbw	35cb70f639988aca
-1	208	6420292879629137	D:/Embedded Systems Labs/Embedded-Systems-Course/HW 2/Debug/BrowseInfo/time.pbi	df8568463413bf26
-210	343	6420292881633781	D:/Embedded Systems Labs/Embedded-Systems-Course/HW 2/Debug/BrowseInfo/HW 2_part3.pbi	86ea3465210acade
-346	464	6420292882840554	D:/Embedded Systems Labs/Embedded-Systems-Course/HW 2/Debug/BrowseInfo/HW 2.pbd	a0ddf581ec23f629
-467	1332	6420292891208193	D:/Embedded Systems Labs/Embedded-Systems-Course/HW 2/Debug/BrowseInfo/HW 2.pbw	35cb70f639988aca
-1	209	6420292993405082	D:/Embedded Systems Labs/Embedded-Systems-Course/HW 2/Debug/BrowseInfo/time.pbi	df8568463413bf26
-212	345	6420292995419701	D:/Embedded Systems Labs/Embedded-Systems-Course/HW 2/Debug/BrowseInfo/HW 2_part3.pbi	86ea3465210acade
-348	467	6420292996646420	D:/Embedded Systems Labs/Embedded-Systems-Course/HW 2/Debug/BrowseInfo/HW 2.pbd	a0ddf581ec23f629
-470	1565	6420293007377741	D:/Embedded Systems Labs/Embedded-Systems-Course/HW 2/Debug/BrowseInfo/HW 2.pbw	35cb70f639988aca
-1	207	6420293059285549	D:/Embedded Systems Labs/Embedded-Systems-Course/HW 2/Debug/BrowseInfo/time.pbi	df8568463413bf26
-210	346	6420293061330089	D:/Embedded Systems Labs/Embedded-Systems-Course/HW 2/Debug/BrowseInfo/HW 2_part3.pbi	86ea3465210acade
-349	473	6420293062596697	D:/Embedded Systems Labs/Embedded-Systems-Course/HW 2/Debug/BrowseInfo/HW 2.pbd	a0ddf581ec23f629
-2	1254	6420293128271281	D:/Embedded Systems Labs/Embedded-Systems-Course/HW 2/Debug/BrowseInfo/HW 2.pbw	35cb70f639988aca
-2	211	6420293381015857	D:/Embedded Systems Labs/Embedded-Systems-Course/HW 2/Debug/BrowseInfo/main.pbi	7a8383d1d5872887
-213	343	6420293383000553	D:/Embedded Systems Labs/Embedded-Systems-Course/HW 2/Debug/BrowseInfo/HW 2_part1.pbi	7e8361a7d76ea885
-346	465	6420293384217307	D:/Embedded Systems Labs/Embedded-Systems-Course/HW 2/Debug/BrowseInfo/HW 2.pbd	a0ddf581ec23f629
-469	1319	6420293392505153	D:/Embedded Systems Labs/Embedded-Systems-Course/HW 2/Debug/BrowseInfo/HW 2.pbw	35cb70f639988aca
-2	211	6420293544873383	D:/Embedded Systems Labs/Embedded-Systems-Course/HW 2/Debug/BrowseInfo/main.pbi	7a8383d1d5872887
-214	347	6420293546878030	D:/Embedded Systems Labs/Embedded-Systems-Course/HW 2/Debug/BrowseInfo/HW 2_part1.pbi	7e8361a7d76ea885
-350	468	6420293548094771	D:/Embedded Systems Labs/Embedded-Systems-Course/HW 2/Debug/BrowseInfo/HW 2.pbd	a0ddf581ec23f629
-471	1318	6420293556332754	D:/Embedded Systems Labs/Embedded-Systems-Course/HW 2/Debug/BrowseInfo/HW 2.pbw	35cb70f639988aca
-1	210	6420293758891446	D:/Embedded Systems Labs/Embedded-Systems-Course/HW 2/Debug/BrowseInfo/time.pbi	df8568463413bf26
-212	345	6420293760896089	D:/Embedded Systems Labs/Embedded-Systems-Course/HW 2/Debug/BrowseInfo/HW 2_part3.pbi	86ea3465210acade
-348	467	6420293762122807	D:/Embedded Systems Labs/Embedded-Systems-Course/HW 2/Debug/BrowseInfo/HW 2.pbd	a0ddf581ec23f629
-469	1491	6420293772096154	D:/Embedded Systems Labs/Embedded-Systems-Course/HW 2/Debug/BrowseInfo/HW 2.pbw	35cb70f639988aca
-2	209	6420293974653558	D:/Embedded Systems Labs/Embedded-Systems-Course/HW 2/Debug/BrowseInfo/time.pbi	df8568463413bf26
-212	453	6420293977755276	D:/Embedded Systems Labs/Embedded-Systems-Course/HW 2/Debug/BrowseInfo/HW 2_part3.pbi	86ea3465210acade
-456	576	6420293978981994	D:/Embedded Systems Labs/Embedded-Systems-Course/HW 2/Debug/BrowseInfo/HW 2.pbd	a0ddf581ec23f629
-579	1712	6420293990072349	D:/Embedded Systems Labs/Embedded-Systems-Course/HW 2/Debug/BrowseInfo/HW 2.pbw	35cb70f639988aca
-2	400	6420294094145904	D:/Embedded Systems Labs/Embedded-Systems-Course/HW 2/Debug/BrowseInfo/time.pbi	df8568463413bf26
-403	557	6420294096375024	D:/Embedded Systems Labs/Embedded-Systems-Course/HW 2/Debug/BrowseInfo/HW 2_part3.pbi	86ea3465210acade
-560	683	6420294097631665	D:/Embedded Systems Labs/Embedded-Systems-Course/HW 2/Debug/BrowseInfo/HW 2.pbd	a0ddf581ec23f629
-1	845	6420294157479614	D:/Embedded Systems Labs/Embedded-Systems-Course/HW 2/Debug/BrowseInfo/HW 2.pbw	35cb70f639988aca
-1	209	6420294360038306	D:/Embedded Systems Labs/Embedded-Systems-Course/HW 2/Debug/BrowseInfo/display.pbi	ff94149cd78793ea
-211	324	6420294361843480	D:/Embedded Systems Labs/Embedded-Systems-Course/HW 2/Debug/BrowseInfo/HW 2_part0.pbi	423abe082b290805
-327	459	6420294363189886	D:/Embedded Systems Labs/Embedded-Systems-Course/HW 2/Debug/BrowseInfo/HW 2.pbd	a0ddf581ec23f629
-462	1325	6420294371587444	D:/Embedded Systems Labs/Embedded-Systems-Course/HW 2/Debug/BrowseInfo/HW 2.pbw	35cb70f639988aca
-1	225	6420295026327730	D:/Embedded Systems Labs/Embedded-Systems-Course/HW 2/Debug/BrowseInfo/display.pbi	ff94149cd78793ea
-227	343	6420295028172809	D:/Embedded Systems Labs/Embedded-Systems-Course/HW 2/Debug/BrowseInfo/HW 2_part0.pbi	423abe082b290805
-346	471	6420295029459370	D:/Embedded Systems Labs/Embedded-Systems-Course/HW 2/Debug/BrowseInfo/HW 2.pbd	a0ddf581ec23f629
-474	1359	6420295037976596	D:/Embedded Systems Labs/Embedded-Systems-Course/HW 2/Debug/BrowseInfo/HW 2.pbw	35cb70f639988aca
+140	257	6422684766608254	C:/Users/Ollie/Documents/GitHub/Embedded-Systems-Course/Final project/Debug/BrowseInfo/HW 2_part1.pbi	946cd14c0bc9fd0c
+31	363	6422002500000000	C:/Users/Ollie/Documents/GitHub/Embedded-Systems-Course/Final project/Debug/BrowseInfo/delay.xcl	c0ed449afd14366d
+552	761	6422002510000000	C:/Users/Ollie/Documents/GitHub/Embedded-Systems-Course/Final project/Debug/BrowseInfo/systick_setup.xcl	918229b6a0e6289a
+419	582	6422002510000000	C:/Users/Ollie/Documents/GitHub/Embedded-Systems-Course/Final project/Debug/BrowseInfo/exceptions.xcl	9d1f97867233b97b
+4	168	6422650379016691	C:/Users/Ollie/Documents/GitHub/Embedded-Systems-Course/Final project/Debug/BrowseInfo/button.pbi	52d98a993d89dbd
+527	702	6422002510000000	C:/Users/Ollie/Documents/GitHub/Embedded-Systems-Course/Final project/Debug/BrowseInfo/led.xcl	3ceeb04e0e125016
+140	276	6422678868854298	C:/Users/Ollie/Documents/GitHub/Embedded-Systems-Course/Final project/Debug/BrowseInfo/HW 2_part2.pbi	8225b360019cb1b7
+747	954	6422002510000000	C:/Users/Ollie/Documents/GitHub/Embedded-Systems-Course/Final project/Debug/BrowseInfo/photosensor.xcl	53f69ee9bae44d70
+538	712	6422002510000000	C:/Users/Ollie/Documents/GitHub/Embedded-Systems-Course/Final project/Debug/BrowseInfo/servo.xcl	5a1f6bc3be2c5fb4
+850	1013	6422002515215363	C:/Users/Ollie/Documents/GitHub/Embedded-Systems-Course/Final project/Debug/BrowseInfo/exceptions.pbi	e9458612a2e053dc
+1	134	6422676032770229	C:/Users/Ollie/Documents/GitHub/Embedded-Systems-Course/Final project/Debug/BrowseInfo/time.pbi	72f74719b1762530
+2	182	6422650379156703	C:/Users/Ollie/Documents/GitHub/Embedded-Systems-Course/Final project/Debug/BrowseInfo/delay.pbi	ca192616b6165b06
+1447	1600	6422002521084660	C:/Users/Ollie/Documents/GitHub/Embedded-Systems-Course/Final project/Debug/BrowseInfo/startup_sam3x.pbi	6523ca1eb56259a
+187	355	6422650380886686	C:/Users/Ollie/Documents/GitHub/Embedded-Systems-Course/Final project/Debug/BrowseInfo/led.pbi	69f9c76959747e3
+174	347	6422650380806719	C:/Users/Ollie/Documents/GitHub/Embedded-Systems-Course/Final project/Debug/BrowseInfo/photosensor.pbi	acc7a78eabc0be81
+710	843	6422002510000000	C:/Users/Ollie/Documents/GitHub/Embedded-Systems-Course/Final project/Debug/BrowseInfo/temperature.xcl	46e2a2b3aaebbd
+589	739	6422002510000000	C:/Users/Ollie/Documents/GitHub/Embedded-Systems-Course/Final project/Debug/BrowseInfo/startup_sam3x.xcl	27bc8b1a8cf13321
+380	530	6422002510000000	C:/Users/Ollie/Documents/GitHub/Embedded-Systems-Course/Final project/Debug/BrowseInfo/my_library.xcl	d857eb04f24273e6
+36	373	6422002500000000	C:/Users/Ollie/Documents/GitHub/Embedded-Systems-Course/Final project/Debug/BrowseInfo/main.xcl	ef727600586c217a
+1	383	6422002500000000	C:/Users/Ollie/Documents/GitHub/Embedded-Systems-Course/Final project/Debug/BrowseInfo/button.xcl	c43119f8348385fb
+34	410	6422002500000000	C:/Users/Ollie/Documents/GitHub/Embedded-Systems-Course/Final project/Debug/BrowseInfo/display.xcl	a05f288c6d8a6906
+382	1150	6422684775183825	C:/Users/Ollie/Documents/GitHub/Embedded-Systems-Course/Final project/Debug/BrowseInfo/HW 2.pbw	6a1af54ab65328ba
+371	520	6422002510000000	C:/Users/Ollie/Documents/GitHub/Embedded-Systems-Course/Final project/Debug/BrowseInfo/keypad.xcl	d074444d23543326
+390	544	6422002510000000	C:/Users/Ollie/Documents/GitHub/Embedded-Systems-Course/Final project/Debug/BrowseInfo/initpins.xcl	49a720911d7cce79
+725	914	6422002510000000	C:/Users/Ollie/Documents/GitHub/Embedded-Systems-Course/Final project/Debug/BrowseInfo/system_sam3x.xcl	a9fec9292e2bd7e2
+959	1075	6422002510000000	C:/Users/Ollie/Documents/GitHub/Embedded-Systems-Course/Final project/Debug/BrowseInfo/time.xcl	7aee8789212ea8ae
+139	254	6422676033980229	C:/Users/Ollie/Documents/GitHub/Embedded-Systems-Course/Final project/Debug/BrowseInfo/HW 2_part3.pbi	eafc5210d03ade2e
+1	142	6422678867444040	C:/Users/Ollie/Documents/GitHub/Embedded-Systems-Course/Final project/Debug/BrowseInfo/initpins.pbi	b94d390a92e8c8bd
+6	196	6422650379226706	C:/Users/Ollie/Documents/GitHub/Embedded-Systems-Course/Final project/Debug/BrowseInfo/display.pbi	1b3c23cbebff101e
+2	135	6422684765378246	C:/Users/Ollie/Documents/GitHub/Embedded-Systems-Course/Final project/Debug/BrowseInfo/main.pbi	a92e44c114d62d99
+7	189	6422650379186713	C:/Users/Ollie/Documents/GitHub/Embedded-Systems-Course/Final project/Debug/BrowseInfo/my_library.pbi	3b91ac18ac6098a1
+3	136	6422678867434279	C:/Users/Ollie/Documents/GitHub/Embedded-Systems-Course/Final project/Debug/BrowseInfo/servo.pbi	4a97d9045a1a7e0c
+1568	1736	6422002522445656	C:/Users/Ollie/Documents/GitHub/Embedded-Systems-Course/Final project/Debug/BrowseInfo/system_sam3x.pbi	1d263a2ff99235dc
+360	550	6422650382806705	C:/Users/Ollie/Documents/GitHub/Embedded-Systems-Course/Final project/Debug/BrowseInfo/temperature.pbi	7d525e778cd03f4b
+201	494	6422650382266679	C:/Users/Ollie/Documents/GitHub/Embedded-Systems-Course/Final project/Debug/BrowseInfo/keypad.pbi	92c366da13bb3fa
+266	373	6422684767768256	C:/Users/Ollie/Documents/GitHub/Embedded-Systems-Course/Final project/Debug/BrowseInfo/HW 2.pbd	939bf20f2ced7afb
+394	577	6422650383105757	C:/Users/Ollie/Documents/GitHub/Embedded-Systems-Course/Final project/Debug/BrowseInfo/systick_setup.pbi	5962154eb975bcbf
+555	669	6422650384035755	C:/Users/Ollie/Documents/GitHub/Embedded-Systems-Course/Final project/Debug/BrowseInfo/HW 2_part0.pbi	2f9dc6138c740625
+1	149	6422685128992047	C:/Users/Ollie/Documents/GitHub/Embedded-Systems-Course/Final project/Debug/BrowseInfo/main.pbi	a92e44c114d62d99
+154	273	6422685130240775	C:/Users/Ollie/Documents/GitHub/Embedded-Systems-Course/Final project/Debug/BrowseInfo/HW 2_part1.pbi	946cd14c0bc9fd0c
+282	384	6422685131348248	C:/Users/Ollie/Documents/GitHub/Embedded-Systems-Course/Final project/Debug/BrowseInfo/HW 2.pbd	939bf20f2ced7afb
+392	1191	6422685139118100	C:/Users/Ollie/Documents/GitHub/Embedded-Systems-Course/Final project/Debug/BrowseInfo/HW 2.pbw	6a1af54ab65328ba
+2	138	6422685191124850	C:/Users/Ollie/Documents/GitHub/Embedded-Systems-Course/Final project/Debug/BrowseInfo/main.pbi	a92e44c114d62d99
+143	261	6422685192364608	C:/Users/Ollie/Documents/GitHub/Embedded-Systems-Course/Final project/Debug/BrowseInfo/HW 2_part1.pbi	946cd14c0bc9fd0c
+269	374	6422685193484871	C:/Users/Ollie/Documents/GitHub/Embedded-Systems-Course/Final project/Debug/BrowseInfo/HW 2.pbd	939bf20f2ced7afb
+383	1163	6422685201087909	C:/Users/Ollie/Documents/GitHub/Embedded-Systems-Course/Final project/Debug/BrowseInfo/HW 2.pbw	6a1af54ab65328ba
+2	145	6422685253160096	C:/Users/Ollie/Documents/GitHub/Embedded-Systems-Course/Final project/Debug/BrowseInfo/main.pbi	a92e44c114d62d99
+150	268	6422685254400162	C:/Users/Ollie/Documents/GitHub/Embedded-Systems-Course/Final project/Debug/BrowseInfo/HW 2_part1.pbi	946cd14c0bc9fd0c
+276	382	6422685255539662	C:/Users/Ollie/Documents/GitHub/Embedded-Systems-Course/Final project/Debug/BrowseInfo/HW 2.pbd	939bf20f2ced7afb
+390	1160	6422685263033385	C:/Users/Ollie/Documents/GitHub/Embedded-Systems-Course/Final project/Debug/BrowseInfo/HW 2.pbw	6a1af54ab65328ba
+1	140	6422685315035852	C:/Users/Ollie/Documents/GitHub/Embedded-Systems-Course/Final project/Debug/BrowseInfo/main.pbi	a92e44c114d62d99
+145	260	6422685316256140	C:/Users/Ollie/Documents/GitHub/Embedded-Systems-Course/Final project/Debug/BrowseInfo/HW 2_part1.pbi	946cd14c0bc9fd0c
+269	375	6422685317405849	C:/Users/Ollie/Documents/GitHub/Embedded-Systems-Course/Final project/Debug/BrowseInfo/HW 2.pbd	939bf20f2ced7afb
+384	1158	6422685324842925	C:/Users/Ollie/Documents/GitHub/Embedded-Systems-Course/Final project/Debug/BrowseInfo/HW 2.pbw	6a1af54ab65328ba
+1	136	6422685376931731	C:/Users/Ollie/Documents/GitHub/Embedded-Systems-Course/Final project/Debug/BrowseInfo/main.pbi	a92e44c114d62d99
+142	272	6422685378301720	C:/Users/Ollie/Documents/GitHub/Embedded-Systems-Course/Final project/Debug/BrowseInfo/HW 2_part1.pbi	946cd14c0bc9fd0c
+280	386	6422685379441702	C:/Users/Ollie/Documents/GitHub/Embedded-Systems-Course/Final project/Debug/BrowseInfo/HW 2.pbd	939bf20f2ced7afb
+393	1222	6422685387515496	C:/Users/Ollie/Documents/GitHub/Embedded-Systems-Course/Final project/Debug/BrowseInfo/HW 2.pbw	6a1af54ab65328ba
+2	243	6422685440548192	C:/Users/Ollie/Documents/GitHub/Embedded-Systems-Course/Final project/Debug/BrowseInfo/main.pbi	a92e44c114d62d99
+249	364	6422685441768472	C:/Users/Ollie/Documents/GitHub/Embedded-Systems-Course/Final project/Debug/BrowseInfo/HW 2_part1.pbi	946cd14c0bc9fd0c
+373	481	6422685442928207	C:/Users/Ollie/Documents/GitHub/Embedded-Systems-Course/Final project/Debug/BrowseInfo/HW 2.pbd	939bf20f2ced7afb
+1	765	6422685506339793	C:/Users/Ollie/Documents/GitHub/Embedded-Systems-Course/Final project/Debug/BrowseInfo/HW 2.pbw	6a1af54ab65328ba
+1	143	6422685809713425	C:/Users/Ollie/Documents/GitHub/Embedded-Systems-Course/Final project/Debug/BrowseInfo/main.pbi	a92e44c114d62d99
+148	270	6422685810993432	C:/Users/Ollie/Documents/GitHub/Embedded-Systems-Course/Final project/Debug/BrowseInfo/HW 2_part1.pbi	946cd14c0bc9fd0c
+277	384	6422685812133424	C:/Users/Ollie/Documents/GitHub/Embedded-Systems-Course/Final project/Debug/BrowseInfo/HW 2.pbd	939bf20f2ced7afb
+393	1216	6422685820093439	C:/Users/Ollie/Documents/GitHub/Embedded-Systems-Course/Final project/Debug/BrowseInfo/HW 2.pbw	6a1af54ab65328ba
+2	138	6422685922466045	C:/Users/Ollie/Documents/GitHub/Embedded-Systems-Course/Final project/Debug/BrowseInfo/main.pbi	a92e44c114d62d99
+143	259	6422685923685760	C:/Users/Ollie/Documents/GitHub/Embedded-Systems-Course/Final project/Debug/BrowseInfo/HW 2_part1.pbi	946cd14c0bc9fd0c
+267	373	6422685924835757	C:/Users/Ollie/Documents/GitHub/Embedded-Systems-Course/Final project/Debug/BrowseInfo/HW 2.pbd	939bf20f2ced7afb
+381	1177	6422685932494067	C:/Users/Ollie/Documents/GitHub/Embedded-Systems-Course/Final project/Debug/BrowseInfo/HW 2.pbw	6a1af54ab65328ba
+1	134	6422685984548876	C:/Users/Ollie/Documents/GitHub/Embedded-Systems-Course/Final project/Debug/BrowseInfo/main.pbi	a92e44c114d62d99
+137	264	6422685985858892	C:/Users/Ollie/Documents/GitHub/Embedded-Systems-Course/Final project/Debug/BrowseInfo/HW 2_part1.pbi	946cd14c0bc9fd0c
+271	381	6422685987032240	C:/Users/Ollie/Documents/GitHub/Embedded-Systems-Course/Final project/Debug/BrowseInfo/HW 2.pbd	939bf20f2ced7afb
+390	1193	6422685994718271	C:/Users/Ollie/Documents/GitHub/Embedded-Systems-Course/Final project/Debug/BrowseInfo/HW 2.pbw	6a1af54ab65328ba
+2	239	6422687153542892	C:/Users/Ollie/Documents/GitHub/Embedded-Systems-Course/Final project/Debug/BrowseInfo/main.pbi	a92e44c114d62d99
+244	364	6422687154802912	C:/Users/Ollie/Documents/GitHub/Embedded-Systems-Course/Final project/Debug/BrowseInfo/HW 2_part1.pbi	946cd14c0bc9fd0c
+373	477	6422687155949482	C:/Users/Ollie/Documents/GitHub/Embedded-Systems-Course/Final project/Debug/BrowseInfo/HW 2.pbd	939bf20f2ced7afb
+488	1284	6422687163712332	C:/Users/Ollie/Documents/GitHub/Embedded-Systems-Course/Final project/Debug/BrowseInfo/HW 2.pbw	6a1af54ab65328ba
+2	135	6422687265961432	C:/Users/Ollie/Documents/GitHub/Embedded-Systems-Course/Final project/Debug/BrowseInfo/main.pbi	a92e44c114d62d99
+139	254	6422687267167221	C:/Users/Ollie/Documents/GitHub/Embedded-Systems-Course/Final project/Debug/BrowseInfo/HW 2_part1.pbi	946cd14c0bc9fd0c
+263	366	6422687268277214	C:/Users/Ollie/Documents/GitHub/Embedded-Systems-Course/Final project/Debug/BrowseInfo/HW 2.pbd	939bf20f2ced7afb
+372	1129	6422687275556463	C:/Users/Ollie/Documents/GitHub/Embedded-Systems-Course/Final project/Debug/BrowseInfo/HW 2.pbw	6a1af54ab65328ba
+1	133	6422687478340298	C:/Users/Ollie/Documents/GitHub/Embedded-Systems-Course/Final project/Debug/BrowseInfo/main.pbi	a92e44c114d62d99
+138	253	6422687479560324	C:/Users/Ollie/Documents/GitHub/Embedded-Systems-Course/Final project/Debug/BrowseInfo/HW 2_part1.pbi	946cd14c0bc9fd0c
+261	363	6422687480660436	C:/Users/Ollie/Documents/GitHub/Embedded-Systems-Course/Final project/Debug/BrowseInfo/HW 2.pbd	939bf20f2ced7afb
+371	1249	6422687489156559	C:/Users/Ollie/Documents/GitHub/Embedded-Systems-Course/Final project/Debug/BrowseInfo/HW 2.pbw	6a1af54ab65328ba
+1	137	6422687541207809	C:/Users/Ollie/Documents/GitHub/Embedded-Systems-Course/Final project/Debug/BrowseInfo/main.pbi	a92e44c114d62d99
+141	261	6422687542457668	C:/Users/Ollie/Documents/GitHub/Embedded-Systems-Course/Final project/Debug/BrowseInfo/HW 2_part1.pbi	946cd14c0bc9fd0c
+269	372	6422687543567653	C:/Users/Ollie/Documents/GitHub/Embedded-Systems-Course/Final project/Debug/BrowseInfo/HW 2.pbd	939bf20f2ced7afb
+381	1156	6422687551112422	C:/Users/Ollie/Documents/GitHub/Embedded-Systems-Course/Final project/Debug/BrowseInfo/HW 2.pbw	6a1af54ab65328ba

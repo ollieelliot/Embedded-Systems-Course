@@ -25,7 +25,7 @@ if not "%~1" == "" goto debugFile
 
 @echo on 
 
-"D:\Program Files\common\bin\cspybat" -f "D:\Embedded Systems Labs\Embedded-Systems-Course\HW 2\settings\HW 2.Debug.general.xcl" --backend -f "D:\Embedded Systems Labs\Embedded-Systems-Course\HW 2\settings\HW 2.Debug.driver.xcl" 
+"C:\Program Files\IAR Systems\Embedded Workbench 9.0\common\bin\cspybat" -f "C:\Users\Ollie\Documents\GitHub\Embedded-Systems-Course\Final project\settings\HW 2.Debug.general.xcl" --backend -f "C:\Users\Ollie\Documents\GitHub\Embedded-Systems-Course\Final project\settings\HW 2.Debug.driver.xcl" 
 
 @echo off 
 goto end 
@@ -34,7 +34,7 @@ goto end
 
 @echo on 
 
-"D:\Program Files\common\bin\cspybat" -f "D:\Embedded Systems Labs\Embedded-Systems-Course\HW 2\settings\HW 2.Debug.general.xcl" "--debug_file=%~1" --backend -f "D:\Embedded Systems Labs\Embedded-Systems-Course\HW 2\settings\HW 2.Debug.driver.xcl" 
+"C:\Program Files\IAR Systems\Embedded Workbench 9.0\common\bin\cspybat" -f "C:\Users\Ollie\Documents\GitHub\Embedded-Systems-Course\Final project\settings\HW 2.Debug.general.xcl" "--debug_file=%~1" --backend -f "C:\Users\Ollie\Documents\GitHub\Embedded-Systems-Course\Final project\settings\HW 2.Debug.driver.xcl" 
 
 @echo off 
 :end

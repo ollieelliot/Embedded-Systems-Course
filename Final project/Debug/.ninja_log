@@ -1,36 +1,49 @@
 # ninja log v5
-183	299	6420285157614618	D:/Embedded Systems Labs/Embedded-Systems-Course/HW 2/Debug/Obj/startup_sam3x.o	c79c17d1f30aa11b
-252	387	6420285158492274	D:/Embedded Systems Labs/Embedded-Systems-Course/HW 2/Debug/Obj/temperature.o	ac6cc52df89f261c
-1	139	6420285614158423	D:/Embedded Systems Labs/Embedded-Systems-Course/HW 2/Debug/Obj/main.o	dffc94162be16135
-320	445	6420285159060758	D:/Embedded Systems Labs/Embedded-Systems-Course/HW 2/Debug/Obj/time.o	39cc760dcf77d64a
-24	88	6413199552346672	D:/Embedded Systems Labs/Embedded-Systems-Course/HW 2/Debug/Obj/exceptions.o	d6e116b5641669b5
-3	171	6413398674445945	D:/Embedded Systems Labs/Embedded-Systems-Course/HW 2/Debug/Obj/system_sam3x.o	a432e272da241c72
-0	159	6420240613417927	D:/Embedded Systems Labs/Embedded-Systems-Course/HW 2/Debug/Obj/servo.o	7708cc17daeebab0
-4	243	6420285156996283	D:/Embedded Systems Labs/Embedded-Systems-Course/HW 2/Debug/Obj/delay.o	d74a1403192da49f
-9	333	6420285157933768	D:/Embedded Systems Labs/Embedded-Systems-Course/HW 2/Debug/Obj/led.o	97158340a1eb6b1d
-247	365	6420285158272859	D:/Embedded Systems Labs/Embedded-Systems-Course/HW 2/Debug/Obj/my_library.o	9c7258f573456921
-231	369	6420285158292805	D:/Embedded Systems Labs/Embedded-Systems-Course/HW 2/Debug/Obj/photosensor.o	b4045818ccab8426
-1	112	6414121326593950	D:/Embedded Systems Labs/Embedded-Systems-Course/HW 2/Debug/Obj/initpins.o	69a7cf5ee9dff00c
-3	248	6420285157026202	D:/Embedded Systems Labs/Embedded-Systems-Course/HW 2/Debug/Obj/display.o	ef8ee0db7d1eb8c3
-6	226	6420285156866616	D:/Embedded Systems Labs/Embedded-Systems-Course/HW 2/Debug/Obj/keypad.o	e2fb83b45f156b3
-1	615	6414159961383372	D:/Embedded Systems Labs/Embedded-Systems-Course/HW 2/Debug/Obj/cstartup.o	a83e953d0619add8
-303	430	6420285158921132	D:/Embedded Systems Labs/Embedded-Systems-Course/HW 2/Debug/Obj/systick_setup.o	e871a4337ba3cdee
-143	217	6420285614916396	D:/Embedded Systems Labs/Embedded-Systems-Course/HW 2/Debug/Exe/HW 2.out	9c451fb75f1ff421
-1	179	6420285156407857	D:/Embedded Systems Labs/Embedded-Systems-Course/HW 2/Debug/Obj/button.o	9584f8e4e17b97f
-1	139	6420285895443161	D:/Embedded Systems Labs/Embedded-Systems-Course/HW 2/Debug/Obj/main.o	dffc94162be16135
-143	216	6420285896191163	D:/Embedded Systems Labs/Embedded-Systems-Course/HW 2/Debug/Exe/HW 2.out	9c451fb75f1ff421
-1	139	6420286255453287	D:/Embedded Systems Labs/Embedded-Systems-Course/HW 2/Debug/Obj/main.o	dffc94162be16135
-143	217	6420286256211253	D:/Embedded Systems Labs/Embedded-Systems-Course/HW 2/Debug/Exe/HW 2.out	9c451fb75f1ff421
-1	138	6420286704383630	D:/Embedded Systems Labs/Embedded-Systems-Course/HW 2/Debug/Obj/main.o	dffc94162be16135
-142	215	6420286705131629	D:/Embedded Systems Labs/Embedded-Systems-Course/HW 2/Debug/Exe/HW 2.out	9c451fb75f1ff421
-3	181	6420290335468116	D:/Embedded Systems Labs/Embedded-Systems-Course/HW 2/Debug/Obj/time.o	39cc760dcf77d64a
-0	207	6420290335727426	D:/Embedded Systems Labs/Embedded-Systems-Course/HW 2/Debug/Obj/main.o	dffc94162be16135
-211	284	6420290336485398	D:/Embedded Systems Labs/Embedded-Systems-Course/HW 2/Debug/Exe/HW 2.out	9c451fb75f1ff421
-0	126	6420293054292369	D:/Embedded Systems Labs/Embedded-Systems-Course/HW 2/Debug/Obj/time.o	39cc760dcf77d64a
-129	203	6420293055040369	D:/Embedded Systems Labs/Embedded-Systems-Course/HW 2/Debug/Exe/HW 2.out	9c451fb75f1ff421
-1	189	6420293510190650	D:/Embedded Systems Labs/Embedded-Systems-Course/HW 2/Debug/Obj/main.o	dffc94162be16135
-193	266	6420293510928677	D:/Embedded Systems Labs/Embedded-Systems-Course/HW 2/Debug/Exe/HW 2.out	9c451fb75f1ff421
-1	124	6420293775756373	D:/Embedded Systems Labs/Embedded-Systems-Course/HW 2/Debug/Obj/time.o	39cc760dcf77d64a
-128	204	6420293776514347	D:/Embedded Systems Labs/Embedded-Systems-Course/HW 2/Debug/Exe/HW 2.out	9c451fb75f1ff421
-1	120	6420294089107698	D:/Embedded Systems Labs/Embedded-Systems-Course/HW 2/Debug/Obj/time.o	39cc760dcf77d64a
-124	196	6420294089845726	D:/Embedded Systems Labs/Embedded-Systems-Course/HW 2/Debug/Exe/HW 2.out	9c451fb75f1ff421
+6	335	6422651374380299	C:/Users/Ollie/Documents/GitHub/Embedded-Systems-Course/Final project/Debug/Obj/photosensor.o	821b8182bfbeba48
+178	372	6422046244913738	C:/Users/Ollie/Documents/GitHub/Embedded-Systems-Course/Final project/Debug/Obj/initpins.o	6f588991858a946
+3	227	6422005837369338	C:/Users/Ollie/Documents/GitHub/Embedded-Systems-Course/Final project/Debug/Obj/cstartup.o	d255c9914b38df2e
+1	152	6422652092804126	C:/Users/Ollie/Documents/GitHub/Embedded-Systems-Course/Final project/Debug/Obj/time.o	c83f4159535317c4
+233	450	6422005839521656	C:/Users/Ollie/Documents/GitHub/Embedded-Systems-Course/Final project/Debug/Obj/exceptions.o	405bebec3f816747
+1	274	6422651373920311	C:/Users/Ollie/Documents/GitHub/Embedded-Systems-Course/Final project/Debug/Obj/button.o	2673d1a7321dc617
+11	347	6422651374570319	C:/Users/Ollie/Documents/GitHub/Embedded-Systems-Course/Final project/Debug/Obj/delay.o	206d20a9d6df9038
+9	310	6422651374280314	C:/Users/Ollie/Documents/GitHub/Embedded-Systems-Course/Final project/Debug/Obj/display.o	16be66a9b56fe59d
+1	164	6422655733925704	C:/Users/Ollie/Documents/GitHub/Embedded-Systems-Course/Final project/Debug/Obj/main.o	527ebcfdb046b40d
+281	505	6422651376190298	C:/Users/Ollie/Documents/GitHub/Embedded-Systems-Course/Final project/Debug/Obj/keypad.o	a07e8dfb10d3465d
+171	266	6422655734956487	C:/Users/Ollie/Documents/GitHub/Embedded-Systems-Course/Final project/Debug/Exe/HW 2.out	157f4afb92e4b0f2
+345	481	6422651376020298	C:/Users/Ollie/Documents/GitHub/Embedded-Systems-Course/Final project/Debug/Obj/my_library.o	9cba80c39bb96116
+817	1042	6422005845367431	C:/Users/Ollie/Documents/GitHub/Embedded-Systems-Course/Final project/Debug/Obj/startup_sam3x.o	ebad39b9f84a2b95
+355	581	6422651377000328	C:/Users/Ollie/Documents/GitHub/Embedded-Systems-Course/Final project/Debug/Obj/led.o	e79b69920224f8d
+410	579	6422046246863753	C:/Users/Ollie/Documents/GitHub/Embedded-Systems-Course/Final project/Debug/Obj/servo.o	e6a6d0604139bd32
+490	656	6422651377760296	C:/Users/Ollie/Documents/GitHub/Embedded-Systems-Course/Final project/Debug/Obj/systick_setup.o	5661459e63c4d1f4
+992	1209	6422005847117428	C:/Users/Ollie/Documents/GitHub/Embedded-Systems-Course/Final project/Debug/Obj/system_sam3x.o	a697f038b9af6349
+514	680	6422651378000322	C:/Users/Ollie/Documents/GitHub/Embedded-Systems-Course/Final project/Debug/Obj/temperature.o	8f0ca2bb69d8e276
+1	163	6422656189987177	C:/Users/Ollie/Documents/GitHub/Embedded-Systems-Course/Final project/Debug/Obj/main.o	527ebcfdb046b40d
+172	261	6422656190957185	C:/Users/Ollie/Documents/GitHub/Embedded-Systems-Course/Final project/Debug/Exe/HW 2.out	157f4afb92e4b0f2
+1	163	6422656308136061	C:/Users/Ollie/Documents/GitHub/Embedded-Systems-Course/Final project/Debug/Obj/main.o	527ebcfdb046b40d
+169	255	6422656309076347	C:/Users/Ollie/Documents/GitHub/Embedded-Systems-Course/Final project/Debug/Exe/HW 2.out	157f4afb92e4b0f2
+1	154	6422656625183292	C:/Users/Ollie/Documents/GitHub/Embedded-Systems-Course/Final project/Debug/Obj/main.o	527ebcfdb046b40d
+162	248	6422656626113294	C:/Users/Ollie/Documents/GitHub/Embedded-Systems-Course/Final project/Debug/Exe/HW 2.out	157f4afb92e4b0f2
+4	224	6422666997953781	C:/Users/Ollie/Documents/GitHub/Embedded-Systems-Course/Final project/Debug/Obj/time.o	c83f4159535317c4
+1	250	6422666998193787	C:/Users/Ollie/Documents/GitHub/Embedded-Systems-Course/Final project/Debug/Obj/main.o	527ebcfdb046b40d
+258	362	6422666999333780	C:/Users/Ollie/Documents/GitHub/Embedded-Systems-Course/Final project/Debug/Exe/HW 2.out	157f4afb92e4b0f2
+1	162	6422669608960671	C:/Users/Ollie/Documents/GitHub/Embedded-Systems-Course/Final project/Debug/Obj/main.o	527ebcfdb046b40d
+169	259	6422669609940665	C:/Users/Ollie/Documents/GitHub/Embedded-Systems-Course/Final project/Debug/Exe/HW 2.out	157f4afb92e4b0f2
+1	245	6422670744555305	C:/Users/Ollie/Documents/GitHub/Embedded-Systems-Course/Final project/Debug/Obj/main.o	527ebcfdb046b40d
+6	251	6422670744585325	C:/Users/Ollie/Documents/GitHub/Embedded-Systems-Course/Final project/Debug/Obj/time.o	c83f4159535317c4
+259	354	6422670745674671	C:/Users/Ollie/Documents/GitHub/Embedded-Systems-Course/Final project/Debug/Exe/HW 2.out	157f4afb92e4b0f2
+1	163	6422670919813765	C:/Users/Ollie/Documents/GitHub/Embedded-Systems-Course/Final project/Debug/Obj/time.o	c83f4159535317c4
+170	258	6422670920763746	C:/Users/Ollie/Documents/GitHub/Embedded-Systems-Course/Final project/Debug/Exe/HW 2.out	157f4afb92e4b0f2
+5	174	6422672040581745	C:/Users/Ollie/Documents/GitHub/Embedded-Systems-Course/Final project/Debug/Obj/time.o	c83f4159535317c4
+1	185	6422672040601741	C:/Users/Ollie/Documents/GitHub/Embedded-Systems-Course/Final project/Debug/Obj/main.o	527ebcfdb046b40d
+192	280	6422672041651721	C:/Users/Ollie/Documents/GitHub/Embedded-Systems-Course/Final project/Debug/Exe/HW 2.out	157f4afb92e4b0f2
+5	233	6422678069297814	C:/Users/Ollie/Documents/GitHub/Embedded-Systems-Course/Final project/Debug/Obj/time.o	c83f4159535317c4
+1	251	6422678069477787	C:/Users/Ollie/Documents/GitHub/Embedded-Systems-Course/Final project/Debug/Obj/main.o	527ebcfdb046b40d
+258	349	6422678070467772	C:/Users/Ollie/Documents/GitHub/Embedded-Systems-Course/Final project/Debug/Exe/HW 2.out	157f4afb92e4b0f2
+7	235	6422685471798108	C:/Users/Ollie/Documents/GitHub/Embedded-Systems-Course/Final project/Debug/Obj/servo.o	e6a6d0604139bd32
+1	287	6422685472338105	C:/Users/Ollie/Documents/GitHub/Embedded-Systems-Course/Final project/Debug/Obj/initpins.o	6f588991858a946
+1	154	6422685789619394	C:/Users/Ollie/Documents/GitHub/Embedded-Systems-Course/Final project/Debug/Obj/main.o	527ebcfdb046b40d
+163	267	6422685790719651	C:/Users/Ollie/Documents/GitHub/Embedded-Systems-Course/Final project/Debug/Exe/HW 2.out	157f4afb92e4b0f2
+1	170	6422685997558525	C:/Users/Ollie/Documents/GitHub/Embedded-Systems-Course/Final project/Debug/Obj/main.o	527ebcfdb046b40d
+177	264	6422685998548804	C:/Users/Ollie/Documents/GitHub/Embedded-Systems-Course/Final project/Debug/Exe/HW 2.out	157f4afb92e4b0f2
+1	166	6422687599023863	C:/Users/Ollie/Documents/GitHub/Embedded-Systems-Course/Final project/Debug/Obj/main.o	527ebcfdb046b40d
+172	261	6422687600013836	C:/Users/Ollie/Documents/GitHub/Embedded-Systems-Course/Final project/Debug/Exe/HW 2.out	157f4afb92e4b0f2

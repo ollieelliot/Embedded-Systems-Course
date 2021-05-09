@@ -1,17 +1,16 @@
 #include "my_library.c"
 
 
+
 void SysTick_Handler(void){
-  if (fastMode == 1){
-    time += 60*60*2;
-  }
-   else
-    time++;
-   
-   if((time%1000) == 0)
+  
+
+  /* Program freezes only when fastMode = 1, resumes when = 0 */
+  time+= 1 + (fastMode*59);
+ 
+  
+  if((time%1000) == 0)
      time_to_date();
-   
-     
 
 }
 
