@@ -1,10 +1,16 @@
 #include "my_library.c"
 
+
 char return_menu(char key);
 short in_menu = 2;
 char key = 0;
 char VALID_TIME = 1;
 char VALID_DATE = 1;
+short rec = 0;
+
+int fastMode = 0;
+
+DLinkedList *list = NULL; //Initilize the list
 
 
 void main(void){
@@ -23,25 +29,24 @@ void main(void){
   start_Temp();
   init_Photosenor();
   init_Servo();
+  init_Stats();
   print_Menu(-2);
   
-
   
   char date[8];
   char time_char[6];
-  
+
 
   printf("Initializing completed!\n");
   printf("Running...\n");
   
   //Test stuff
-  time_elapsed.second = 55;
-  time_elapsed.minute = 59;
+  time_elapsed.second = 0;
+  time_elapsed.minute = 0;
   time_elapsed.hour = 23;
-  time_elapsed.day = 31;
-  time_elapsed.month = 12;
+  time_elapsed.day = 1;
+  time_elapsed.month = 1;
   time_elapsed.year = 2021;
-  
   
   
  while(1){
@@ -52,21 +57,57 @@ void main(void){
    print_Date(10);
    key = read_Keypad(); 
    
-   /* Temperature */
+   /* Temperature stats */
    
    if(key == '1' && in_menu != 1){
-     
+     int page = 0;
+     //printList(&list);
      in_menu = 1;
      clear_Display();
-     get_Temperature(128);
      while(key != '*'){
        key = read_Keypad();
-
-       writeDisplayPos("Press '*' to return",72,1);
+       print_TempStats(page);
+       
+       writeDisplayPos("[6] Next -->",250,1);
+       writeDisplayPos("<-- Prev [4]",226,1);
+       
+       if(key == '6'){
+         clear_Display();
+         page++;
+         if(page > 6)
+           page = 0;
+         print_TempStats(page);
+         writeDisplayPos("[6] Next -->",250,1);
+         writeDisplayPos("<-- Prev [4]",226,1);
+       }
+       
+       if(key == '4'){
+         clear_Display();
+         page--;
+         if(page < 0)
+           page = 6;
+         print_TempStats(page);
+         writeDisplayPos("[6] Next -->",250,1);
+         writeDisplayPos("<-- Prev [4]",226,1);
+       }
+       
+       
+       
+       
+       writeDisplayPos("Press '*' to return",112,1);
      }
      /* Return back to main-menu */
    
      return_menu(key);
+   }
+   
+    /* Toggle recording of temperature data */
+   
+    if(key == '4' && in_menu != 1){
+      if(rec == 0)
+       rec = 1;
+      else
+       rec = 0;
    }
    
    /*  Toggle fastMode */
@@ -89,7 +130,6 @@ void main(void){
      writeDisplayPos("4. Change date ", 208,0);
      writeDisplayPos("5. Change time ", 248,0);
    
-     
      
      while(key != '*'){
        key = read_Keypad();
@@ -115,35 +155,42 @@ void main(void){
             if(key != 0 && key != '*' && key != '#'){
               strncat(date, &key, 1); 
               
-              /* Code for subscript */
+              /* Code for text position marker */
               writeDisplayPos("_", 224+i,0);
               writeDisplayPos(date, 224,0);
               writeDisplayPos(" ", 8+i,1);
               i++;
             }
-         }
-           
-         get_date(date);
-         
-         VALID_DATE = validDate();
-         
-         if(VALID_DATE){
-           
-         /* Restore after use */
-         clear_Display();
-         writeDisplayPos("DATE SETUP",96,0);
-         writeDisplayPos("--------------------", 130, 0);
-         writeDisplayPos("Press '*' to return", 112,1);
-         writeDisplayPos("4. Change date ", 208,0);
-         writeDisplayPos("5. Change time ", 248,0);
-       
-         in_menu = 1;
+            if(key == '*'){
+              break;
+            }
          }
          
-         else{
+         if(i == 8){
+           set_date(date);
+           
+           VALID_DATE = validDate();
+           
+           printf("Valid date: %d", VALID_DATE);
+           
+           if(VALID_DATE){
+             
+           /* Restore after use */
            clear_Display();
-           writeDisplayPos("Invalid date!", 214,0);
-           delay(10000000);
+           writeDisplayPos("DATE SETUP",96,0);
+           writeDisplayPos("--------------------", 130, 0);
+           writeDisplayPos("Press '*' to return", 112,1);
+           writeDisplayPos("4. Change date ", 208,0);
+           writeDisplayPos("5. Change time ", 248,0);
+         
+           in_menu = 1;
+           }
+           
+           else{
+             clear_Display();
+             writeDisplayPos("Invalid date!", 214,0);
+             delay(10000000);
+           }
          }
            
        }
@@ -157,6 +204,7 @@ void main(void){
          clear_Display();
          writeDisplayPos("DATE SETUP",96,0);
          writeDisplayPos("Enter new time: ", 248,0);
+         writeDisplayPos("Press '*' to cancel ", 112,1);
          
          int i = 0;
          writeDisplayPos("HHMMSS", 8, 1);
@@ -173,28 +221,36 @@ void main(void){
               writeDisplayPos(" ", 48+i,1);
               i++;
             }
-         }
-         get_time(time_char);
-         
-         VALID_TIME = validTime();
-         
-         if(VALID_TIME){
-             
-           /* Restore after use */
-           clear_Display();
-           writeDisplayPos("DATE SETUP",96,0);
-           writeDisplayPos("--------------------", 130, 0);
-           writeDisplayPos("Press '*' to return", 112,1);
-           writeDisplayPos("4. Change date ", 208,0);
-           writeDisplayPos("5. Change time ", 248,0);
-         
-           in_menu = 1;
+            
+            if(key == '*'){
+              break;
+            }
          }
          
-         else{
-           clear_Display();
-           writeDisplayPos("Invalid time!", 214,0);
-           delay(10000000);
+         if(i == 6){
+           set_time(time_char);
+           
+           VALID_TIME = validTime();
+           
+           
+           if(VALID_TIME){
+               
+             /* Restore after use */
+             clear_Display();
+             writeDisplayPos("DATE SETUP",96,0);
+             writeDisplayPos("--------------------", 130, 0);
+             writeDisplayPos("Press '*' to return", 112,1);
+             writeDisplayPos("4. Change date ", 208,0);
+             writeDisplayPos("5. Change time ", 248,0);
+           
+             in_menu = 1;
+           }
+           
+           else{
+             clear_Display();
+             writeDisplayPos("Invalid time!", 214,0);
+             delay(10000000);
+           }
          }
        }
      }

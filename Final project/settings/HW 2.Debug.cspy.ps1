@@ -23,9 +23,9 @@
 
 if ($debugfile -eq "")
 {
-& "C:\Program Files\IAR Systems\Embedded Workbench 9.0\common\bin\cspybat" -f "C:\Users\Ollie\Documents\GitHub\Embedded-Systems-Course\Final project\settings\HW 2.Debug.general.xcl" --backend -f "C:\Users\Ollie\Documents\GitHub\Embedded-Systems-Course\Final project\settings\HW 2.Debug.driver.xcl" 
+& "D:\Program Files\common\bin\cspybat" -f "D:\Embedded Systems Labs\Embedded-Systems-Course\Final project\settings\HW 2.Debug.general.xcl" --backend -f "D:\Embedded Systems Labs\Embedded-Systems-Course\Final project\settings\HW 2.Debug.driver.xcl" 
 }
 else
 {
-& "C:\Program Files\IAR Systems\Embedded Workbench 9.0\common\bin\cspybat" -f "C:\Users\Ollie\Documents\GitHub\Embedded-Systems-Course\Final project\settings\HW 2.Debug.general.xcl" --debug_file=$debugfile --backend -f "C:\Users\Ollie\Documents\GitHub\Embedded-Systems-Course\Final project\settings\HW 2.Debug.driver.xcl" 
+& "D:\Program Files\common\bin\cspybat" -f "D:\Embedded Systems Labs\Embedded-Systems-Course\Final project\settings\HW 2.Debug.general.xcl" --debug_file=$debugfile --backend -f "D:\Embedded Systems Labs\Embedded-Systems-Course\Final project\settings\HW 2.Debug.driver.xcl" 
 }

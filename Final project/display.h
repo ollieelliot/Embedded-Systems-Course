@@ -16,6 +16,7 @@ void writeDisplayPos(char *text, char x , char y);
 void print_Menu(int pos);
 void print_Time(int pos);
 void print_Date(int pos);
+void print_TempStats(int i);
 
 
 #endif

@@ -1,10 +1,10 @@
 #include "my_library.c"
 
-uint64_t time = 0;
-
 char char_array[10000];
 char char_array2[10000];
-int fastMode = 0;
+char char_array3[10000];
+
+
 short RESET_TIME_DISPLAY = 0;
 
 /* Days per month */
@@ -13,18 +13,30 @@ int mday[12] = {31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};
 struct date currentDate;
 struct date time_elapsed;
 
+short currentDay = 0;
+short currentMonth = 0;
+short currentYear = 0;
+
+short currentSecond = 0;
+short currentMinute = 0;
+short currentHour = 0;
+
+/* Check currentDate and if valid input, store it in time_elapsed */
+
 char validDate(void){
   
-  if(currentDate.month > 12)
+  printf("Current day: %d \n", currentDay);
+  
+  if(currentMonth > 12)
     return 0;
   
-  if(currentDate.day > mday[currentDate.month-1])
+  if(currentDay > mday[currentMonth-1])
     return 0;
   
   else{
-    time_elapsed.day = currentDate.day;
-    time_elapsed.month = currentDate.month;
-    time_elapsed.year = currentDate.year;
+    time_elapsed.day = currentDay;
+    time_elapsed.month = currentMonth;
+    time_elapsed.year = currentYear;
   }
   
   return 1;
@@ -32,19 +44,19 @@ char validDate(void){
 
 char validTime(void){
   
-  if(currentDate.hour > 24)
+  if(currentHour > 24)
     return 0;
   
-  if(currentDate.minute > 59)
+  if(currentMinute > 59)
     return 0;
   
-  if(currentDate.second > 59)
+  if(currentSecond > 59)
     return 0;
   
   else{
-    time_elapsed.hour = currentDate.hour;
-    time_elapsed.minute = currentDate.minute;
-    time_elapsed.second = currentDate.second;
+    time_elapsed.hour = currentHour;
+    time_elapsed.minute = currentMinute;
+    time_elapsed.second = currentSecond;
   }
   return 1;
 
@@ -65,15 +77,16 @@ struct date time_to_date(void){
   
    /* Check for new month */ 
   if(time_elapsed.day == mday[time_elapsed.month-1] && time_elapsed.hour == 23 && time_elapsed.minute == 59 && time_elapsed.second == 59){
-    time_elapsed.day = 0;
+    time_elapsed.day = 1;
     time_elapsed.month++;
     //printf("Month: %d \n", time_elapsed.month);
   }
     
   /* Check if a minute has passed */
   if(time_elapsed.second >= 59){
-      time_elapsed.second = 0;
       RESET_TIME_DISPLAY = 1;
+      recordData(get_Temperature());
+      time_elapsed.second = 0;
       time_elapsed.minute++;
   }
     else
@@ -89,7 +102,7 @@ struct date time_to_date(void){
   /* Check for new day */
   
   if(time_elapsed.hour > 23){
-    time_elapsed.hour = 0;
+    time_elapsed.hour = 1;
     time_elapsed.day++;
   }
     return time_elapsed;
@@ -108,36 +121,47 @@ char *int_to_char(int num){
     return char_array2;
 }
 
+char *float_to_char(float num){
+    sprintf(char_array3, "%f", num);
+    return char_array3;
+}
+
 int string_to_int(char num[]){
     return atoi(num);
 }
 
-struct date get_date(char input[]){
+void set_date(char input[]){
     
     int date;
-
-    date = string_to_int(input);
-
-    currentDate.day = date/1000000;
-    currentDate.month = (date/10000)%100;
-    currentDate.year = date%10000;
     
-    return currentDate;
+    date = string_to_int(input);
+    
+    printf("date: %d \n", date);
+
+    currentDay = date/1000000;
+    currentMonth = (date/10000)%100;
+    currentYear = date%10000;
+    
+
+
     
 }
 
-struct date get_time(char input[]){
+void set_time(char input[]){
     
     int t;
 
     t = string_to_int(input);
 
-    currentDate.second = t%100;
-    currentDate.minute = (t/100)%100;
-    currentDate.hour = t/10000;
+    currentSecond = t%100;
+    currentMinute = (t/100)%100;
+    currentHour = t/10000;
 
-    return currentDate;
     
+}
+
+struct date get_timestamp(void){
+  return time_elapsed;
 }
 
 

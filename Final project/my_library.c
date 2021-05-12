@@ -5,6 +5,7 @@
 #include <stdlib.h>
 #include <string.h>
 #include <inttypes.h>
+#include <math.h>
 
 #include "initpins.h"
 #include "button.h"
@@ -19,3 +20,5 @@
 #include "photosensor.h"
 
 #include "time.h"
+#include "linkedlist.h"
+#include "data_recording.h"

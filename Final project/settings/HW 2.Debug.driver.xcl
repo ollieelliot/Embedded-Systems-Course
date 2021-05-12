@@ -6,7 +6,7 @@
 
 "-p" 
 
-"C:\Program Files\IAR Systems\Embedded Workbench 9.0\arm\CONFIG\debugger\Microchip\ATSAM3X8E.ddf" 
+"D:\Program Files\arm\CONFIG\debugger\Microchip\ATSAM3X8E.ddf" 
 
 "--semihosting" 
 

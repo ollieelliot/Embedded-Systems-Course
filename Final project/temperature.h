@@ -3,7 +3,8 @@
 
 void start_Temp();
 void init_Temp();
-void get_Temperature(int pos);
+
+float get_Temperature(void);
 
 extern int temp_Flag;
 

@@ -1,21 +1,21 @@
-"C:\Users\Ollie\Documents\GitHub\Embedded-Systems-Course\Final project\led.c"
+"D:\Embedded Systems Labs\Embedded-Systems-Course\Final project\led.c"
 -std=c11
 -ferror-limit=0
 -fbracket-depth=512
 -funsigned-char
 -MD
 -MF
-C:\Users\Ollie\Documents\GitHub\Embedded-Systems-Course\Final project\Debug\BrowseInfo\led.pbi.dep
+D:\Embedded Systems Labs\Embedded-Systems-Course\Final project\Debug\BrowseInfo\led.pbi.dep
 -o
-C:\Users\Ollie\Documents\GitHub\Embedded-Systems-Course\Final project\Debug\BrowseInfo\led.pbi
+D:\Embedded Systems Labs\Embedded-Systems-Course\Final project\Debug\BrowseInfo\led.pbi
 -I
-C:\Users\Ollie\Documents\GitHub\Embedded-Systems-Course\Final project
+D:\Embedded Systems Labs\Embedded-Systems-Course\Final project
 -I
-C:\Program Files\IAR Systems\Embedded Workbench 9.0\arm\inc\c\aarch32
+D:\Program Files\arm\inc\c\aarch32
 -I
-C:\Program Files\IAR Systems\Embedded Workbench 9.0\arm\inc
+D:\Program Files\arm\inc
 -I
-C:\Program Files\IAR Systems\Embedded Workbench 9.0\arm\inc\c
+D:\Program Files\arm\inc\c
 -D__CHAR_BITS__=8
 -D__CHAR_MAX__=0xff
 -D__CHAR_MIN__=0
@@ -298,8 +298,8 @@ C:\Program Files\IAR Systems\Embedded Workbench 9.0\arm\inc\c
 -D__EDG_FLOAT80_ENABLING_POSSIBLE=0
 -D__EDG_FLOAT128_ENABLING_POSSIBLE=0
 -D__EDG_INT128_EXTENSIONS_ALLOWED=0
--D_DLIB_CONFIG_FILE_HEADER_NAME="C:\Program Files\IAR Systems\Embedded Workbench 9.0\arm\inc\c\DLib_Config_Normal.h"
--D_DLIB_CONFIG_FILE_STRING="C:\\Program Files\\IAR Systems\\Embedded Workbench 9.0\\arm\\inc\\c\\DLib_Config_Normal.h"
+-D_DLIB_CONFIG_FILE_HEADER_NAME="D:\Program Files\arm\inc\c\DLib_Config_Normal.h"
+-D_DLIB_CONFIG_FILE_STRING="D:\\Program Files\\arm\\inc\\c\\DLib_Config_Normal.h"
 -D__VERSION__="IAR ANSI C/C++ Compiler V9.10.1.308/W64 for ARM"
 -D_VA_DEFINED=
 -D_VA_LIST=struct __va_list

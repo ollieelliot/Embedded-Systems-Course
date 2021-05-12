@@ -1,58 +1,51 @@
 ###############################################################################
 #
-# IAR ELF Linker V9.10.1.308/W64 for ARM                  09/May/2021  15:06:00
+# IAR ELF Linker V9.10.1.308/W64 for ARM                  12/May/2021  17:00:14
 # Copyright 2007-2021 IAR Systems AB.
 #
 #    Output file  =
-#        C:\Users\Ollie\Documents\GitHub\Embedded-Systems-Course\Final
+#        D:\Embedded Systems Labs\Embedded-Systems-Course\Final
 #        project\Debug\Exe\HW 2.out
 #    Map file     =
-#        C:\Users\Ollie\Documents\GitHub\Embedded-Systems-Course\Final
+#        D:\Embedded Systems Labs\Embedded-Systems-Course\Final
 #        project\Debug\List\HW 2.map
 #    Command line =
-#        -f "C:\Users\Ollie\Documents\GitHub\Embedded-Systems-Course\Final
-#        project\Debug\Exe\HW 2.out.rsp"
-#        ("C:\Users\Ollie\Documents\GitHub\Embedded-Systems-Course\Final
-#        project\Debug\Obj\button.o"
-#        "C:\Users\Ollie\Documents\GitHub\Embedded-Systems-Course\Final
-#        project\Debug\Obj\cstartup.o"
-#        "C:\Users\Ollie\Documents\GitHub\Embedded-Systems-Course\Final
-#        project\Debug\Obj\delay.o"
-#        "C:\Users\Ollie\Documents\GitHub\Embedded-Systems-Course\Final
-#        project\Debug\Obj\display.o"
-#        "C:\Users\Ollie\Documents\GitHub\Embedded-Systems-Course\Final
-#        project\Debug\Obj\exceptions.o"
-#        "C:\Users\Ollie\Documents\GitHub\Embedded-Systems-Course\Final
-#        project\Debug\Obj\initpins.o"
-#        "C:\Users\Ollie\Documents\GitHub\Embedded-Systems-Course\Final
-#        project\Debug\Obj\keypad.o"
-#        "C:\Users\Ollie\Documents\GitHub\Embedded-Systems-Course\Final
-#        project\Debug\Obj\led.o"
-#        "C:\Users\Ollie\Documents\GitHub\Embedded-Systems-Course\Final
-#        project\Debug\Obj\main.o"
-#        "C:\Users\Ollie\Documents\GitHub\Embedded-Systems-Course\Final
-#        project\Debug\Obj\my_library.o"
-#        "C:\Users\Ollie\Documents\GitHub\Embedded-Systems-Course\Final
-#        project\Debug\Obj\photosensor.o"
-#        "C:\Users\Ollie\Documents\GitHub\Embedded-Systems-Course\Final
-#        project\Debug\Obj\servo.o"
-#        "C:\Users\Ollie\Documents\GitHub\Embedded-Systems-Course\Final
-#        project\Debug\Obj\startup_sam3x.o"
-#        "C:\Users\Ollie\Documents\GitHub\Embedded-Systems-Course\Final
-#        project\Debug\Obj\system_sam3x.o"
-#        "C:\Users\Ollie\Documents\GitHub\Embedded-Systems-Course\Final
-#        project\Debug\Obj\systick_setup.o"
-#        "C:\Users\Ollie\Documents\GitHub\Embedded-Systems-Course\Final
-#        project\Debug\Obj\temperature.o"
-#        "C:\Users\Ollie\Documents\GitHub\Embedded-Systems-Course\Final
-#        project\Debug\Obj\time.o" --no_out_extension -o
-#        "C:\Users\Ollie\Documents\GitHub\Embedded-Systems-Course\Final
-#        project\Debug\Exe\HW 2.out" --redirect _Printf=_PrintfFullNoMb
-#        --redirect _Scanf=_ScanfFullNoMb --map
-#        "C:\Users\Ollie\Documents\GitHub\Embedded-Systems-Course\Final
-#        project\Debug\List\HW 2.map" --config "C:\Program Files\IAR
-#        Systems\Embedded Workbench
-#        9.0\arm\config\linker\Microchip\SAM3X\SAM3X-EK\sam3x8-sram.icf"
+#        -f "D:\Embedded Systems Labs\Embedded-Systems-Course\Final
+#        project\Debug\Exe\HW 2.out.rsp" ("D:\Embedded Systems
+#        Labs\Embedded-Systems-Course\Final project\Debug\Obj\button.o"
+#        "D:\Embedded Systems Labs\Embedded-Systems-Course\Final
+#        project\Debug\Obj\cstartup.o" "D:\Embedded Systems
+#        Labs\Embedded-Systems-Course\Final project\Debug\Obj\data_recording.o"
+#        "D:\Embedded Systems Labs\Embedded-Systems-Course\Final
+#        project\Debug\Obj\delay.o" "D:\Embedded Systems
+#        Labs\Embedded-Systems-Course\Final project\Debug\Obj\display.o"
+#        "D:\Embedded Systems Labs\Embedded-Systems-Course\Final
+#        project\Debug\Obj\exceptions.o" "D:\Embedded Systems
+#        Labs\Embedded-Systems-Course\Final project\Debug\Obj\initpins.o"
+#        "D:\Embedded Systems Labs\Embedded-Systems-Course\Final
+#        project\Debug\Obj\keypad.o" "D:\Embedded Systems
+#        Labs\Embedded-Systems-Course\Final project\Debug\Obj\led.o"
+#        "D:\Embedded Systems Labs\Embedded-Systems-Course\Final
+#        project\Debug\Obj\linkedlist.o" "D:\Embedded Systems
+#        Labs\Embedded-Systems-Course\Final project\Debug\Obj\main.o"
+#        "D:\Embedded Systems Labs\Embedded-Systems-Course\Final
+#        project\Debug\Obj\my_library.o" "D:\Embedded Systems
+#        Labs\Embedded-Systems-Course\Final project\Debug\Obj\photosensor.o"
+#        "D:\Embedded Systems Labs\Embedded-Systems-Course\Final
+#        project\Debug\Obj\servo.o" "D:\Embedded Systems
+#        Labs\Embedded-Systems-Course\Final project\Debug\Obj\startup_sam3x.o"
+#        "D:\Embedded Systems Labs\Embedded-Systems-Course\Final
+#        project\Debug\Obj\system_sam3x.o" "D:\Embedded Systems
+#        Labs\Embedded-Systems-Course\Final project\Debug\Obj\systick_setup.o"
+#        "D:\Embedded Systems Labs\Embedded-Systems-Course\Final
+#        project\Debug\Obj\temperature.o" "D:\Embedded Systems
+#        Labs\Embedded-Systems-Course\Final project\Debug\Obj\time.o"
+#        --no_out_extension -o "D:\Embedded Systems
+#        Labs\Embedded-Systems-Course\Final project\Debug\Exe\HW 2.out"
+#        --redirect _Printf=_PrintfFullNoMb --redirect _Scanf=_ScanfFullNoMb
+#        --map "D:\Embedded Systems Labs\Embedded-Systems-Course\Final
+#        project\Debug\List\HW 2.map" --config "D:\Program
+#        Files\arm\config\linker\Microchip\SAM3X\SAM3X-EK\sam3x8-sram.icf"
 #        --semihosting --entry __iar_program_start --vfe --text_out locale)
 #
 ###############################################################################
@@ -62,6 +55,7 @@
 ***
 
 CppFlavor       = *
+__Heap_Handler  = Basic
 __SystemLibrary = DLib
 __dlib_version  = 6
 
@@ -94,7 +88,7 @@ initialize by copy with packing = copy, complex ranges { rw };
     .intvec          const    0x2007'0000    0xf4  startup_sam3x.o [1]
                             - 0x2007'00f4    0xf4
 
-"P1-P2", part 1 of 3:                      0x35c0
+"P1-P2", part 1 of 3:                      0x465c
   .text              ro code  0x2007'00f4   0xf16  xprintffull_nomb.o [2]
   .text              ro code  0x2007'100a    0x2a  copy_init3.o [4]
   .text              ro code  0x2007'1034    0x16  strchr.o [4]
@@ -121,105 +115,148 @@ initialize by copy with packing = copy, complex ranges { rw };
   .text              ro code  0x2007'1d0c    0x14  exit.o [5]
   .text              ro code  0x2007'1d20    0x7c  iarttio.o [5]
   .text              ro code  0x2007'1d9c     0x8  XShttio.o [2]
-  .text              ro code  0x2007'1da4   0x450  main.o [1]
-  .text              ro code  0x2007'21f4    0xb8  system_sam3x.o [1]
-  .text              ro code  0x2007'22ac    0x28  printf.o [2]
-  .text              ro code  0x2007'22d4    0xc0  systick_setup.o [1]
-  .text              ro code  0x2007'2394   0x1f0  initpins.o [1]
-  .text              ro code  0x2007'2584    0xe8  keypad.o [1]
-  .text              ro code  0x2007'266c   0x3fc  display.o [1]
-  .text              ro code  0x2007'2a68    0xe4  led.o [1]
-  .text              ro code  0x2007'2b4c   0x174  temperature.o [1]
-  .text              ro code  0x2007'2cc0    0x28  photosensor.o [1]
-  .text              ro code  0x2007'2ce8    0x5c  servo.o [1]
-  .text              ro code  0x2007'2d44    0x18  strcpy.o [4]
-  .text              ro code  0x2007'2d5c    0x28  strncat.o [2]
-  .text              ro code  0x2007'2d84   0x23c  time.o [1]
-  .text              ro code  0x2007'2fc0     0xe  delay.o [1]
-  .text              ro code  0x2007'2fd0    0x68  DblToFlt.o [3]
-  .text              ro code  0x2007'3038    0x48  FltToDbl.o [3]
-  .text              ro code  0x2007'3080    0x40  sprintf.o [2]
-  .text              ro code  0x2007'30c0   0x150  iar_Stoulx.o [2]
-  .rodata            const    0x2007'3210    0x50  iar_Stoulx.o [2]
-  .text              ro code  0x2007'3260    0x38  zero_init3.o [4]
-  .text              ro code  0x2007'3298    0x34  startup_sam3x.o [1]
-  .text              ro code  0x2007'32cc     0xc  cstartup.o [1]
-  .text              ro code  0x2007'32d8    0x1e  cmain.o [4]
-  .text              ro code  0x2007'32f8    0x28  data_init.o [4]
-  .text              ro code  0x2007'3320     0x4  exit.o [2]
-  .text              ro code  0x2007'3324     0xa  cexit.o [4]
-  .text              ro code  0x2007'332e    0x22  iarwrite.o [5]
-  .iar.init_table    const    0x2007'3350    0x24  - Linker created -
-  .text              ro code  0x2007'3374    0x20  putchar.o [2]
-  .text              ro code  0x2007'3394    0x10  write.o [5]
-  .text              ro code  0x2007'33a4    0x1e  dwrite.o [5]
-  .text              ro code  0x2007'33c2    0x20  iarwstd.o [5]
-  .rodata            const    0x2007'33e4    0x1c  display.o [1]
-  .rodata            const    0x2007'3400    0x1c  display.o [1]
-  .rodata            const    0x2007'341c    0x1c  display.o [1]
-  .rodata            const    0x2007'3438    0x1c  display.o [1]
-  .rodata            const    0x2007'3454    0x1c  display.o [1]
-  .rodata            const    0x2007'3470    0x1c  display.o [1]
-  .rodata            const    0x2007'348c    0x1c  main.o [1]
-  .rodata            const    0x2007'34a8    0x18  display.o [1]
-  .rodata            const    0x2007'34c0    0x18  main.o [1]
-  .rodata            const    0x2007'34d8    0x18  main.o [1]
-  .text              ro code  0x2007'34f0    0x16  xprout.o [2]
-  .rodata            const    0x2007'3508    0x14  main.o [1]
-  .rodata            const    0x2007'351c    0x14  main.o [1]
-  .rodata            const    0x2007'3530    0x14  main.o [1]
-  .rodata            const    0x2007'3544    0x14  main.o [1]
-  .rodata            const    0x2007'3558    0x10  main.o [1]
-  .rodata            const    0x2007'3568    0x10  main.o [1]
-  .rodata            const    0x2007'3578    0x10  main.o [1]
-  .rodata            const    0x2007'3588    0x10  main.o [1]
-  .rodata            const    0x2007'3598    0x10  temperature.o [1]
-  .rodata            const    0x2007'35a8     0xc  main.o [1]
-  .rodata            const    0x2007'35b4     0xc  main.o [1]
-  .rodata            const    0x2007'35c0     0xc  main.o [1]
-  .rodata            const    0x2007'35cc     0x8  display.o [1]
-  .rodata            const    0x2007'35d4     0x8  main.o [1]
-  .rodata            const    0x2007'35dc     0x8  time.o [1]
-  .rodata            const    0x2007'35e4     0x0  zero_init3.o [4]
-  .rodata            const    0x2007'35e4     0x0  copy_init3.o [4]
-  P1-P2 s0                    0x2007'35e4    0x68  <Init block>
-    .data            inited   0x2007'35e4    0x30  time.o [1]
-    .data            inited   0x2007'3614    0x10  keypad.o [1]
-    .data            inited   0x2007'3624     0xc  keypad.o [1]
-    .data            inited   0x2007'3630     0xc  keypad.o [1]
-    .data            inited   0x2007'363c     0x8  XShttio.o [2]
-    .data            inited   0x2007'3644     0x4  system_sam3x.o [1]
-    .data            inited   0x2007'3648     0x2  main.o [1]
-    .data            inited   0x2007'364a     0x1  main.o [1]
-    .data            inited   0x2007'364b     0x1  main.o [1]
-  Initializer bytes  const    0x2007'364c    0x68  <for P1-P2 s0>
-                            - 0x2007'36b4  0x35c0
+  .text              ro code  0x2007'1da4   0x67c  display.o [1]
+  .text              ro code  0x2007'2420     0xe  delay.o [1]
+  .text              ro code  0x2007'2430   0x3a4  time.o [1]
+  .text              ro code  0x2007'27d4   0x444  data_recording.o [1]
+  .text              ro code  0x2007'2c18    0x28  printf.o [2]
+  .text              ro code  0x2007'2c40   0x134  temperature.o [1]
+  .text              ro code  0x2007'2d74    0x40  sprintf.o [2]
+  .text              ro code  0x2007'2db4    0x48  FltToDbl.o [3]
+  .text              ro code  0x2007'2dfc   0x150  iar_Stoulx.o [2]
+  .text              ro code  0x2007'2f4c    0x74  linkedlist.o [1]
+  .text              ro code  0x2007'2fc0    0x24  S32ToFlt.o [3]
+  .text              ro code  0x2007'2fe4   0x118  FltDiv.o [3]
+  .text              ro code  0x2007'30fc    0xf2  sqrt.o [3]
+  .text              ro code  0x2007'31f0    0x68  DblToFlt.o [3]
+  .text              ro code  0x2007'3258    0x1a  U32ToFlt.o [3]
+  .text              ro code  0x2007'3274    0x28  FltCmpLe.o [3]
+  .text              ro code  0x2007'329c    0x28  FltCmpGe.o [3]
+  .text              ro code  0x2007'32c4   0x16e  FltAddSub.o [3]
+  .text              ro code  0x2007'3434    0xd8  FltMul.o [3]
+  .text              ro code  0x2007'350c   0x13c  heap0.o [2]
+  .text              ro code  0x2007'3648    0x26  FltToS32.o [3]
+  .text              ro code  0x2007'366e     0x4  heaptramp0.o [2]
+  .text              ro code  0x2007'3674    0x2c  xgetmemchunk.o [2]
+  .text              ro code  0x2007'36a0   0x588  main.o [1]
+  .text              ro code  0x2007'3c28    0xb8  system_sam3x.o [1]
+  .text              ro code  0x2007'3ce0    0xb8  systick_setup.o [1]
+  .text              ro code  0x2007'3d98   0x1f0  initpins.o [1]
+  .text              ro code  0x2007'3f88    0xe8  keypad.o [1]
+  .text              ro code  0x2007'4070    0xe4  led.o [1]
+  .text              ro code  0x2007'4154    0x28  photosensor.o [1]
+  .text              ro code  0x2007'417c    0x5c  servo.o [1]
+  .text              ro code  0x2007'41d8    0x18  strcpy.o [4]
+  .text              ro code  0x2007'41f0    0x28  strncat.o [2]
+  .rodata            const    0x2007'4218    0x50  iar_Stoulx.o [2]
+  .text              ro code  0x2007'4268    0x38  zero_init3.o [4]
+  .text              ro code  0x2007'42a0    0x34  startup_sam3x.o [1]
+  .text              ro code  0x2007'42d4     0xc  cstartup.o [1]
+  .text              ro code  0x2007'42e0    0x1e  cmain.o [4]
+  .text              ro code  0x2007'4300    0x28  data_init.o [4]
+  .text              ro code  0x2007'4328     0x4  exit.o [2]
+  .text              ro code  0x2007'432c     0xa  cexit.o [4]
+  .text              ro code  0x2007'4336    0x22  iarwrite.o [5]
+  .iar.init_table    const    0x2007'4358    0x24  - Linker created -
+  .rodata            const    0x2007'437c    0x20  linkedlist.o [1]
+  .text              ro code  0x2007'439c    0x20  putchar.o [2]
+  .text              ro code  0x2007'43bc    0x10  write.o [5]
+  .text              ro code  0x2007'43cc    0x1e  dwrite.o [5]
+  .text              ro code  0x2007'43ea    0x20  iarwstd.o [5]
+  .rodata            const    0x2007'440c    0x1c  display.o [1]
+  .rodata            const    0x2007'4428    0x1c  display.o [1]
+  .rodata            const    0x2007'4444    0x1c  display.o [1]
+  .rodata            const    0x2007'4460    0x1c  display.o [1]
+  .rodata            const    0x2007'447c    0x1c  display.o [1]
+  .rodata            const    0x2007'4498    0x1c  display.o [1]
+  .rodata            const    0x2007'44b4    0x1c  main.o [1]
+  .rodata            const    0x2007'44d0    0x18  display.o [1]
+  .rodata            const    0x2007'44e8    0x18  main.o [1]
+  .rodata            const    0x2007'4500    0x18  main.o [1]
+  .text              ro code  0x2007'4518    0x16  xprout.o [2]
+  .rodata            const    0x2007'4530    0x14  main.o [1]
+  .rodata            const    0x2007'4544    0x14  main.o [1]
+  .rodata            const    0x2007'4558    0x14  main.o [1]
+  .rodata            const    0x2007'456c    0x14  main.o [1]
+  .rodata            const    0x2007'4580    0x14  time.o [1]
+  .rodata            const    0x2007'4594    0x10  main.o [1]
+  .rodata            const    0x2007'45a4    0x10  main.o [1]
+  .rodata            const    0x2007'45b4    0x10  main.o [1]
+  .rodata            const    0x2007'45c4    0x10  main.o [1]
+  .rodata            const    0x2007'45d4    0x10  main.o [1]
+  .rodata            const    0x2007'45e4    0x10  main.o [1]
+  .rodata            const    0x2007'45f4    0x10  main.o [1]
+  .rodata            const    0x2007'4604     0xc  display.o [1]
+  .rodata            const    0x2007'4610     0xc  display.o [1]
+  .rodata            const    0x2007'461c     0xc  display.o [1]
+  .rodata            const    0x2007'4628     0xc  main.o [1]
+  .rodata            const    0x2007'4634     0xc  main.o [1]
+  .rodata            const    0x2007'4640     0xc  main.o [1]
+  .rodata            const    0x2007'464c     0xc  time.o [1]
+  .rodata            const    0x2007'4658     0x8  display.o [1]
+  .rodata            const    0x2007'4660     0x8  display.o [1]
+  .rodata            const    0x2007'4668     0x8  display.o [1]
+  .rodata            const    0x2007'4670     0x8  main.o [1]
+  .rodata            const    0x2007'4678     0x8  time.o [1]
+  .rodata            const    0x2007'4680     0x0  zero_init3.o [4]
+  .rodata            const    0x2007'4680     0x0  copy_init3.o [4]
+  P1-P2 s0                    0x2007'4680    0x68  <Init block>
+    .data            inited   0x2007'4680    0x30  time.o [1]
+    .data            inited   0x2007'46b0    0x10  keypad.o [1]
+    .data            inited   0x2007'46c0     0xc  keypad.o [1]
+    .data            inited   0x2007'46cc     0xc  keypad.o [1]
+    .data            inited   0x2007'46d8     0x8  XShttio.o [2]
+    .data            inited   0x2007'46e0     0x4  system_sam3x.o [1]
+    .data            inited   0x2007'46e4     0x2  main.o [1]
+    .data            inited   0x2007'46e6     0x1  main.o [1]
+    .data            inited   0x2007'46e7     0x1  main.o [1]
+  Initializer bytes  const    0x2007'46e8    0x68  <for P1-P2 s0>
+                            - 0x2007'4750  0x465c
 
-"P1-P2", part 2 of 3:                      0x2760
-  .bss               zero     0x2007'36b4  0x2710  time.o [1]
-  .bss               zero     0x2007'5dc4    0x18  time.o [1]
-  .bss               zero     0x2007'5ddc    0x18  time.o [1]
-  .bss               zero     0x2007'5df8     0x8  time.o [1]
-  .bss               zero     0x2007'5e00     0x4  led.o [1]
-  .bss               zero     0x2007'5e04     0x4  temperature.o [1]
-  .bss               zero     0x2007'5e08     0x4  time.o [1]
-  .bss               zero     0x2007'5e0c     0x4  xfail_s.o [2]
-  .bss               zero     0x2007'5e10     0x2  time.o [1]
-  .bss               zero     0x2007'5e12     0x1  keypad.o [1]
-  .bss               zero     0x2007'5e13     0x1  main.o [1]
-                            - 0x2007'5e14  0x2760
+"P1-P2", part 2 of 3:                      0x4f74
+  .bss               zero     0x2007'4750  0x2710  time.o [1]
+  .bss               zero     0x2007'6e60  0x2710  time.o [1]
+  .bss               zero     0x2007'9570    0xe0  data_recording.o [1]
+  .bss               zero     0x2007'9650    0x20  data_recording.o [1]
+  .bss               zero     0x2007'9670     0x8  time.o [1]
+  .bss               zero     0x2007'9678     0x8  heap0.o [2]
+  .bss               zero     0x2007'9680     0x4  data_recording.o [1]
+  .bss               zero     0x2007'9684     0x4  data_recording.o [1]
+  .bss               zero     0x2007'9688     0x4  data_recording.o [1]
+  .bss               zero     0x2007'968c     0x4  data_recording.o [1]
+  .bss               zero     0x2007'9690     0x4  data_recording.o [1]
+  .bss               zero     0x2007'9694     0x4  led.o [1]
+  .bss               zero     0x2007'9698     0x4  main.o [1]
+  .bss               zero     0x2007'969c     0x4  main.o [1]
+  .bss               zero     0x2007'96a0     0x4  systick_setup.o [1]
+  .bss               zero     0x2007'96a4     0x4  temperature.o [1]
+  .bss               zero     0x2007'96a8     0x4  xfail_s.o [2]
+  .bss               zero     0x2007'96ac     0x4  xgetmemchunk.o [2]
+  .bss               zero     0x2007'96b0     0x2  main.o [1]
+  .bss               zero     0x2007'96b2     0x2  time.o [1]
+  .bss               zero     0x2007'96b4     0x2  time.o [1]
+  .bss               zero     0x2007'96b6     0x2  time.o [1]
+  .bss               zero     0x2007'96b8     0x2  time.o [1]
+  .bss               zero     0x2007'96ba     0x2  time.o [1]
+  .bss               zero     0x2007'96bc     0x2  time.o [1]
+  .bss               zero     0x2007'96be     0x2  time.o [1]
+  .bss               zero     0x2007'96c0     0x1  keypad.o [1]
+  .bss               zero     0x2007'96c1     0x1  main.o [1]
+                            - 0x2007'96c2  0x4f72
 
-"P1-P2", part 3 of 3:                       0x800
-  CSTACK                      0x2007'5e18   0x800  <Block>
-    CSTACK           uninit   0x2007'5e18   0x800  <Block tail>
-                            - 0x2007'6618   0x800
+"P1-P2", part 3 of 3:                      0x1800
+  CSTACK                      0x2007'96c8   0x800  <Block>
+    CSTACK           uninit   0x2007'96c8   0x800  <Block tail>
+  HEAP                        0x2007'9ec8  0x1000  <Block>
+    HEAP             uninit   0x2007'9ec8  0x1000  <Block tail>
+                            - 0x2007'aec8  0x1800
 
 Unused ranges:
 
-         From           To      Size
-         ----           --      ----
-  0x2007'5e14  0x2007'5e17       0x4
-  0x2007'6618  0x2008'7ffe  0x1'19e7
+         From           To    Size
+         ----           --    ----
+  0x2007'96c4  0x2007'96c7     0x4
+  0x2007'aec8  0x2008'7ffe  0xd137
 
 
 *******************************************************************************
@@ -229,14 +266,14 @@ Unused ranges:
           Address      Size
           -------      ----
 Zero (__iar_zero_init3)
-    1 destination range, total size 0x2760:
-          0x2007'36b4  0x2760
+    1 destination range, total size 0x4f72:
+          0x2007'4750  0x4f72
 
 Copy (__iar_copy_init3)
     1 source range, total size 0x68:
-          0x2007'364c    0x68
+          0x2007'46e8    0x68
     1 destination range, total size 0x68:
-          0x2007'35e4    0x68
+          0x2007'4680    0x68
 
 
 
@@ -250,40 +287,45 @@ command line/config:
     ---------------------------------------------
     Total:
 
-C:\Users\Ollie\Documents\GitHub\Embedded-Systems-Course\Final project\Debug\Obj: [1]
+D:\Embedded Systems Labs\Embedded-Systems-Course\Final project\Debug\Obj: [1]
     cstartup.o               12
+    data_recording.o      1'092               276
     delay.o                  14
-    display.o             1'020      200
+    display.o             1'660      252
     exceptions.o              2
     initpins.o              496
     keypad.o                232       40       41
     led.o                   228                 4
-    main.o                1'104      268        5
+    linkedlist.o            116       32
+    main.o                1'416      316       15
     photosensor.o            40
     servo.o                  92
     startup_sam3x.o          52      244
     system_sam3x.o          184        4        4
-    systick_setup.o         192
-    temperature.o           372       16        4
-    time.o                  572       56   10'110
+    systick_setup.o         184                 4
+    temperature.o           308                 4
+    time.o                  932       88   20'070
     ---------------------------------------------
-    Total:                4'612      828   10'168
+    Total:                7'060      976   20'418
 
 dl7M_tln.a: [2]
     XShttio.o                 8        8        8
     abort.o                   6
     exit.o                    4
+    heap0.o                 316                 8
+    heaptramp0.o              4
     iar_Stoulx.o            336       80
     printf.o                 40
     putchar.o                32
     sprintf.o                64
     strncat.o                40
     xfail_s.o                64                 4
+    xgetmemchunk.o           44                 4
     xprintffull_nomb.o    3'862
     xprout.o                 22
     xsprout.o                10
     ---------------------------------------------
-    Total:                4'488       88       12
+    Total:                4'852       88       24
 
 m7M_tl.a: [3]
     DblAddSub.o             606
@@ -294,13 +336,22 @@ m7M_tl.a: [3]
     DblToFlt.o              104
     DblToS32.o               54
     DblToU32.o               34
+    FltAddSub.o             366
+    FltCmpGe.o               40
+    FltCmpLe.o               40
+    FltDiv.o                280
+    FltMul.o                216
     FltToDbl.o               72
+    FltToS32.o               38
     S32ToDbl.o               34
+    S32ToFlt.o               36
     U32ToDbl.o               28
+    U32ToFlt.o               26
     frexp.o                 112
     ldexp.o                 314
+    sqrt.o                  242
     ---------------------------------------------
-    Total:                2'470
+    Total:                3'754
 
 rt7M_tl.a: [4]
     ABImemcpy.o             166
@@ -328,10 +379,10 @@ shb_l.a: [5]
     ---------------------------------------------
     Total:                  256
 
-    Gaps                     24        4        4
-    Linker created                    36    2'048
+    Gaps                     32        4
+    Linker created                    36    6'144
 -------------------------------------------------
-    Grand Total:         12'944      956   12'232
+    Grand Total:         17'048    1'104   26'586
 
 
 *******************************************************************************
@@ -340,56 +391,61 @@ shb_l.a: [5]
 
 Entry                       Address    Size  Type      Object
 -----                       -------    ----  ----      ------
-.iar.init_table$$Base   0x2007'3350           --   Gb  - Linker created -
-.iar.init_table$$Limit  0x2007'3374           --   Gb  - Linker created -
+.iar.init_table$$Base   0x2007'4358           --   Gb  - Linker created -
+.iar.init_table$$Limit  0x2007'437c           --   Gb  - Linker created -
 .intvec$$Base           0x2007'0000           --   Gb  - Linker created -
 .intvec$$Limit          0x2007'00f4           --   Gb  - Linker created -
-?main                   0x2007'32d9          Code  Gb  cmain.o [4]
+?main                   0x2007'42e1          Code  Gb  cmain.o [4]
 ADC_Handler             0x2007'10cb     0x2  Code  Wk  exceptions.o [1]
+Aldata                  0x2007'9678     0x8  Data  Lc  heap0.o [2]
 BusFault_Handler        0x2007'10cb     0x2  Code  Wk  exceptions.o [1]
 CAN0_Handler            0x2007'10cb     0x2  Code  Wk  exceptions.o [1]
 CAN1_Handler            0x2007'10cb     0x2  Code  Wk  exceptions.o [1]
-CSTACK$$Base            0x2007'5e18           --   Gb  - Linker created -
-CSTACK$$Limit           0x2007'6618           --   Gb  - Linker created -
+CSTACK$$Base            0x2007'96c8           --   Gb  - Linker created -
+CSTACK$$Limit           0x2007'9ec8           --   Gb  - Linker created -
 DACC_Handler            0x2007'10cb     0x2  Code  Wk  exceptions.o [1]
 DMAC_Handler            0x2007'10cb     0x2  Code  Wk  exceptions.o [1]
 DebugMon_Handler        0x2007'10cb     0x2  Code  Wk  exceptions.o [1]
 Dummy_Handler           0x2007'10cb     0x2  Code  Gb  exceptions.o [1]
 EFC0_Handler            0x2007'10cb     0x2  Code  Wk  exceptions.o [1]
 EFC1_Handler            0x2007'10cb     0x2  Code  Wk  exceptions.o [1]
+HEAP$$Base              0x2007'9ec8           --   Gb  - Linker created -
+HEAP$$Limit             0x2007'aec8           --   Gb  - Linker created -
 HSMCI_Handler           0x2007'10cb     0x2  Code  Wk  exceptions.o [1]
 HardFault_Handler       0x2007'10cb     0x2  Code  Wk  exceptions.o [1]
 MemManage_Handler       0x2007'10cb     0x2  Code  Wk  exceptions.o [1]
+N                       0x2007'9680     0x4  Data  Gb  data_recording.o [1]
 NMI_Handler             0x2007'10cb     0x2  Code  Wk  exceptions.o [1]
-NVIC_ClearPendingIRQ    0x2007'2a7d    0x14  Code  Lc  led.o [1]
-NVIC_EnableIRQ          0x2007'2a69    0x14  Code  Lc  led.o [1]
-NVIC_EnableIRQ          0x2007'2b4d    0x14  Code  Lc  temperature.o [1]
-NVIC_SetPriority        0x2007'2a91    0x24  Code  Lc  led.o [1]
-NVIC_SetPriority        0x2007'22d5    0x24  Code  Lc  systick_setup.o [1]
+NVIC_ClearPendingIRQ    0x2007'4085    0x14  Code  Lc  led.o [1]
+NVIC_EnableIRQ          0x2007'4071    0x14  Code  Lc  led.o [1]
+NVIC_EnableIRQ          0x2007'2c41    0x14  Code  Lc  temperature.o [1]
+NVIC_SetPriority        0x2007'4099    0x24  Code  Lc  led.o [1]
+NVIC_SetPriority        0x2007'3ce1    0x24  Code  Lc  systick_setup.o [1]
 PIOA_Handler            0x2007'10cb     0x2  Code  Wk  exceptions.o [1]
 PIOB_Handler            0x2007'10cb     0x2  Code  Wk  exceptions.o [1]
 PIOC_Handler            0x2007'10cb     0x2  Code  Wk  exceptions.o [1]
-PIOD_Handler            0x2007'2af5    0x28  Code  Gb  led.o [1]
+PIOD_Handler            0x2007'40fd    0x28  Code  Gb  led.o [1]
 PMC_Handler             0x2007'10cb     0x2  Code  Wk  exceptions.o [1]
 PWM_Handler             0x2007'10cb     0x2  Code  Wk  exceptions.o [1]
 PendSV_Handler          0x2007'10cb     0x2  Code  Wk  exceptions.o [1]
-RESET_TIME_DISPLAY      0x2007'5e10     0x2  Data  Gb  time.o [1]
+RESET_TIME_DISPLAY      0x2007'96b2     0x2  Data  Gb  time.o [1]
 RSTC_Handler            0x2007'10cb     0x2  Code  Wk  exceptions.o [1]
 RTC_Handler             0x2007'10cb     0x2  Code  Wk  exceptions.o [1]
 RTT_Handler             0x2007'10cb     0x2  Code  Wk  exceptions.o [1]
-Region$$Table$$Base     0x2007'3350           --   Gb  - Linker created -
-Region$$Table$$Limit    0x2007'3374           --   Gb  - Linker created -
-Reset_Handler           0x2007'32c5     0x8  Code  Gb  startup_sam3x.o [1]
+Region$$Table$$Base     0x2007'4358           --   Gb  - Linker created -
+Region$$Table$$Limit    0x2007'437c           --   Gb  - Linker created -
+Reset_Handler           0x2007'42cd     0x8  Code  Gb  startup_sam3x.o [1]
 SPI0_Handler            0x2007'10cb     0x2  Code  Wk  exceptions.o [1]
 SSC_Handler             0x2007'10cb     0x2  Code  Wk  exceptions.o [1]
 SUPC_Handler            0x2007'10cb     0x2  Code  Wk  exceptions.o [1]
 SVC_Handler             0x2007'10cb     0x2  Code  Wk  exceptions.o [1]
-SysTick_Config          0x2007'22f9    0x30  Code  Lc  systick_setup.o [1]
-SysTick_Handler         0x2007'2329    0x42  Code  Gb  systick_setup.o [1]
-SysTick_Setup           0x2007'236b     0xa  Code  Gb  systick_setup.o [1]
-SystemCoreClock         0x2007'3644     0x4  Data  Gb  system_sam3x.o [1]
-SystemInit              0x2007'21f5    0x86  Code  Gb  system_sam3x.o [1]
-TC0_Handler             0x2007'2b61     0xe  Code  Gb  temperature.o [1]
+SysTick_Config          0x2007'3d05    0x30  Code  Lc  systick_setup.o [1]
+SysTick_Handler         0x2007'3d35    0x34  Code  Gb  systick_setup.o [1]
+SysTick_Handler::count  0x2007'96a0     0x4  Data  Lc  systick_setup.o [1]
+SysTick_Setup           0x2007'3d69     0xa  Code  Gb  systick_setup.o [1]
+SystemCoreClock         0x2007'46e0     0x4  Data  Gb  system_sam3x.o [1]
+SystemInit              0x2007'3c29    0x86  Code  Gb  system_sam3x.o [1]
+TC0_Handler             0x2007'2c55     0xe  Code  Gb  temperature.o [1]
 TC1_Handler             0x2007'10cb     0x2  Code  Wk  exceptions.o [1]
 TC2_Handler             0x2007'10cb     0x2  Code  Wk  exceptions.o [1]
 TC3_Handler             0x2007'10cb     0x2  Code  Wk  exceptions.o [1]
@@ -404,56 +460,73 @@ USART0_Handler          0x2007'10cb     0x2  Code  Wk  exceptions.o [1]
 USART1_Handler          0x2007'10cb     0x2  Code  Wk  exceptions.o [1]
 USART2_Handler          0x2007'10cb     0x2  Code  Wk  exceptions.o [1]
 UsageFault_Handler      0x2007'10cb     0x2  Code  Wk  exceptions.o [1]
-VALID_DATE              0x2007'364b     0x1  Data  Gb  main.o [1]
-VALID_TIME              0x2007'364a     0x1  Data  Gb  main.o [1]
+VALID_DATE              0x2007'46e7     0x1  Data  Gb  main.o [1]
+VALID_TIME              0x2007'46e6     0x1  Data  Gb  main.o [1]
 WDT_Handler             0x2007'10cb     0x2  Code  Wk  exceptions.o [1]
 _LitobFullNoMb          0x2007'0e11   0x10c  Code  Lc  xprintffull_nomb.o [2]
 _PrintfFullNoMb         0x2007'00f5   0xcec  Code  Gb  xprintffull_nomb.o [2]
-_Prout                  0x2007'34f1    0x16  Code  Gb  xprout.o [2]
+_Prout                  0x2007'4519    0x16  Code  Gb  xprout.o [2]
 _PutcharFullNoMb        0x2007'0f75    0x20  Code  Lc  xprintffull_nomb.o [2]
 _PutcharsFullNoMb       0x2007'0f95    0x2e  Code  Lc  xprintffull_nomb.o [2]
 _SProut                 0x2007'104b     0xa  Code  Gb  xsprout.o [2]
 __aeabi_cdcmple         0x2007'123d          Code  Gb  DblCmpLe.o [3]
 __aeabi_cdrcmple        0x2007'1271          Code  Gb  DblCmpGe.o [3]
-__aeabi_d2f             0x2007'2fd1          Code  Gb  DblToFlt.o [3]
+__aeabi_cfcmple         0x2007'3275          Code  Gb  FltCmpLe.o [3]
+__aeabi_cfrcmple        0x2007'329d          Code  Gb  FltCmpGe.o [3]
+__aeabi_d2f             0x2007'31f1          Code  Gb  DblToFlt.o [3]
 __aeabi_d2iz            0x2007'13e1          Code  Gb  DblToS32.o [3]
 __aeabi_d2uiz           0x2007'18e5          Code  Gb  DblToU32.o [3]
 __aeabi_dadd            0x2007'143d          Code  Gb  DblAddSub.o [3]
 __aeabi_ddiv            0x2007'169d          Code  Gb  DblDiv.o [3]
 __aeabi_dmul            0x2007'1925          Code  Gb  DblMul.o [3]
 __aeabi_dsub            0x2007'15b9          Code  Gb  DblAddSub.o [3]
-__aeabi_f2d             0x2007'3039          Code  Gb  FltToDbl.o [3]
+__aeabi_f2d             0x2007'2db5          Code  Gb  FltToDbl.o [3]
+__aeabi_f2iz            0x2007'3649          Code  Gb  FltToS32.o [3]
+__aeabi_fadd            0x2007'32c5          Code  Gb  FltAddSub.o [3]
+__aeabi_fdiv            0x2007'2fe5          Code  Gb  FltDiv.o [3]
+__aeabi_fmul            0x2007'3435          Code  Gb  FltMul.o [3]
+__aeabi_fsub            0x2007'33a5          Code  Gb  FltAddSub.o [3]
 __aeabi_i2d             0x2007'1419          Code  Gb  S32ToDbl.o [3]
+__aeabi_i2f             0x2007'2fc1          Code  Gb  S32ToFlt.o [3]
 __aeabi_ldiv0           0x2007'1d09          Code  Gb  I64DivZer.o [4]
 __aeabi_memcpy          0x2007'1125          Code  Gb  ABImemcpy.o [4]
 __aeabi_memcpy4         0x2007'1145          Code  Gb  ABImemcpy.o [4]
 __aeabi_memcpy8         0x2007'1145          Code  Gb  ABImemcpy.o [4]
 __aeabi_ui2d            0x2007'1909          Code  Gb  U32ToDbl.o [3]
+__aeabi_ui2f            0x2007'3259          Code  Gb  U32ToFlt.o [3]
 __aeabi_uldivmod        0x2007'1ad1          Code  Gb  I64DivMod.o [4]
-__cmain                 0x2007'32d9          Code  Gb  cmain.o [4]
-__dwrite                0x2007'33a5    0x1e  Code  Gb  dwrite.o [5]
+__basic_free            0x2007'35b9    0x16  Code  Gb  heap0.o [2]
+__basic_free_intern     0x2007'35cf    0x74  Code  Lc  heap0.o [2]
+__basic_malloc          0x2007'350d    0x18  Code  Gb  heap0.o [2]
+__basic_malloc_intern   0x2007'3525    0x94  Code  Lc  heap0.o [2]
+__cmain                 0x2007'42e1          Code  Gb  cmain.o [4]
+__data_GetMemChunk      0x2007'3675    0x2c  Code  Gb  xgetmemchunk.o [2]
+__data_GetMemChunk::start
+                        0x2007'96ac     0x4  Data  Lc  xgetmemchunk.o [2]
+__dwrite                0x2007'43cd    0x1e  Code  Gb  dwrite.o [5]
 __exit                  0x2007'1d0d    0x14  Code  Gb  exit.o [5]
 __iar_Fail_s            0x2007'1055    0x1c  Code  Gb  xfail_s.o [2]
 __iar_Memchr            0x2007'10cd          Code  Gb  memchr.o [4]
-__iar_Stoulx            0x2007'30c1   0x13e  Code  Gb  iar_Stoulx.o [2]
+__iar_Stoulx            0x2007'2dfd   0x13e  Code  Gb  iar_Stoulx.o [2]
 __iar_Strchr            0x2007'1035          Code  Gb  strchr.o [4]
 __iar_close_ttio        0x2007'1d21    0x2c  Code  Gb  iarttio.o [5]
 __iar_copy_init3        0x2007'100b    0x2a  Code  Gb  copy_init3.o [4]
-__iar_data_init3        0x2007'32f9    0x28  Code  Gb  data_init.o [4]
+__iar_data_init3        0x2007'4301    0x28  Code  Gb  data_init.o [4]
 __iar_frexp             0x2007'11d9          Code  Gb  frexp.o [3]
 __iar_frexp64           0x2007'11cd          Code  Gb  frexp.o [3]
 __iar_frexpl            0x2007'11d9          Code  Gb  frexp.o [3]
 __iar_get_ttio          0x2007'1d4d    0x4c  Code  Gb  iarttio.o [5]
 __iar_ldexp64           0x2007'12a5          Code  Gb  ldexp.o [3]
 __iar_lookup_ttioh      0x2007'1d9d     0x8  Code  Gb  XShttio.o [2]
-__iar_program_start     0x2007'32cd          Code  Gb  cstartup.o [1]
+__iar_program_start     0x2007'42d5          Code  Gb  cstartup.o [1]
 __iar_scalbln64         0x2007'12a5          Code  Gb  ldexp.o [3]
 __iar_scalbn64          0x2007'12a5          Code  Gb  ldexp.o [3]
-__iar_sh_stdout         0x2007'33c3    0x20  Code  Gb  iarwstd.o [5]
-__iar_sh_write          0x2007'332f    0x22  Code  Gb  iarwrite.o [5]
-__iar_ttio_handles      0x2007'363c     0x8  Data  Lc  XShttio.o [2]
-__iar_zero_init3        0x2007'3261    0x38  Code  Gb  zero_init3.o [4]
-__low_level_init        0x2007'3299    0x24  Code  Gb  startup_sam3x.o [1]
+__iar_sh_stdout         0x2007'43eb    0x20  Code  Gb  iarwstd.o [5]
+__iar_sh_write          0x2007'4337    0x22  Code  Gb  iarwrite.o [5]
+__iar_sqrt64            0x2007'30fd          Code  Gb  sqrt.o [3]
+__iar_ttio_handles      0x2007'46d8     0x8  Data  Lc  XShttio.o [2]
+__iar_zero_init3        0x2007'4269    0x38  Code  Gb  zero_init3.o [4]
+__low_level_init        0x2007'42a1    0x24  Code  Gb  startup_sam3x.o [1]
 __region_NFC_RAM_end__ {Abs}
                         0x2010'0fff          Data  Gb  <internal module>
 __region_NFC_RAM_start__ {Abs}
@@ -477,90 +550,120 @@ __region_RAM_size__ {Abs}
 __region_RAM_start__ {Abs}
                         0x2007'0000          Data  Gb  <internal module>
 __vector_table          0x2007'0000    0xf4  Data  Gb  startup_sam3x.o [1]
-__write                 0x2007'3395    0x10  Code  Gb  write.o [5]
-_call_main              0x2007'32e5          Code  Gb  cmain.o [4]
-_exit                   0x2007'3325          Code  Gb  cexit.o [4]
+__write                 0x2007'43bd    0x10  Code  Gb  write.o [5]
+_call_main              0x2007'42ed          Code  Gb  cmain.o [4]
+_exit                   0x2007'432d          Code  Gb  cexit.o [4]
 abort                   0x2007'1d01     0x6  Code  Gb  abort.o [2]
-atoi                    0x2007'3205     0x2  Code  Gb  iar_Stoulx.o [2]
-char_array              0x2007'36b4  0x2710  Data  Gb  time.o [1]
-clear_Display           0x2007'283f    0x24  Code  Gb  display.o [1]
-column_clear            0x2007'3624     0xc  Data  Gb  keypad.o [1]
-currentDate             0x2007'5dc4    0x18  Data  Gb  time.o [1]
-delay                   0x2007'2fc1     0xe  Code  Gb  delay.o [1]
-digits                  0x2007'3238    0x28  Data  Lc  iar_Stoulx.o [2]
-exit                    0x2007'3321     0x4  Code  Gb  exit.o [2]
-fastMode                0x2007'5e08     0x4  Data  Gb  time.o [1]
+allocNode               0x2007'2f4d    0x1c  Code  Gb  linkedlist.o [1]
+atoi                    0x2007'2f41     0x2  Code  Gb  iar_Stoulx.o [2]
+avg                     0x2007'9688     0x4  Data  Gb  data_recording.o [1]
+char_array              0x2007'4750  0x2710  Data  Gb  time.o [1]
+char_array3             0x2007'6e60  0x2710  Data  Gb  time.o [1]
+clear_Display           0x2007'1faf    0x24  Code  Gb  display.o [1]
+column_clear            0x2007'46c0     0xc  Data  Gb  keypad.o [1]
+currentDay              0x2007'96b4     0x2  Data  Gb  time.o [1]
+currentHour             0x2007'96be     0x2  Data  Gb  time.o [1]
+currentMinute           0x2007'96bc     0x2  Data  Gb  time.o [1]
+currentMonth            0x2007'96b6     0x2  Data  Gb  time.o [1]
+currentSecond           0x2007'96ba     0x2  Data  Gb  time.o [1]
+currentYear             0x2007'96b8     0x2  Data  Gb  time.o [1]
+dailyStats              0x2007'9650    0x20  Data  Gb  data_recording.o [1]
+dataStats               0x2007'28a1   0x1e6  Code  Gb  data_recording.o [1]
+delay                   0x2007'2421     0xe  Code  Gb  delay.o [1]
+digits                  0x2007'4240    0x28  Data  Lc  iar_Stoulx.o [2]
+exit                    0x2007'4329     0x4  Code  Gb  exit.o [2]
+fastMode                0x2007'9698     0x4  Data  Gb  main.o [1]
+float_to_char           0x2007'26f1    0x16  Code  Gb  time.o [1]
+free                    0x2007'366f     0x4  Code  Gb  heaptramp0.o [2]
+freeMemList             0x2007'2f95    0x28  Code  Gb  linkedlist.o [1]
 frexp                   0x2007'11cd          Code  Gb  frexp.o [3]
 frexpl                  0x2007'11cd          Code  Gb  frexp.o [3]
-get_Temperature         0x2007'2bf5    0x7e  Code  Gb  temperature.o [1]
-get_date                0x2007'2f1b    0x46  Code  Gb  time.o [1]
-get_time                0x2007'2f61    0x44  Code  Gb  time.o [1]
-in_menu                 0x2007'3648     0x2  Data  Gb  main.o [1]
-init_Display            0x2007'27d5    0x6a  Code  Gb  display.o [1]
-init_Keypad             0x2007'2585    0x1e  Code  Gb  keypad.o [1]
-init_Photosenor         0x2007'2cc1    0x24  Code  Gb  photosensor.o [1]
-init_Pins               0x2007'24c3    0x66  Code  Gb  initpins.o [1]
-init_Servo              0x2007'2ce9    0x3c  Code  Gb  servo.o [1]
-init_Temp               0x2007'2b6f    0x26  Code  Gb  temperature.o [1]
-key                     0x2007'5e13     0x1  Data  Gb  main.o [1]
-key_pressed             0x2007'5e12     0x1  Data  Gb  keypad.o [1]
-keys                    0x2007'3630     0xc  Data  Gb  keypad.o [1]
+getWeeklyStats          0x2007'2bd7    0x10  Code  Gb  data_recording.o [1]
+get_Temperature         0x2007'2ce9    0x4a  Code  Gb  temperature.o [1]
+get_timestamp           0x2007'2787     0xc  Code  Gb  time.o [1]
+i                       0x2007'9690     0x4  Data  Gb  data_recording.o [1]
+in_menu                 0x2007'46e4     0x2  Data  Gb  main.o [1]
+incAvg                  0x2007'2b41    0x52  Code  Gb  data_recording.o [1]
+incVar                  0x2007'2b93    0x44  Code  Gb  data_recording.o [1]
+init_Display            0x2007'1f41    0x6e  Code  Gb  display.o [1]
+init_Keypad             0x2007'3f89    0x1e  Code  Gb  keypad.o [1]
+init_Photosenor         0x2007'4155    0x24  Code  Gb  photosensor.o [1]
+init_Pins               0x2007'3ec7    0x66  Code  Gb  initpins.o [1]
+init_Servo              0x2007'417d    0x3c  Code  Gb  servo.o [1]
+init_Stats              0x2007'27d5    0x16  Code  Gb  data_recording.o [1]
+init_Temp               0x2007'2c63    0x26  Code  Gb  temperature.o [1]
+insertFirst             0x2007'2f69    0x2c  Code  Gb  linkedlist.o [1]
+key                     0x2007'96c1     0x1  Data  Gb  main.o [1]
+key_pressed             0x2007'96c0     0x1  Data  Gb  keypad.o [1]
+keys                    0x2007'46cc     0xc  Data  Gb  keypad.o [1]
 ldexp                   0x2007'12a5          Code  Gb  ldexp.o [3]
 ldexpl                  0x2007'12a5          Code  Gb  ldexp.o [3]
-main                    0x2007'1da5   0x3bc  Code  Gb  main.o [1]
-mday                    0x2007'35e4    0x30  Data  Gb  time.o [1]
+list                    0x2007'969c     0x4  Data  Gb  main.o [1]
+main                    0x2007'36a1   0x4e4  Code  Gb  main.o [1]
+max                     0x2007'2ae3    0x5e  Code  Gb  data_recording.o [1]
+mday                    0x2007'4680    0x30  Data  Gb  time.o [1]
 memchr                  0x2007'10cd          Code  Gb  memchr.o [4]
-ndigs                   0x2007'3210    0x28  Data  Lc  iar_Stoulx.o [2]
-pin_Setup               0x2007'2395   0x12e  Code  Gb  initpins.o [1]
-print_Character         0x2007'2863    0x12  Code  Gb  display.o [1]
-print_Date              0x2007'29b5    0x64  Code  Gb  display.o [1]
-print_Menu              0x2007'28c1    0x76  Code  Gb  display.o [1]
-print_String            0x2007'2875    0x18  Code  Gb  display.o [1]
-print_Time              0x2007'2937    0x7e  Code  Gb  display.o [1]
-printf                  0x2007'22ad    0x28  Code  Gb  printf.o [2]
-putchar                 0x2007'3375    0x20  Code  Gb  putchar.o [2]
-read_Keypad             0x2007'25a3    0x90  Code  Gb  keypad.o [1]
-read_Status_Display     0x2007'266d    0x78  Code  Gb  display.o [1]
-reset_Adress_Pointer    0x2007'288d    0x10  Code  Gb  display.o [1]
-return_menu             0x2007'2161    0x2c  Code  Gb  main.o [1]
-rows                    0x2007'3614    0x10  Data  Gb  keypad.o [1]
+min                     0x2007'2a87    0x5c  Code  Gb  data_recording.o [1]
+ndigs                   0x2007'4218    0x28  Data  Lc  iar_Stoulx.o [2]
+pin_Setup               0x2007'3d99   0x12e  Code  Gb  initpins.o [1]
+prevAvg                 0x2007'968c     0x4  Data  Gb  data_recording.o [1]
+print_Character         0x2007'1fd3    0x12  Code  Gb  display.o [1]
+print_Date              0x2007'2137    0x76  Code  Gb  display.o [1]
+print_Menu              0x2007'2031    0x76  Code  Gb  display.o [1]
+print_String            0x2007'1fe5    0x18  Code  Gb  display.o [1]
+print_TempStats         0x2007'21ad   0x206  Code  Gb  display.o [1]
+print_Time              0x2007'20a7    0x90  Code  Gb  display.o [1]
+printf                  0x2007'2c19    0x28  Code  Gb  printf.o [2]
+putchar                 0x2007'439d    0x20  Code  Gb  putchar.o [2]
+read_Keypad             0x2007'3fa7    0x90  Code  Gb  keypad.o [1]
+read_Status_Display     0x2007'1da5    0x7c  Code  Gb  display.o [1]
+rec                     0x2007'96b0     0x2  Data  Gb  main.o [1]
+recordData              0x2007'27eb    0xb6  Code  Gb  data_recording.o [1]
+reset_Adress_Pointer    0x2007'1ffd    0x10  Code  Gb  display.o [1]
+return_menu             0x2007'3b85    0x2c  Code  Gb  main.o [1]
+rows                    0x2007'46b0    0x10  Data  Gb  keypad.o [1]
+s                       0x2007'9684     0x4  Data  Gb  data_recording.o [1]
 scalbln                 0x2007'12a5          Code  Gb  ldexp.o [3]
 scalblnl                0x2007'12a5          Code  Gb  ldexp.o [3]
 scalbn                  0x2007'12a5          Code  Gb  ldexp.o [3]
 scalbnl                 0x2007'12a5          Code  Gb  ldexp.o [3]
 scale                   0x2007'0f1d    0x46  Code  Lc  xprintffull_nomb.o [2]
-sec_hand                0x2007'5e0c     0x4  Data  Lc  xfail_s.o [2]
-sprintf                 0x2007'3081    0x40  Code  Gb  sprintf.o [2]
-start_Temp              0x2007'2b95    0x60  Code  Gb  temperature.o [1]
+sec_hand                0x2007'96a8     0x4  Data  Lc  xfail_s.o [2]
+set_date                0x2007'270f    0x42  Code  Gb  time.o [1]
+set_time                0x2007'2751    0x36  Code  Gb  time.o [1]
+sprintf                 0x2007'2d75    0x40  Code  Gb  sprintf.o [2]
+sqrt                    0x2007'30fd          Code  Gb  sqrt.o [3]
+sqrtl                   0x2007'30fd          Code  Gb  sqrt.o [3]
+start_Temp              0x2007'2c89    0x60  Code  Gb  temperature.o [1]
 strchr                  0x2007'1035          Code  Gb  strchr.o [4]
-strcpy                  0x2007'2d45          Code  Gb  strcpy.o [4]
-string_to_int           0x2007'2f13     0x8  Code  Gb  time.o [1]
+strcpy                  0x2007'41d9          Code  Gb  strcpy.o [4]
+string_to_int           0x2007'2707     0x8  Code  Gb  time.o [1]
 strlen                  0x2007'1095          Code  Gb  strlen.o [4]
-strncat                 0x2007'2d5d    0x28  Code  Gb  strncat.o [2]
-temp_Flag               0x2007'5e04     0x4  Data  Gb  temperature.o [1]
-time                    0x2007'5df8     0x8  Data  Gb  time.o [1]
-time_elapsed            0x2007'5ddc    0x18  Data  Gb  time.o [1]
-time_to_date            0x2007'2e07    0xfa  Code  Gb  time.o [1]
-toggleBlinkLed_setup    0x2007'2ab5    0x40  Code  Gb  led.o [1]
-toggle_Blink            0x2007'5e00     0x4  Data  Gb  led.o [1]
-uint_to_char            0x2007'2f01    0x12  Code  Gb  time.o [1]
-validDate               0x2007'2d85    0x42  Code  Gb  time.o [1]
-validTime               0x2007'2dc7    0x40  Code  Gb  time.o [1]
-writeDisplayPos         0x2007'289d    0x24  Code  Gb  display.o [1]
+strncat                 0x2007'41f1    0x28  Code  Gb  strncat.o [2]
+temp_Flag               0x2007'96a4     0x4  Data  Gb  temperature.o [1]
+time_elapsed            0x2007'9670     0x8  Data  Gb  time.o [1]
+time_to_date            0x2007'2525   0x1ba  Code  Gb  time.o [1]
+toggleBlinkLed_setup    0x2007'40bd    0x40  Code  Gb  led.o [1]
+toggle_Blink            0x2007'9694     0x4  Data  Gb  led.o [1]
+uint_to_char            0x2007'26df    0x12  Code  Gb  time.o [1]
+validDate               0x2007'2431    0x90  Code  Gb  time.o [1]
+validTime               0x2007'24c1    0x64  Code  Gb  time.o [1]
+weeklyStats             0x2007'9570    0xe0  Data  Gb  data_recording.o [1]
+writeDisplayPos         0x2007'200d    0x24  Code  Gb  display.o [1]
 write_Command_2_Display
-                        0x2007'26e5    0x78  Code  Gb  display.o [1]
-write_Data_2_Display    0x2007'275d    0x78  Code  Gb  display.o [1]
+                        0x2007'1e21    0x90  Code  Gb  display.o [1]
+write_Data_2_Display    0x2007'1eb1    0x90  Code  Gb  display.o [1]
 
 
-[1] = C:\Users\Ollie\Documents\GitHub\Embedded-Systems-Course\Final project\Debug\Obj
+[1] = D:\Embedded Systems Labs\Embedded-Systems-Course\Final project\Debug\Obj
 [2] = dl7M_tln.a
 [3] = m7M_tl.a
 [4] = rt7M_tl.a
 [5] = shb_l.a
 
-  12'944 bytes of readonly  code memory
-     956 bytes of readonly  data memory
-  12'232 bytes of readwrite data memory
+  17'048 bytes of readonly  code memory
+   1'104 bytes of readonly  data memory
+  26'586 bytes of readwrite data memory
 
 Errors: none
 Warnings: none

@@ -2,123 +2,18 @@
 #include <stdlib.h>
 #include <math.h>
 #include <time.h>
+#include "my_library.c"
 
 typedef struct DLinkedList {
     double sensorData;
+    struct date timeStamp;
     struct DLinkedList *prev;
     struct DLinkedList *next; 
     }DLinkedList;
 
-void insertFirst();
-DLinkedList *allocNode();
-void printList();
-int isMember();
-DLinkedList *removeNode();
-DLinkedList *readSensor();
-void sortAscending();
-void freeMemList();
-DLinkedList *first = NULL; //Initilize the first node
 
+DLinkedList *first = NULL; //Initilize the list
 
-int main(){
-
-    //Create some nodes for testing
-    DLinkedList *node1 = allocNode(2.0);
-    DLinkedList *node2 = allocNode(4.0);
-    DLinkedList *node3 = allocNode(-10.0);
-    DLinkedList *node4 = allocNode(358.0);
-
-    DLinkedList *node_test1 = allocNode(5.0);
-    DLinkedList *node_test2 = allocNode(259.0);
-    
-    srand(time(0)); // Use the current time as seed to generate new seeds
-
-    printf("Reached beginning of main\n");
-
-    printf("------------First insertion--------------------------------\n");
-    insertFirst(&first, node1);
-    printf("------------More insertion(s)--------------------------------\n");
-    insertFirst(&first, node2);
-    insertFirst(&first, node3);
-    insertFirst(&first, node4);
-    
-    printf("------------isMember test--------------------------------\n");
-    printf("Is node %lf a member? %d \n",node_test1->sensorData, isMember(&first, node_test1));
-    printf("Is node %lf a member? %d \n",node_test2->sensorData, isMember(&first, node_test2));
-    printf("Is node %lf a member? %d \n",node1->sensorData, isMember(&first, node1));
-    printf("Is node %lf a member? %d \n",node2->sensorData, isMember(&first, node2));
-    printf("Is node %lf a member? %d \n",node3->sensorData, isMember(&first, node3));
-    printf("Is node %lf a member? %d \n",node4->sensorData, isMember(&first, node4));
-
-    printf("------------Print the current list--------------------------------\n");
-    printList(&first);
-    
-    printf("---------------- Removing all nodes, in a different order than inserted: --------------------------------\n");
-    removeNode(&first, node2);
-    removeNode(&first, node3);
-    removeNode(&first, node1);  
-    removeNode(&first, node4); 
-    
-    printf("------------Removing previously removed node--------------------------------\n");
-    removeNode(&first, node1);
-
-    
-    printf("------------Removing non-existing node--------------------------------\n");
-    DLinkedList *test_node3 = allocNode(24.0);
-    removeNode(&first, test_node3);
-
-    
-    printf("---------------- Insertion after removing all nodes: --------------------------------\n");
-    insertFirst(&first, node1);
-    insertFirst(&first, node3);
-    
-    printf("---------------- Print the list after inserting new nodes: --------------------------------\n");
-    printList(&first);
-
-    printf("---------------- Insertion and removing of the same node, nodes from previous insert are still active: --------------------------------\n");
-    insertFirst(&first, node4);
-    removeNode(&first, node4);
-
-    
-    printf("---------------- Print the list after removing all nodes: --------------------------------\n");
-    removeNode(&first, node1);
-    removeNode(&first, node3);
-    printList(&first);
-
-    
-    printf("---------------- Sensor data insertion: --------------------------------\n");
-    DLinkedList *data1 = readSensor();
-    
-    printf("---------------- Printing the pointer to the node we just inserted: --------------------------------\n");
-    printf("Printing value of pointer: %lf\n", data1->sensorData);
-
-    printf("---------------- More sensor data insertion: --------------------------------\n");
-    
-    DLinkedList *data2 = readSensor();
-    DLinkedList *data3 = readSensor();
-    DLinkedList *data4 = readSensor();
-    DLinkedList *data5 = readSensor();
-    DLinkedList *data6 = readSensor();
-
-    printf("---------------- Print the list after sensor data insertion: --------------------------------\n");
-    printList(&first);
-    printf("The value of first node is: %lf\n", first->sensorData);
-    
-    printf("---------------- Print the list after ascending order: --------------------------------\n");
-    sortAscending(&first);
-    printList(&first);
-    printf("The value of first node is: %lf\n", first->sensorData);
-
-    printf("---------------- Free the memory: --------------------------------\n");
-    freeMemList(&first);
-
-    printf("---------------- Attempt to print the list after freeing the memory: --------------------------------\n");
-   
-    printList(&first);
-
-    printf("Reached end of main\n");
-
-}
 
 DLinkedList *allocNode(double data){
     DLinkedList *temp;
@@ -136,36 +31,38 @@ DLinkedList *allocNode(double data){
     
 }
 
-void insertFirst(DLinkedList **first, DLinkedList *nodeIn){
-    //Check for null
-    
-    //printf("Reached start of insertFirst\n");
-    DLinkedList *temp;
-    temp = *first;
-    
-    if (isMember(first, nodeIn) == 0)
-    {
-        printf("A node with this address already exist");
-    }
+void insertFirst(DLinkedList **first, DLinkedList *nodeIn
+                 
+  //Check for null
+  if(*nodeIn != NULL){
+      //printf("Reached start of insertFirst\n");
+      DLinkedList *temp;
+      temp = *first;
+      
+      if (isMember(first, nodeIn) == 0)
+      {
+          printf("A node with this address already exist");
+      }
 
-    if(temp == NULL){ //If the list is empty
-        nodeIn->prev = NULL; //Point the new node prev to NULL
-        nodeIn->next = NULL; //Point the new node next to NULL
-        (*first) = nodeIn; // Point first to the new node.
-    
-        //printf("Reached if in insertFirst\n");
-        printf("Inserted %lf at start and list was empty before\n", nodeIn->sensorData);
-        
-    }
-    
-    else{ 
-        nodeIn->prev = NULL; //New node is first and will have previous point to null
-        nodeIn->next = (*first); //nodeIn next points to the "old first"
-        (*first)->prev = nodeIn; //the old "first previous" points to the new node
-        (*first) = nodeIn; //Updates the first node to the new node
-        
-         printf("Inserted %lf at start\n", nodeIn->sensorData);
-    }
+      if(temp == NULL){ //If the list is empty
+          nodeIn->prev = NULL; //Point the new node prev to NULL
+          nodeIn->next = NULL; //Point the new node next to NULL
+          (*first) = nodeIn; // Point first to the new node.
+      
+          //printf("Reached if in insertFirst\n");
+          //printf("Inserted %lf at start and list was empty before\n", nodeIn->sensorData);
+          
+      }
+      
+      else{ 
+          nodeIn->prev = NULL; //New node is first and will have previous point to null
+          nodeIn->next = (*first); //nodeIn next points to the "old first"
+          (*first)->prev = nodeIn; //the old "first previous" points to the new node
+          (*first) = nodeIn; //Updates the first node to the new node
+          
+           //printf("Inserted %lf at start\n", nodeIn->sensorData);
+      }
+  }
 
 }
 
@@ -230,17 +127,17 @@ DLinkedList *removeNode(DLinkedList **first, DLinkedList *nodeIn){
             *first = (*first)->next;
             temp = NULL;
             (*first)->prev = NULL;
-            printf("Removed %lf since it was a member and was first node\n", nodeIn->sensorData);
+            //printf("Removed %lf since it was a member and was first node\n", nodeIn->sensorData);
         }
 
         if ((*first)->prev == NULL && (*first)->next==NULL){//If it is the only node in the list, reset everything
             *first = NULL;
-            printf("Removed %lf since it was a member and was the only node\n", nodeIn->sensorData);
+            //printf("Removed %lf since it was a member and was the only node\n", nodeIn->sensorData);
         } 
 
         if ((*first) != NULL && nodeIn->next == NULL)//If it is the last node
                 {
-                    printf("Removed %lf since it was a member and was last node\n", nodeIn->sensorData);
+                    //printf("Removed %lf since it was a member and was last node\n", nodeIn->sensorData);
                     nodeIn->prev->next = NULL;
                     
                 }
@@ -253,7 +150,7 @@ DLinkedList *removeNode(DLinkedList **first, DLinkedList *nodeIn){
             
             temp->prev->next = temp->next; //The node before temp should point to the node after temp and the other way around as well, both for prev and next.
             temp->next->prev = temp->prev; 
-            printf("Removed %lf since it was a member\n", nodeIn->sensorData);    
+            //printf("Removed %lf since it was a member\n", nodeIn->sensorData);    
                     
                 
             }
@@ -271,7 +168,7 @@ DLinkedList *readSensor(){
     double rand_Data = (double)rand()/(double)(RAND_MAX);
     
     insertFirst(&first, allocNode(rand_Data));
-    printf("Random-generated sensor data: %lf\n", rand_Data);
+    //printf("Random-generated sensor data: %lf\n", rand_Data);
 
     return allocNode(rand_Data);
 }
@@ -315,10 +212,10 @@ void freeMemList(DLinkedList **first){//Frees every node in the current list, wo
         DLinkedList *temp;
         
         while(*first != NULL){
-            printf("Reached while in freeMem\n ");
+            //printf("Reached while in freeMem\n ");
             temp = *first;
             *first = (*first)->next;
-            printf("#####Freeing the node: %lf\n", temp->sensorData);
+            //printf("#####Freeing the node: %lf\n", temp->sensorData);
             free(temp);
         }
     }

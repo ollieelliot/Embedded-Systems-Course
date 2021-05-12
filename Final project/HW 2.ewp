@@ -2107,6 +2107,12 @@
         <name>$PROJ_DIR$\cstartup.s</name>
     </file>
     <file>
+        <name>$PROJ_DIR$\data_recording.c</name>
+    </file>
+    <file>
+        <name>$PROJ_DIR$\data_recording.h</name>
+    </file>
+    <file>
         <name>$PROJ_DIR$\delay.c</name>
     </file>
     <file>
@@ -2141,6 +2147,12 @@
     </file>
     <file>
         <name>$PROJ_DIR$\led.h</name>
+    </file>
+    <file>
+        <name>$PROJ_DIR$\linkedlist.c</name>
+    </file>
+    <file>
+        <name>$PROJ_DIR$\linkedlist.h</name>
     </file>
     <file>
         <name>$PROJ_DIR$\main.c</name>

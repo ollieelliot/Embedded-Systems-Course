@@ -183,10 +183,10 @@ void print_Menu(int pos){
   
   writeDisplayPos("MENU",100 + pos,0);
   writeDisplayPos("--------------------", 132 + pos, 0);
-  writeDisplayPos("|  1.Temp              |", 170 + pos,0);
+  writeDisplayPos("|  1.Temperature stats |", 170 + pos,0);
   writeDisplayPos("|  2.                  |", 210 + pos,0);
   writeDisplayPos("|  3.                  |", 250 + pos,0);
-  writeDisplayPos("|  4.                  |", 34 + pos, 1);
+  writeDisplayPos("|  4.Toggle record     |", 34 + pos, 1);
   writeDisplayPos("|  5.Toggle fastMode   |", 74 + pos, 1);
   writeDisplayPos("|  6.Setup date        |", 114 + pos, 1);
   
@@ -209,6 +209,7 @@ void print_Time(int pos){
 }
 
 void print_Date(int pos){
+
   
    //writeDisplayPos("Time: ", 0 + pos, 0);
    writeDisplayPos(uint_to_char(time_elapsed.day), 99 + pos, 0);
@@ -216,6 +217,48 @@ void print_Date(int pos){
    writeDisplayPos(uint_to_char(time_elapsed.month), 103 + pos, 0);
    writeDisplayPos("/", 104 + pos, 0);
    writeDisplayPos(uint_to_char(time_elapsed.year), 105 + pos, 0);
+}
+
+void print_TempStats(int i){
+   
+   int doffset = 4;
+   writeDisplayPos("Recorded: ", 54 - doffset, 0);
+   writeDisplayPos(uint_to_char(getWeeklyStats(i).date.day), 56 + doffset, 0);
+   writeDisplayPos("/", 58 + doffset, 0);
+   writeDisplayPos(uint_to_char(getWeeklyStats(i).date.month), 60 + doffset, 0);
+   writeDisplayPos("/", 61 + doffset, 0);
+   writeDisplayPos(uint_to_char(getWeeklyStats(i).date.year), 62 + doffset, 0);
+   
+   writeDisplayPos("Average: ", 128, 0);
+   writeDisplayPos(float_to_char(getWeeklyStats(i).avg), 138, 0);
+   writeDisplayPos(" C", 146, 0);
+   
+   writeDisplayPos("Variance: ", 168, 0);
+   writeDisplayPos(float_to_char(getWeeklyStats(i).var), 178, 0);
+   writeDisplayPos(" C", 186, 0);
+   
+   writeDisplayPos("Max: ", 208, 0);
+   writeDisplayPos(float_to_char(getWeeklyStats(i).max), 218, 0);
+   writeDisplayPos(" C", 226, 0);
+   
+   writeDisplayPos("[", 231, 0);
+   writeDisplayPos(uint_to_char(getWeeklyStats(i).maxTime.hour), 232, 0);
+   writeDisplayPos(":", 234, 0);
+   writeDisplayPos(uint_to_char(getWeeklyStats(i).maxTime.minute), 235, 0);
+   writeDisplayPos("]", 237, 0);
+   
+   writeDisplayPos("Min: ", 248, 0);
+   writeDisplayPos(float_to_char(getWeeklyStats(i).min), 2, 1);
+   writeDisplayPos(" C", 10, 1);
+   
+   writeDisplayPos("[", 15, 1);
+   writeDisplayPos(uint_to_char(getWeeklyStats(i).minTime.hour), 16, 1);
+   writeDisplayPos(":", 18, 1);
+   writeDisplayPos(uint_to_char(getWeeklyStats(i).minTime.minute), 19, 1);
+   writeDisplayPos("]", 21, 1);
+   
+   
+
 }
 
 

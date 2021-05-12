@@ -38,26 +38,21 @@ void start_Temp(void){
   
 }
 
-void get_Temperature(int pos){
-   if (temp_Flag == 1){
+float get_Temperature(void){
+  
+    if (temp_Flag == 1){
      
      temp_Flag = 0;
      unsigned int RA = (*AT91C_TC0_RA);
      unsigned int RB =(*AT91C_TC0_RB);
      
      unsigned int time_diff = RB - RA;
-     //printf("RB - RA: %d\n", time_diff);
+     
      delay(10);
      float temp = time_diff/(42. * 5.) - 273.15;
-     char temperature[5];
-     sprintf(temperature, "%f", temp);
-     
-     //printf("Temperature: %f\n", temp);
-     
-     writeDisplayPos("Temperature: ", 40 + pos, 0);
-     writeDisplayPos(temperature, 54 + pos, 0);
-     writeDisplayPos(" C", 62 + pos, 0);
      
      start_Temp();
+     return temp;
    }
+   return 0;
 }
